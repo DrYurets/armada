@@ -25,7 +25,7 @@ function theme_setup_data()
 	'slider_radio' => 'demo',
 	'slider_select_category' =>'Uncategorized',
 	'slider_options' => 'slide',
-	'slider_transition_delay' => 2000,
+	'slider_transition_delay' => 4000,
 	'featured_slider_post' => '',
 	
 	//Service section settings
@@ -78,13 +78,13 @@ function theme_setup_data()
 	'footer_social_media_facebook_link' => '#',
 	'footer_facebook_media_enabled' => 1,
 	'footer_social_media_twitter_link' => '#',
-	'footer_twitter_media_enabled'=>1,
+	'footer_twitter_media_enabled'=>0,
 	'footer_social_media_linkedin_link' => '#',
-	'footer_linkedin_media_enabled'=>1,
+	'footer_linkedin_media_enabled'=>0,
 	'footer_social_media_googleplus_link' => '#',
-	'footer_googleplus_media_enabled' => 1,
+	'footer_googleplus_media_enabled' => 0,
 	'footer_social_media_skype_link' => '#',
-	'footer_skype_media_enabled' => 1,
+	'footer_skype_media_enabled' => 0,
 	);
   	}
   ?>

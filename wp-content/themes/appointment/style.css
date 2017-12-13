@@ -127,7 +127,7 @@ h6, .h6 {
 	padding: 0;
 }
 .slide-text-bg1 h2 {
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 0.8);
 	color: #242526;
 	font-family: 'Open Sans';
 	font-weight:400;
@@ -152,7 +152,7 @@ h6, .h6 {
     z-index: 773;	
 }
 .slide-text-bg2 span {
-  background-color: rgba(45, 47, 49, 0.8);
+  background-color: rgba(184, 34, 32, 0.5);
   color: #ffffff;
   font-family: 'Open Sans';
   font-weight: 400;
@@ -346,7 +346,7 @@ h6, .h6 {
     text-align: center;
 }
 .section-heading-title h1 {
-    color: #242526;
+    color: #db2723;
     font-family: 'Open Sans';
 	font-weight:400;
     margin: 0 0 10px;
@@ -1850,4 +1850,12 @@ div.wpcf7-validation-errors {
 	font-family: 'Open sans';
 	font-weight:400;
 	font-size:14px;
+}
+ /* Yurets */
+
+div.media-body p a {
+    color: #db2723;
+}
+div.media-body p a:hover {
+    color: #a91e1e;
 }

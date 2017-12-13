@@ -21,39 +21,36 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 		<div class="item active">
 		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/1sl.jpg">
 			<div class="container slide-caption">
-				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
-				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-text-bg1"><h2>Крупнейший в Могилеве</h2></div>
+				<div class="slide-text-bg2"><span>Два огромных этажа: более 130 магазинов различной автомобильной направленности под одной крышей! Автозапчасти, аксессуары, автохимия и многое другое.</span></div>
+				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm">План Торгового Центра</a></div>
 			</div>
 		</div>  
 		<div class="item">
 		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/2sl.jpg">
 			<div class="container slide-caption">
-				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
-				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-text-bg1"><h2>Удобный сервис</h2></div>
+				<div class="slide-text-bg2"><span>Отделение МРЭО ГАИ, страховка автомобилей, аптека, рыболовный магазин и вкусный кофе!</span></div>
+				<div class="slide-btn-area-sm"></div>
 			</div>
 		</div>
 		<div class="item">
 		  <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/3sl.jpg">
 			<div class="container slide-caption">
-				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
-				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-text-bg1"><h2>Удобная парковка</h2></div>
+				<div class="slide-text-bg2"><span>Она просто огромная! Найти удобное место для своего автомобиля теперь не проблема!</span></div>
+				<div class="slide-btn-area-sm"><a href="/map" class="slide-btn-sm">Посмотреть со спутника</a></div>
 			</div>	
 		</div><div class="item">
 		  <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/sl5.jpg">
 			<div class="container slide-caption">
-				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
-				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>
+				<div class="slide-text-bg1"><h2>Удачное соседство</h2></div>
+				<div class="slide-text-bg2"><span>В шаговой доступности еще несколько десятков популярных магазинов: ЕВРООПТ, 5-й элемент, ПАЛАС, Электросила и др.</span></div>
 				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>
 			</div>
 		</div>
 		</div>  
-		<ul class="carou-direction-nav">
-			<li><a class="carou-prev" href="#carousel-example-generic" data-slide="prev"></a></li>
-			<li><a class="carou-next" href="#carousel-example-generic" data-slide="next"></a></li>
-		</ul>		
+
 		<?php 
 			}
 			
@@ -82,7 +79,7 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 			</ol>
 		<div class="carousel-inner" role="listbox">
 		<?php
-		//echo '<pre>';print_r($the_query); wp_die();
+
 		if ( $the_query->have_posts() ) {
 			while ( $the_query->have_posts() ) {
 				$the_query->the_post();
