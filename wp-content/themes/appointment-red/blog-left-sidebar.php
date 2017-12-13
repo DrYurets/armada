@@ -10,8 +10,8 @@ get_template_part('index','banner'); ?>
 		<div class="row">
 		<!--Sidebar Area-->
 			<div class="col-md-4">
-				<?php get_sidebar(); ?>
-			</div>
+                <?php get_sidebar(); ?>
+            </div>
 			<!--Sidebar Area-->
 		 <!-- Blog Area -->
 			<div class="<?php appointment_post_layout_class(); ?>" >

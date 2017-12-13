@@ -69,14 +69,14 @@ h6, .h6 {
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
-	height: 30px;
+	height: 25px;
 	margin-bottom: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
 	padding: 0px;
 	text-align: center;
 	transition: background 0.2s ease-in-out 0s;
-	width: 30px;
+	width: 25px;
 	margin-left:4px;
 }
 .head-contact-social li.facebook:hover { background-color: #4c66a4; }
@@ -90,7 +90,7 @@ h6, .h6 {
 .head-contact-social li.pagelines:hover { background-color: #364146; }
 .head-contact-social li > a > i {
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.9;
 	transition: color 0.3s ease-in-out 0s;
 }
@@ -492,7 +492,7 @@ h6, .h6 {
 a:hover, a:focus { text-decoration: none !important;}
 
 /*Blog Homepage Section Css here---------------------------------------------------------------------------------*/
-.blog-section { margin: 0;  padding: 80px 0 25px; }
+.blog-section { margin: 0;  padding: 0 0 0 25px; }
 .blog-sm-area { margin: 0px; padding: 0px 0px 55px; overflow: hidden; }
 .blog-sm-box { float: left; margin: 0 25px 0 0; padding: 0; width: 200px; height: auto; }
 .blog-sm-box img {

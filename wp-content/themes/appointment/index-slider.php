@@ -1,5 +1,4 @@
-<!-- Slider Section -->	
-<?php 
+<?php
 $appointment_options=theme_setup_data(); 
 $slider_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options);
 if($slider_setting['home_banner_enabled'] == 0 ) { 
@@ -7,7 +6,6 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 <div class="homepage-mycarousel">
 <div id="carousel-example-generic" class="carousel slide <?php echo $slider_setting['slider_options']; ?>"data-ride="carousel" 
 	<?php if($slider_setting['slider_transition_delay'] != '') { ?> data-interval="<?php echo $slider_setting['slider_transition_delay']; } ?>" >
-	<!-- Indicators -->
 		<?php
 			$query_args = array();
 			if($slider_setting['slider_radio'] == 'demo') { ?>
@@ -117,14 +115,11 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 		<?php } wp_reset_postdata();  }  ?>  
 		
 	</div>
-	<!-- Pagination --> 
 	<?php  if($i>1){ ?>
 	<ul class="carou-direction-nav">
 		<li><a class="carou-prev" href="#carousel-example-generic" data-slide="prev"></a></li>
 		<li><a class="carou-next" href="#carousel-example-generic" data-slide="next"></a></li>
 	</ul> 
 	<?php } ?>
-	<!-- /Pagination -->
 </div>
-<!-- /Slider Section -->
 <?php } ?>
