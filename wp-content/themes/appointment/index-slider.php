@@ -15,10 +15,11 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
 		<div class="item active">
-		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide1.jpg">
+		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/1sl.jpg">
 			<div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
@@ -26,7 +27,7 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 			</div>
 		</div>  
 		<div class="item">
-		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide2.jpg">
+		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/2sl.jpg">
 			<div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
@@ -34,12 +35,19 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 			</div>
 		</div>
 		<div class="item">
-		  <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide3.jpg">
+		  <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/3sl.jpg">
 			<div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
 				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
 			</div>	
+		</div><div class="item">
+		  <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/sl5.jpg">
+			<div class="container slide-caption">
+				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
+				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>
+				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>
+			</div>
 		</div>
 		</div>  
 		<ul class="carou-direction-nav">
