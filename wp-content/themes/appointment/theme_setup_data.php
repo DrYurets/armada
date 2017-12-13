@@ -14,7 +14,7 @@ function theme_setup_data()
 	'social_media_facebook_link' => '#',
 	'social_media_twitter_link' => '#',
 	'social_media_linkedin_link' => '#',
-	'header_social_media_enabled' => 0,
+	'header_social_media_enabled' => 1,
 	'facebook_media_enabled' => 1,
 	'twitter_media_enabled' => 1,
 	'linkedin_media_enabled' => 1,
@@ -78,13 +78,13 @@ function theme_setup_data()
 	'footer_social_media_facebook_link' => '#',
 	'footer_facebook_media_enabled' => 1,
 	'footer_social_media_twitter_link' => '#',
-	'footer_twitter_media_enabled'=>0,
+	'footer_twitter_media_enabled'=>'',
 	'footer_social_media_linkedin_link' => '#',
-	'footer_linkedin_media_enabled'=>0,
+	'footer_linkedin_media_enabled'=>'',
 	'footer_social_media_googleplus_link' => '#',
-	'footer_googleplus_media_enabled' => 0,
+	'footer_googleplus_media_enabled' => '',
 	'footer_social_media_skype_link' => '#',
-	'footer_skype_media_enabled' => 0,
+	'footer_skype_media_enabled' => '',
 	);
   	}
   ?>

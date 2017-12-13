@@ -55,7 +55,15 @@
             <li class="googleplus"><a href="https://instagram.com/armadaauto" target="_blank"><i class="fa fa-instagram"></i></a></li>
         </ul>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+		    <?php wp_nav_menu( array(
+			    'theme_location' => 'primary',
+			    'container'  => '',
+			    'menu_class' => 'nav navbar-nav navbar-right',
+			    'fallback_cb' => 'webriti_fallback_page_menu',
+			    'items_wrap'  => $social,
+			    'walker' => new webriti_nav_walker()
+		    ) );
+		    ?>
         </div>
     </div>
 </nav>
