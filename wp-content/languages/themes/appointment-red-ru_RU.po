@@ -1,0 +1,40 @@
+# Translation of Themes - Appointment Red in Russian
+# This file is distributed under the same license as the Themes - Appointment Red package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-21 17:38:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Appointment Red\n"
+
+#. Description of the plugin/theme
+msgid "A Business theme which is ideal for creating a corporate / business website. Appointment Red theme is a child theme of Appointment theme and is the Red color variation. The theme has several extra templates that make it even more powerful and it supports various locales."
+msgstr "Бизнес тема, которая идеально подходит для создания корпоративного сайта. Тема Appointment Red является дочерней темой для Appointment, в вариации красного цвета. Тема содержит несколько дополнительных шаблонов, которые делают ее ее больше полезной и мощной. Есть поддержка разных языков."
+
+#. Theme Name of the plugin/theme
+msgid "Appointment Red"
+msgstr "Appointment Red"
+
+#. Template Name of the plugin/theme
+msgid "Blog-right-sidebar"
+msgstr "Blog-right-sidebar"
+
+#. Template Name of the plugin/theme
+msgid "Blog-left-sidebar"
+msgstr "Blog-left-sidebar"
+
+#. Author URI of the plugin/theme
+msgid "http://www.webriti.com"
+msgstr "http://www.webriti.com"
+
+#. Author of the plugin/theme
+msgid "webriti"
+msgstr "webriti"
+
+#. Theme URI of the plugin/theme
+msgid "http://webriti.com/appointment-red-child-version-details-page-1/"
+msgstr "http://webriti.com/appointment-red-child-version-details-page-1/"
