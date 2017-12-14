@@ -1859,3 +1859,20 @@ div.media-body p a {
 div.media-body p a:hover {
     color: #a91e1e;
 }
+div.page-title-section-frontpage {
+    height: 100%;
+    margin-bottom: 35px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    background-color: #db2723;
+}
+div.page-title-section-frontpage div.frontpage-overlay {
+    height: 100%;
+    padding: 30px 0 28px;
+    position: relative;
+    width: 100%;
+}
+div.frontpage-overlay p {
+    color: #fff;
+}

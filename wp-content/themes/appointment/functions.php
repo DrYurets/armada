@@ -125,14 +125,17 @@ function appointment_add_to_author_profile( $contactmethods ) {
 		$excerpt = strip_tags(preg_replace(" (\[.*?\])",'',$excerpt));
 		$excerpt = strip_shortcodes($excerpt);		
 		$original_len = strlen($excerpt);
-		$excerpt = substr($excerpt, 0, 145);		
-		$len=strlen($excerpt);	 
+		//$excerpt = substr($excerpt, 0, 145);
+		$len=strlen($excerpt);
+		/*
 		if($original_len>275) {
 		$excerpt = $excerpt;
 		return $excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="blog-btn-sm">'.__("Read More","appointment").'</a></div>';
 		}
 		else
 		{ return $excerpt; }
+		*/
+		return $excerpt;
 	}
 	
 	function appointment_import_files() {
