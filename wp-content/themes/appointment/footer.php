@@ -1,16 +1,31 @@
 <!-- Footer Section -->
-<?php 
+<?php
 $appointment_options=theme_setup_data();
 $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
-if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
-<div class="footer-section armtek">
-	<div class="container">	
-		<div class="row footer-widget-section">
-			<?php  dynamic_sidebar( 'footer-widget-area' );	} ?>	
+
+ if ( is_active_sidebar( 'sidebar-armtek' ) ) { ?>
+<div class="footer-section">
+
+            <div class="col-md-6 armtek">
+
+                <div id="primary-armtek" class="primary-sidebar widget-area armtek" role="complementary">
+					<?php dynamic_sidebar( 'sidebar-armtek' ); ?>
+                </div>
+
+            </div>
+        <div class="col-md-6">
+	        <?php if ( is_active_sidebar( 'sidebar-coffee' ) ) : ?>
+                <div id="primary-coffee" class="primary-sidebar widget-area coffee" role="complementary">
+			        <?php dynamic_sidebar( 'sidebar-coffee' ); ?>
+                </div>
+	        <?php endif; ?>
+        </div>
 			<div class="clearfix"></div>
-		</div>
-	</div>
 </div>
+<?php }
+// if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
+
+
 <!-- /Footer Section -->
 <div class="clearfix"></div>
 <!-- Footer Copyright Section -->
@@ -25,7 +40,7 @@ if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
 					<?php } // end if ?>
 				</div>
 			</div>
-				<?php if($footer_setting['footer_social_media_enabled'] == 0 ) { 
+				<?php if($footer_setting['footer_social_media_enabled'] == 0 ) {
 			    $footer_facebook = $footer_setting['footer_social_media_facebook_link'];
 				$footer_twitter = $footer_setting['footer_social_media_twitter_link'];
 				$footer_linkdin = $footer_setting['footer_social_media_linkedin_link'];
@@ -52,9 +67,9 @@ if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
 	</div>
 </div>
 <!-- /Footer Copyright Section -->
-<!--Scroll To Top--> 
+<!--Scroll To Top-->
 <a href="#" class="hc_scrollup"><i class="fa fa-chevron-up"></i></a>
-<!--/Scroll To Top--> 
+<!--/Scroll To Top-->
 <?php wp_footer(); ?>
 </body>
 </html>

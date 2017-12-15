@@ -5808,3 +5808,33 @@ All at ###SITENAME###
 		$site_name
 	), $email_change_email['message'], $email_change_email['headers'] );
 }
+
+	function start_armtek_sidebar() {
+		$args = array(
+			'id'            => 'sidebar-armtek',
+			'name'          => __( 'Armtek Sidebar', 'striped' ),
+			'description'   => __( 'Новости компании Армтек', 'striped' ),
+			'class'         => 'striped-widget armtek',
+			'before_title'  => '<header><h2 class="widgettitle">',
+			'after_title'   => '</h2></header>',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+		);
+		register_sidebar( $args );
+	}
+	function start_coffee_sidebar() {
+		$args = array(
+			'id'            => 'sidebar-coffee',
+			'name'          => __( 'COFFEE', 'striped' ),
+			'description'   => __( 'sidebar-coffee', 'striped' ),
+			'class'         => 'striped-widget coffee',
+			'before_title'  => '<header><h2 class="widgettitle">',
+			'after_title'   => '</h2></header>',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+		);
+		register_sidebar( $args );
+	}
+// Хук для функции 'widgets_init'
+	add_action( 'widgets_init', 'start_armtek_sidebar' );
+	add_action( 'widgets_init', 'start_coffee_sidebar' );

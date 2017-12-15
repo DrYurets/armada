@@ -578,7 +578,7 @@ a:hover, a:focus { text-decoration: none !important;}
 /*Footer Widget Section--------------------------------------------------------------------------------------*/
 .footer-section {
     background-color: #f4f4f4;
-    padding: 80px 0 0;
+    padding: 0px;
     width: 100%;
 }
 .footer-widget-address { margin-bottom: 0px; margin-top: 40px !important; padding-bottom: 0px; }
@@ -1881,4 +1881,29 @@ div.armtek {
 }
 .armtek p {
     color: #fff;
+}
+div.armtek p img {
+    background-color: #fff;
+    padding: 10px;
+}
+div#primary-armtek {
+    padding: 25px;
+}
+div#primary-armtek li {
+    background-color: #ffcba3;
+    padding: 15px;
+}
+.armtek .rpwwt-post-title {
+    color: #242526;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 27px;
+}
+.armtek div.rpwwt-post-date {
+    position: relative;
+    left: 0;
+    top: 5px;
+    text-align: right;
 }
