@@ -3,7 +3,7 @@
 Plugin Name: Recent Posts Widget With Thumbnails
 Plugin URI:  http://wordpress.org/plugins/recent-posts-widget-with-thumbnails/
 Description: Small and fast plugin to display in the sidebar a list of linked titles and thumbnails of the most recent postings
-Version:     5.2.1
+Version:     5.2.2
 Author:      Martin Stehle
 Author URI:  http://stehle-internet.de
 Text Domain: recent-posts-widget-with-thumbnails
@@ -72,7 +72,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 				$widget_desc = 'List of your site&#8217;s most recent posts, with clickable title and thumbnails.';
 		}
 		$this->plugin_slug				= 'recent-posts-widget-with-thumbnails';
-		$this->plugin_version			= '5.2.1';
+		$this->plugin_version			= '5.2.2';
 		$this->default_number_posts		= 5;
 		$this->default_thumb_dimensions	= 'custom';
 		$this->default_thumb_width		= absint( round( get_option( 'thumbnail_size_w', 110 ) / 2 ) );
@@ -821,7 +821,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 	 *
 	 * @since 3.0
 	 */
-	private function get_the_trimmed_excerpt ( $excerpt_length = 55, $excerpt_more = ' [&hellip;]', $ignore_excerpt = false, $set_more_as_link = false ) {
+	private function get_the_trimmed_excerpt ( $excerpt_length = 55, $excerpt_more = ' [&hellip;]', $ignore_excerpt = false, $set_more_as_link = false, $link_target = '' ) {
 		
 		$post = get_post();
 								
@@ -871,7 +871,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 			
 			// append 'more' text, set 'more' signs as link if desired
 			if ( $set_more_as_link ) {
-				$excerpt .= sprintf( '<a href="%s">%s</a>', get_the_permalink( $post ), $excerpt_more );
+				$excerpt .= sprintf( '<a href="%s"%s>%s</a>', get_the_permalink( $post ), $link_target, $excerpt_more );
 			} else {
 				$excerpt .= $excerpt_more;
 			}

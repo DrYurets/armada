@@ -2,16 +2,13 @@
 <?php
 $appointment_options=theme_setup_data();
 $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
-
- if ( is_active_sidebar( 'sidebar-armtek' ) ) { ?>
+ if (is_front_page() && is_active_sidebar( 'sidebar-armtek' ) ) { ?>
 <div class="footer-section">
-
             <div class="col-md-6 armtek">
-
                 <div id="primary-armtek" class="primary-sidebar widget-area armtek" role="complementary">
+
 					<?php dynamic_sidebar( 'sidebar-armtek' ); ?>
                 </div>
-
             </div>
         <div class="col-md-6">
 	        <?php if ( is_active_sidebar( 'sidebar-coffee' ) ) : ?>
@@ -20,11 +17,10 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
                 </div>
 	        <?php endif; ?>
         </div>
-			<div class="clearfix"></div>
+		<div class="clearfix"></div>
 </div>
 <?php }
 // if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
-
 
 <!-- /Footer Section -->
 <div class="clearfix"></div>

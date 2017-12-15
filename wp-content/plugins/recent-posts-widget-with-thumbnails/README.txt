@@ -5,7 +5,7 @@ Tags: arabic, aspect ratio, author, category, categories, category, current post
 Requires at least: 2.9
 Requires PHP: 5.2
 Tested up to: 4.9.1
-Stable tag: 5.2.1
+Stable tag: 5.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -186,11 +186,17 @@ To keep the plugin lightweight: no. Please set the alignment in the CSS of your 
 
 = Where can I set the CSS of the list? =
 
-To keep the plugin lightweight: no. Please set the CSS via a Custom CSS plugin or in the CSS file of your theme instead.
+To keep the plugin lightweight: no. Please set the CSS in the Customizer at "Additional CSS".
 
 = Can the plugin take the first image of a post as thumbnail image? =
 
 Yes. It works with images previously uploaded into the media library. You can select to prefer the first image to the featured image or to use the first image only.
+
+= How to keep HTML tags in the excerpts? =
+
+Use the "Excerpt" box below the editor on a post edit page in the backend. The plugin uses those user-defined excerpts unchanged "as is".
+
+If there is no text in the "Excerpt" box the plugin tries to build an excerpt via the post content. Since there is the "maximum length of the excerpt" option shortening the HTML content would lead to severe layout errors. So before shortening all HTML tags and shortcodes are removed.
 
 = Where is the *.pot file for translating the plugin in any language? =
 
@@ -202,6 +208,10 @@ If you want to contribute a translation of the plugin in your language it would 
 2. The second screenshot shows the widget on the Widget Management Page in the backend.
 
 == Changelog ==
+
+= 5.2.2 =
+* Fixed missing feature opening links in excerpts in new windows
+* Revised FAQ
 
 = 5.2.1 =
 * Added greek translation. Thank you, Kostas Arvanitidis!
@@ -427,6 +437,9 @@ Successfully tested with WordPress 4.0
 * The plugin was released.
 
 == Upgrade Notice ==
+
+= 5.2.2 =
+Fixed missing feature opening links in excerpts in new windows, revised FAQ
 
 = 5.2.1 =
 Added greek translation, tested with WordPress 4.9.1
