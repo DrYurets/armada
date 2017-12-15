@@ -5835,6 +5835,20 @@ All at ###SITENAME###
 		);
 		register_sidebar( $args );
 	}
+	function start_auto_sidebar() {
+		$args = array(
+			'id'            => 'sidebar-auto',
+			'name'          => __( 'Автосалон', 'striped' ),
+			'description'   => __( 'Автосалон Армада', 'striped' ),
+			'class'         => 'striped-widget autohouse',
+			'before_title'  => '<header><h2 class="widgettitle">',
+			'after_title'   => '</h2></header>',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+		);
+		register_sidebar( $args );
+	}
 // Хук для функции 'widgets_init'
 	add_action( 'widgets_init', 'start_armtek_sidebar' );
 	add_action( 'widgets_init', 'start_coffee_sidebar' );
+	add_action( 'widgets_init', 'start_auto_sidebar' );

@@ -72,5 +72,5 @@
 		?></li>
 	<?php endwhile; ?>
 	</ul>
-</div><!-- .rpwwt-widget -->
+</div>
 <?php echo $args[ 'after_widget' ]; ?>
