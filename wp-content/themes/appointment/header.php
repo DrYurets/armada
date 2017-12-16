@@ -54,7 +54,7 @@
 				<span class="icon-bar"></span>
 			</button>
 		</div>
-		
+
 		<?php 
 				$facebook = $header_setting['social_media_facebook_link'];
 				$twitter = $header_setting['social_media_twitter_link'];
@@ -99,6 +99,7 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
 				<?php wp_nav_menu( array(  
 				'theme_location' => 'primary',
 				'container'  => '',
@@ -108,6 +109,7 @@
 				'walker' => new webriti_nav_walker()
 				 ) );
 				?>
+
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
 </nav>	

@@ -6,7 +6,6 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
 <div class="footer-section ftr-white">
             <div class="col-md-6 armtek">
                 <div id="primary-armtek" class="primary-sidebar widget-area armtek" role="complementary">
-
 					<?php dynamic_sidebar( 'sidebar-armtek' ); ?>
                 </div>
             </div>

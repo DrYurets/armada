@@ -1904,10 +1904,11 @@ div#primary-armtek li {
     letter-spacing: 0px;
     line-height: 27px;
 }
-.armtek div.rpwwt-post-date {
-}
 div.coffee, div.ftr-white {
     background-color: #fff;
+}
+div.footer-autohouse {
+    text-align: center;
 }
 .footer-section #primary-coffee a {
     color: #333;
@@ -1916,9 +1917,6 @@ div.coffee, div.ftr-white {
     font-size: 18px;
     letter-spacing: 0px;
     line-height: 27px;
-}
-div.footer-autohouse {
-    width: 100%;
 }
 div#primary-autohouse p {
     color: #fff4f4;
@@ -1936,8 +1934,19 @@ div.footer-autohouse-header {
 div.footer-autohouse-header p {
     color: #fff;
 }
-div.footer-autohouse div#primary-autohouse li div.rpwwt-post-excerpt{
+div.autohaus-bottom {
+    border-bottom: #00aeff 20px solid;
 }
-div.footer-autohouse div#primary-autohouse li {
-    /*display: inline;*/
+div#primary-autohouse a:link img {
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    transition-duration:0.6s;
+    opacity:0.8;
+    border: #fff 2px solid;
+}
+div#primary-autohouse a:hover img {
+    opacity: 1;
+    border: #00aeff 2px solid;
 }
