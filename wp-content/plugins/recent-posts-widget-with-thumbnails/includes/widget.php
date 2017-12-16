@@ -61,7 +61,11 @@
 ?>
     </div>
   </div>
-<div class="autohaus-bottom col-md-12"></div>
+<div class="autohaus-bottom col-md-12">
+    <div class="autohaus-menu">
+        <?php wp_nav_menu( array( 'theme_location' => 'autohaus','menu_class' => 'nav navbar-nav navbar-right') ); ?>
+        </div>
+</div>
   <?php
 }
 else {

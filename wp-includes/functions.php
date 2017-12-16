@@ -5852,3 +5852,14 @@ All at ###SITENAME###
 	add_action( 'widgets_init', 'start_armtek_sidebar' );
 	add_action( 'widgets_init', 'start_coffee_sidebar' );
 	add_action( 'widgets_init', 'start_auto_sidebar' );
+
+
+	function register_my_menus() {
+		register_nav_menus(
+			array(
+				'top' => __( 'Топ' ),
+				'autohaus' => __( 'Автохаус' )
+			)
+		);
+	}
+	add_action( 'init', 'register_my_menus' );
