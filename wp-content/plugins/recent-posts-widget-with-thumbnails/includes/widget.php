@@ -2,6 +2,7 @@
     echo '<div class="container '.$args['id'].'">';
 	echo '<div class="row">';
 	$i = 0;
+	$k = 0;
 	while ( $r->have_posts() ) : $r->the_post();
         echo '<div class="col-md-3">';
 ?>
@@ -57,6 +58,7 @@
         echo '<div class="clearfix"></div>';
         $i=0;
     }
+    $k++;
 	endwhile;
 ?>
     </div>

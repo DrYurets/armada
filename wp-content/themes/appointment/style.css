@@ -1950,3 +1950,27 @@ div#primary-autohouse a:hover img {
     opacity: 1;
     border: #00aeff 2px solid;
 }
+div.menu-autohouse-container ul li {
+    padding-right: 15px;
+    margin: 0 25px;
+}
+div.menu-autohouse-container ul li a {
+    color: #242526;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    border-bottom: 3px solid #008795;
+    background-color: #eee;
+}
+div.menu-autohouse-container ul li a:hover {
+    color: #242526;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    border-bottom: 3px solid #00aeff;
+
+}

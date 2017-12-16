@@ -6,6 +6,10 @@
 <p><label for="<?php echo $id_number_posts; ?>"><?php $text = 'Number of posts to show:'; esc_html_e( $text ); ?></label>
 <input id="<?php echo $id_number_posts; ?>" name="<?php echo $this->get_field_name( 'number_posts' ); ?>" type="text" value="<?php echo $number_posts; ?>" size="3" /></p>
 
+<p><label for="<?php echo $id_author_ids; ?>"><?php $text = 'Автор:'; esc_html_e( $text ); ?></label>
+    <input id="<?php echo $id_author_ids; ?>" name="<?php echo $this->get_field_name( 'author_ids' ); ?>" type="text" value="<?php echo $author_ids; ?>" size="3" /></p>
+
+
 <p><input class="checkbox" type="checkbox" <?php checked( $open_new_window ); ?> id="<?php echo $id_open_new_window; ?>" name="<?php echo $this->get_field_name( 'open_new_window' ); ?>" />
 <label for="<?php echo $id_open_new_window; ?>"><?php esc_html_e( 'Open post links in new windows?', 'recent-posts-widget-with-thumbnails' ); ?></label></p>
 

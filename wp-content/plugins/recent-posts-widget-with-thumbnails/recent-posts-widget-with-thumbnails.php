@@ -35,6 +35,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 	var $in_categories_text; // translated text for 'In {categories}' 
 	var $comma_text; // translated text for ', ' 
 	var $author_text; // translated text for 'Author:' 
+	var $default_author_ids; // 'Author ID's'
 
 	function __construct() {
 		$language_codes = explode( '_', get_locale() );
@@ -84,6 +85,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		$this->default_thumb_url		= plugins_url( 'default_thumb.gif', __FILE__ );
 		$this->css_file_path			= dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'public.css';
 		$this->valid_excerpt_sources	= array( 'post_content', 'excerpt_field' );
+		$this->default_author_ids		= 0;
 		
 		$widget_ops = array( 'classname' => $this->plugin_slug, 'description' => $widget_desc );
 		parent::__construct( $this->plugin_slug, $widget_name, $widget_ops );
@@ -110,6 +112,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		$title					= ( ! empty( $instance[ 'title' ] ) )				? esc_html( $instance[ 'title' ] )						: '';
 		$title					= apply_filters( 'widget_title', $title, $instance, $this->id_base );
 		$category_ids 			= ( ! empty( $instance[ 'category_ids' ] ) )		? array_map( 'absint', $instance[ 'category_ids' ] )	: $this->default_category_ids;
+		$author_ids			= ( ! empty( $instance[ 'author_ids' ] ) )		? absint( $instance[ 'author_ids' ] )					: $this->default_author_ids;
 		$default_url 			= ( ! empty( $instance[ 'default_url' ] ) )			? esc_url_raw( $instance[ 'default_url' ] )				: $this->default_thumb_url;
 		$thumb_dimensions		= ( ! empty( $instance[ 'thumb_dimensions' ] ) )	? $instance[ 'thumb_dimensions' ]						: $this->default_thumb_dimensions;
 		$excerpt_length 		= ( ! empty( $instance[ 'excerpt_length' ] ) )		? absint( $instance[ 'excerpt_length' ] )				: $this->default_excerpt_length;
@@ -188,14 +191,16 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		}
 		
 		// filter the arguments for the Recent Posts widget:
-		
+
 		// standard params
 		$query_args = array(
 			'posts_per_page'      => $number_posts,
 			'no_found_rows'       => true,
 			'post_status'         => 'publish',
 		);
-		
+
+		if ($author_ids > 0) $query_args[ 'author' ] = $author_ids;
+
 		// ignore sticky posts if desired, else show them on top
 		$query_args[ 'ignore_sticky_posts' ] = ( $keep_sticky ) ? false : true;
 		
@@ -245,8 +250,12 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		$instance[ 'default_url' ] 			= ( isset( $new_widget_settings[ 'default_url' ] ) )			? esc_url_raw( $new_widget_settings[ 'default_url' ] )				: $this->default_thumb_url;
 		$instance[ 'thumb_dimensions' ] 	= ( isset( $new_widget_settings[ 'thumb_dimensions' ] ) )		? strip_tags( $new_widget_settings[ 'thumb_dimensions' ] )			: $this->default_thumb_dimensions;
 		$instance[ 'category_ids' ]   		= ( isset( $new_widget_settings[ 'category_ids' ] ) )			? array_map( 'absint', $new_widget_settings[ 'category_ids' ] )		: $this->default_category_ids;
+
 		$instance[ 'excerpt_length' ] 		= ( isset( $new_widget_settings[ 'excerpt_length' ] ) )			? absint( $new_widget_settings[ 'excerpt_length' ] )				: $this->default_excerpt_length;
 		$instance[ 'number_posts' ]			= ( isset( $new_widget_settings[ 'number_posts' ] ) )			? absint( $new_widget_settings[ 'number_posts' ] )					: $this->default_number_posts;
+
+		$instance[ 'author_ids' ]   		= ( isset( $new_widget_settings[ 'author_ids' ] ) )			 ? absint( $new_widget_settings[ 'author_ids' ] )					: $this->default_author_ids;
+
 		$instance[ 'post_title_length' ] 	= ( isset( $new_widget_settings[ 'post_title_length' ] ) )		? absint( $new_widget_settings[ 'post_title_length' ] )				: $this->default_post_title_length;
 		$instance[ 'thumb_height' ] 		= ( isset( $new_widget_settings[ 'thumb_height' ] ) )			? absint( $new_widget_settings[ 'thumb_height' ] )					: $this->default_thumb_height;
 		$instance[ 'thumb_width' ] 			= ( isset( $new_widget_settings[ 'thumb_width' ] ) )			? absint( $new_widget_settings[ 'thumb_width' ] )					: $this->default_thumb_width;
@@ -282,6 +291,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		if ( in_array( 0, $instance[ 'category_ids' ] ) ) {
 			$instance[ 'category_ids' ] = $this->default_category_ids;
 		}
+
 		
 		// empty widget cache
 		$this->flush_widget_cache();
@@ -316,6 +326,8 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		$thumb_height			= ( isset( $instance[ 'thumb_height' ] ) )			? absint( $instance[ 'thumb_height' ] )					: $this->default_thumb_height;
 		$thumb_width			= ( isset( $instance[ 'thumb_width' ] ) )			? absint( $instance[ 'thumb_width' ] )					: $this->default_thumb_width;
 		$category_ids			= ( isset( $instance[ 'category_ids' ] ) )			? array_map( 'absint', $instance[ 'category_ids' ] )	: $this->default_category_ids;
+		$author_ids			= ( isset( $instance[ 'author_ids' ] ) )			? absint( $instance[ 'author_ids' ] )					: $this->default_author_ids;
+
 		$hide_current_post		= ( isset( $instance[ 'hide_current_post' ] ) )		? (bool) $instance[ 'hide_current_post' ]				: false;
 		$hide_title				= ( isset( $instance[ 'hide_title' ] ) )			? (bool) $instance[ 'hide_title' ]						: false;
 		$keep_aspect_ratio		= ( isset( $instance[ 'keep_aspect_ratio' ] ) )		? (bool) $instance[ 'keep_aspect_ratio' ]				: false;
@@ -351,8 +363,10 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 			$category_ids = $this->default_category_ids;
 		}
 
+
 		// sanitize vars
 		if ( ! $category_ids )		$category_ids		= $this->default_category_ids;
+		if ( ! $author_ids )		$author_ids		    = $this->default_author_ids;
 		if ( ! $default_url )		$default_url		= $this->default_thumb_url;
 		if ( ! $post_title_length )	$post_title_length	= $this->default_post_title_length;
 		if ( ! $excerpt_length )	$excerpt_length		= $this->default_excerpt_length;
@@ -363,6 +377,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		
 		// compute ids only once to improve performance
 		$id_category_ids			= $this->get_field_id( 'category_ids' );
+		$id_author_ids			    = $this->get_field_id( 'author_ids' );
 		$id_default_url				= $this->get_field_id( 'default_url' );
 		$id_excerpt_length			= $this->get_field_id( 'excerpt_length' );
 		$id_excerpt_more			= $this->get_field_id( 'excerpt_more' );
