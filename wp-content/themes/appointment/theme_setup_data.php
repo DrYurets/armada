@@ -1,6 +1,7 @@
 <?php 
 function theme_setup_data()
   	{
+
 	return $appointment_options=array(
 	//Header Settings
 	'upload_image_favicon' => '',

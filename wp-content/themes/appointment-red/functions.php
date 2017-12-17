@@ -18,4 +18,16 @@ function appointment_red_theme_css() {
 }
 add_action( 'after_setup_theme', 'appointment_red_setup' );
 
+	function true_after_theme_setup() {
+		add_image_size( 'mainpage_thumbnail', 350, 262, true );
+	}
+
+	add_action( 'after_setup_theme', 'true_after_theme_setup', 11 );
+
+
+
+
+
+
+
 ?>

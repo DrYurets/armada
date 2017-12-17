@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php
+
 		$appointment_options=theme_setup_data();
 		$header_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options);
 		if($header_setting['upload_image_favicon']!=''){ ?>
             <link rel="shortcut icon" href="<?php  echo $header_setting['upload_image_favicon']; ?>" />
 		<?php } ?>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<?php wp_head(); ?>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+    <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
 <?php if ( get_header_image() != '') {?>
