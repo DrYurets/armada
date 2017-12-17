@@ -1,18 +1,36 @@
-# Translation of Themes - Appointment in Russian
-# This file is distributed under the same license as the Themes - Appointment package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-11 14:53:36+0000\n"
+"PO-Revision-Date: 2017-12-17 08:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Language: ru-RU\n"
 "Project-Id-Version: Themes - Appointment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-17 07:32+0000\n"
+"Last-Translator: uri <info@armada-auto.by>\n"
+"Language-Team: Russian"
 
 #. Description of the plugin/theme
-msgid "Appointment WordPress Theme is a fully responsive and translation-ready theme that allows you to create stunning blogs and websites. The theme is well suited for companies, law firms, travel, photography, recipes, design, art, personal and any other creative websites and blogs. The theme is developed using Bootstrap 3 that makes it mobile and tablet friendly. It has various options in the WordPress Customizer to change the look of the theme. The theme customizer can be used to add your own custom header, favicon, logo, slides, services, callout and much more. In the premium version you can add different type of slides like video, aside, quote, status and standard, all of which have a different HTML look. There are a number of in-built widgets; sidebars with support for WPML, the Polylang translation WordPress plugin and Contact Form 7; a portfolio template, contact us, portfolio column layouts and many sections for business using the Homepage template. Appointment theme comes with various locales. Just navigate to Appearance / Customize to start customizing."
+msgid ""
+"Appointment WordPress Theme is a fully responsive and translation-ready "
+"theme that allows you to create stunning blogs and websites. The theme is "
+"well suited for companies, law firms, travel, photography, recipes, design, "
+"art, personal and any other creative websites and blogs. The theme is "
+"developed using Bootstrap 3 that makes it mobile and tablet friendly. It has "
+"various options in the WordPress Customizer to change the look of the theme. "
+"The theme customizer can be used to add your own custom header, favicon, "
+"logo, slides, services, callout and much more. In the premium version you "
+"can add different type of slides like video, aside, quote, status and "
+"standard, all of which have a different HTML look. There are a number of in-"
+"built widgets; sidebars with support for WPML, the Polylang translation "
+"WordPress plugin and Contact Form 7; a portfolio template, contact us, "
+"portfolio column layouts and many sections for business using the Homepage "
+"template. Appointment theme comes with various locales. Just navigate to "
+"Appearance / Customize to start customizing."
 msgstr ""
 
 #. Theme Name of the plugin/theme
@@ -36,16 +54,31 @@ msgid "Add more services. Get Pro."
 msgstr "Добавьте больше услуг. Получите ПРО."
 
 #: functions/appointment-info/sections/github.php:71
-msgid "This section is often used to display Latest News, Announcements and Events type content."
-msgstr "Эта секция часто используется для отображения Последних Новостей, Уведомлений и Событий."
+msgid ""
+"This section is often used to display Latest News, Announcements and Events "
+"type content."
+msgstr ""
+"Эта секция часто используется для отображения Последних Новостей, "
+"Уведомлений и Событий."
 
 #: functions/appointment-info/sections/github.php:53
-msgid "You can display any number of Services on the Homepage, with thousands of FontAwesome icons available. You can also display a set of services on a separate page by using the service-related page templates."
-msgstr "Вы можете отображать любое количество услуг на главной странице, с сотнями доступными иконками FontAwesome. Вы также можете показывать услуги на отдельной странице, используя соответствующий шаблон страниц."
+msgid ""
+"You can display any number of Services on the Homepage, with thousands of "
+"FontAwesome icons available. You can also display a set of services on a "
+"separate page by using the service-related page templates."
+msgstr ""
+"Вы можете отображать любое количество услуг на главной странице, с сотнями "
+"доступными иконками FontAwesome. Вы также можете показывать услуги на "
+"отдельной странице, используя соответствующий шаблон страниц."
 
 #: functions/appointment-info/sections/github.php:34
-msgid "There are beautifully styled navigation/menus in the Appointment theme. You can make multi level menus, which means you can create sub menus."
-msgstr "В теме Appointment есть прекрасно стилизованная навигация. Вы можете создавать многоуровневое меню, что означает, что вы можете использовать подменю."
+msgid ""
+"There are beautifully styled navigation/menus in the Appointment theme. You "
+"can make multi level menus, which means you can create sub menus."
+msgstr ""
+"В теме Appointment есть прекрасно стилизованная навигация. Вы можете "
+"создавать многоуровневое меню, что означает, что вы можете использовать "
+"подменю."
 
 #: functions/appointment-info/sections/github.php:11
 #: functions/appointment-info/welcome-screen.php:209
@@ -94,8 +127,14 @@ msgid "Background Image"
 msgstr "Изображение фона"
 
 #: functions/appointment-info/sections/free_pro.php:123
-msgid "Top Header, Slider [Unlimited Slides], Services [Unlimited], Callout, Portfolio [Unlimited Projects], Latest News, Clients, Testimonials and Custom Widgets"
-msgstr "Шапка, Слайдер (без ограничения слайдов), Услуги (без ограничений), Контактная информация, Портфолио (без ограничений проектов), Последние новости, Клиенты, Отзывы и Пользовательские виджеты"
+msgid ""
+"Top Header, Slider [Unlimited Slides], Services [Unlimited], Callout, "
+"Portfolio [Unlimited Projects], Latest News, Clients, Testimonials and "
+"Custom Widgets"
+msgstr ""
+"Шапка, Слайдер (без ограничения слайдов), Услуги (без ограничений), "
+"Контактная информация, Портфолио (без ограничений проектов), Последние "
+"новости, Клиенты, Отзывы и Пользовательские виджеты"
 
 #: functions/customizer/customizer-copyright.php:77
 msgid "Hide footer social icons"
@@ -110,8 +149,12 @@ msgid "Search Results for"
 msgstr "Результаты поиска"
 
 #: index-slider.php:24 index-slider.php:32 index-slider.php:40
-msgid "This is a very powerful theme that can be used for any type of business. The layout is clean and elegant."
-msgstr "Это очень мощная тема, которая может быть использована для бизнеса любого типа. Макет чистый и элегантный."
+msgid ""
+"This is a very powerful theme that can be used for any type of business. The "
+"layout is clean and elegant."
+msgstr ""
+"Это очень мощная тема, которая может быть использована для бизнеса любого "
+"типа. Макет чистый и элегантный."
 
 #: functions/widgets/sidebars.php:7 functions/widgets/sidebars.php:9
 msgid "Sidebar widget area"
@@ -139,8 +182,12 @@ msgid "Homepage testimonial settings"
 msgstr "Настройки отзывов на главной странице"
 
 #: functions/customizer/customizer-testimonial.php:5
-msgid "Want to add testimonials? <a href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
-msgstr "Хотите добавить отзыв? Тогда обновитесь до <a href='http://www.webriti.com/appointment' target='_blank'>ПРО версии</a>"
+msgid ""
+"Want to add testimonials? <a href='http://www.webriti.com/appointment' "
+"target='_blank'>Upgrade to Pro</a>"
+msgstr ""
+"Хотите добавить отзыв? Тогда обновитесь до <a href='http://www.webriti."
+"com/appointment' target='_blank'>ПРО версии</a>"
 
 #: functions/customizer/customizer-template.php:569
 msgid "Hide contact callout from Contact page"
@@ -159,28 +206,57 @@ msgid "Hide contact info section from Contact page"
 msgstr "Спрятать секцию контактной информации на странице связи с нами"
 
 #: functions/customizer/customizer-template.php:47
-msgid "Want to add contact callout information in the Contact template? <a href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
-msgstr "Хотите добавить контактную информацию в шаблоне контактов? - <a href='http://www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
+msgid ""
+"Want to add contact callout information in the Contact template? <a "
+"href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
+msgstr ""
+"Хотите добавить контактную информацию в шаблоне контактов? - <a href='http:"
+"//www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
 
 #: functions/customizer/customizer-template.php:39
-msgid "Want to add contact address information in the Contact template? <a href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
-msgstr "Хотите добавить контактный адрес в шаблоне контактов? <a href='http://www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
+msgid ""
+"Want to add contact address information in the Contact template? <a "
+"href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
+msgstr ""
+"Хотите добавить контактный адрес в шаблоне контактов? <a href='http://www."
+"webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
 
 #: functions/customizer/customizer-template.php:31
-msgid "Want to add contact form information and a contact map in the Contact template? <a href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
-msgstr "Хотите добавить контактную форму и карту в шаблоне контактов? <a href='http://www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
+msgid ""
+"Want to add contact form information and a contact map in the Contact "
+"template? <a href='http://www.webriti.com/appointment' target='_blank'>"
+"Upgrade to Pro</a>"
+msgstr ""
+"Хотите добавить контактную форму и карту в шаблоне контактов? <a href='http:"
+"//www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
 
 #: functions/customizer/customizer-template.php:24
-msgid "Want to use the blog meta settings? <a href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
-msgstr "Хотите использовать настройки мета-информации блога? <a href='http://www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
+msgid ""
+"Want to use the blog meta settings? <a href='http://www.webriti."
+"com/appointment' target='_blank'>Upgrade to Pro</a>"
+msgstr ""
+"Хотите использовать настройки мета-информации блога? <a href='http://www."
+"webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
 
 #: functions/customizer/customizer-template.php:15
-msgid "Want to add more services, testimonials, clients, footer callouts in the Service template? <a href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
-msgstr "Хотите добавить больше услуг, отзывов, клиентов и контактную информацию в подвале в шаблоне услуг? <a href='http://www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
+msgid ""
+"Want to add more services, testimonials, clients, footer callouts in the "
+"Service template? <a href='http://www.webriti.com/appointment' "
+"target='_blank'>Upgrade to Pro</a>"
+msgstr ""
+"Хотите добавить больше услуг, отзывов, клиентов и контактную информацию в "
+"подвале в шаблоне услуг? <a href='http://www.webriti.com/appointment' "
+"target='_blank'>Обновитесь до ПРО</a>"
 
 #: functions/customizer/customizer-template.php:7
-msgid "Want to add a company About Us, Team, Client, footer, callout with the About template? <a href='http://www.webriti.com/appointment' target='_blank'>Upgrade to Pro</a>"
-msgstr "Хотите добавить информацию о компании, команде, клиентах, контактную информацию в подвале в шаблоне О нас? <a href='http://www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
+msgid ""
+"Want to add a company About Us, Team, Client, footer, callout with the About "
+"template? <a href='http://www.webriti.com/appointment' target='_blank'>"
+"Upgrade to Pro</a>"
+msgstr ""
+"Хотите добавить информацию о компании, команде, клиентах, контактную "
+"информацию в подвале в шаблоне О нас? <a href='http://www.webriti."
+"com/appointment' target='_blank'>Обновитесь до ПРО</a>"
 
 #: functions/customizer/customizer-slider.php:106
 #: functions/customizer/customizer-testimonial.php:93
@@ -266,16 +342,27 @@ msgid "Hide callout section from homepage"
 msgstr "Скрыть секцию контактной информации на главной странице"
 
 #: functions/appointment-info/sections/github.php:98
-msgid "We provide good knowledgebase articles which will help you to create effective websites. You can visit these articles via our <a href='http://webriti.com/help/category/themes/appointment/' target='_blank'>Help Section</a>."
-msgstr "Мы предоставляем отличную документацию для создания вами эффективного сайта. Вы можете увидеть эти записи на <a href='http://webriti.com/help/category/themes/appointment/' target='_blank'>нашем сайте</a>"
+msgid ""
+"We provide good knowledgebase articles which will help you to create "
+"effective websites. You can visit these articles via our <a href='http:"
+"//webriti.com/help/category/themes/appointment/' target='_blank'>Help "
+"Section</a>."
+msgstr ""
+"Мы предоставляем отличную документацию для создания вами эффективного сайта. "
+"Вы можете увидеть эти записи на <a href='http://webriti."
+"com/help/category/themes/appointment/' target='_blank'>нашем сайте</a>"
 
 #: functions/appointment-info/sections/free_pro.php:136
 msgid "Webriti Support Forum"
 msgstr "Форум поддержки Webriti"
 
 #: functions/appointment-info/sections/free_pro.php:125
-msgid "About Us, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, Page Full Width, Contact Page and much more."
-msgstr "О нас, Услуги, Портфолио, Блог с боковыми колонками слева и справа, Блог и просто страница на всю ширину страницы, Страница контакта и многое другое."
+msgid ""
+"About Us, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, "
+"Page Full Width, Contact Page and much more."
+msgstr ""
+"О нас, Услуги, Портфолио, Блог с боковыми колонками слева и справа, Блог и "
+"просто страница на всю ширину страницы, Страница контакта и многое другое."
 
 #: functions/appointment-info/sections/free_pro.php:107
 msgid "WordPress Support Forum"
@@ -286,16 +373,24 @@ msgid "Homepage Template and Full-Width Page Template"
 msgstr "Шаблон главной страницы и Страницы на всю ширину"
 
 #: functions/appointment-info/sections/free_pro.php:95
-msgid "Slider [Unlimited Slides], Widget Area Below Slider, Services [6 Services], Callout Section, Latest News"
-msgstr "Слайдер [неограниченные слайды], Область виджетов под слайдером, Услуги [6 услуг], Секция контактной информации, Последние новости"
+msgid ""
+"Slider [Unlimited Slides], Widget Area Below Slider, Services [6 Services], "
+"Callout Section, Latest News"
+msgstr ""
+"Слайдер [неограниченные слайды], Область виджетов под слайдером, Услуги [6 "
+"услуг], Секция контактной информации, Последние новости"
 
 #: comments.php:75
 msgid "Logout"
 msgstr "Выход"
 
 #: functions/customizer/customizer-footer-callout.php:5
-msgid "Want to add footer callout content?<a href='http://www.webriti.com/appointment' target='_blank'> Upgrade to Pro</a>."
-msgstr "Хотите добавить контактную информацию в подвале? <a href='http://www.webriti.com/appointment' target='_blank'>Обновитесь до ПРО</a>"
+msgid ""
+"Want to add footer callout content?<a href='http://www.webriti."
+"com/appointment' target='_blank'> Upgrade to Pro</a>."
+msgstr ""
+"Хотите добавить контактную информацию в подвале? <a href='http://www.webriti."
+"com/appointment' target='_blank'>Обновитесь до ПРО</a>"
 
 #: functions/customizer/customizer-client.php:21
 #: functions/customizer/customizer-service.php:13
@@ -312,7 +407,8 @@ msgstr "Имя"
 
 #: comments.php:57
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Вы должны быть <a href=\"%s\">авторизованы</a>, чтобы оставить комментарий."
+msgstr ""
+"Вы должны быть <a href=\"%s\">авторизованы</a>, чтобы оставить комментарий."
 
 #: comments.php:24
 msgid "Posted on"
@@ -320,7 +416,7 @@ msgstr "Дата:"
 
 #: author.php:12
 msgid "Author Archive"
-msgstr "Архив автора"
+msgstr "Публикации"
 
 #: 404.php:9
 msgid "Error 404"
@@ -331,12 +427,21 @@ msgid "JOIN COURSE"
 msgstr "Записаться на курс"
 
 #: functions/customizer/customizer-emailcourse.php:25
-msgid "In this email course I deliver 4 highly actionable tips on how you can build a website which is trustworthy and which, in turn, brings more business to you."
-msgstr "В этом email-курсе я вам отправлю 4 совета о том, как вы можете создать сайт с очень хорошей репутацией, который будет приносить вам еще больше прибыли."
+msgid ""
+"In this email course I deliver 4 highly actionable tips on how you can build "
+"a website which is trustworthy and which, in turn, brings more business to "
+"you."
+msgstr ""
+"В этом email-курсе я вам отправлю 4 совета о том, как вы можете создать сайт "
+"с очень хорошей репутацией, который будет приносить вам еще больше прибыли."
 
 #: functions/customizer/customizer-emailcourse.php:23
-msgid "Think of your website as a hardworking salesman who works 24/7 and never asks for a raise!"
-msgstr "Думайте о своем сайте как об очень занятом и тяжело работающем продажнике, который работает 24/7 и никогда не просит о повышении зарплаты!"
+msgid ""
+"Think of your website as a hardworking salesman who works 24/7 and never "
+"asks for a raise!"
+msgstr ""
+"Думайте о своем сайте как об очень занятом и тяжело работающем продажнике, "
+"который работает 24/7 и никогда не просит о повышении зарплаты!"
 
 #: functions/customizer/customizer-emailcourse.php:21
 msgid "To bring you more business."
@@ -379,20 +484,35 @@ msgid "Get started with Appointment Lite"
 msgstr "Начните использовать бесплатную версию Appointment"
 
 #: functions/appointment-info/welcome-screen.php:56
-msgid "Welcome! Thank you for choosing Appointment Lite! To take full advantage of the best our theme can offer, please make sure you visit our %swelcome page%s."
-msgstr "Добро пожаловать! Спасибо, что выбрали Appointment Lite! Чтобы полностью получить все удобства от нашей темы, пожалуйста, посетите нашу %sвступительную страницу%s."
+msgid ""
+"Welcome! Thank you for choosing Appointment Lite! To take full advantage of "
+"the best our theme can offer, please make sure you visit our %swelcome "
+"page%s."
+msgstr ""
+"Добро пожаловать! Спасибо, что выбрали Appointment Lite! Чтобы полностью "
+"получить все удобства от нашей темы, пожалуйста, посетите нашу "
+"%sвступительную страницу%s."
 
 #: functions/appointment-info/sections/github.php:117
-msgid "The theme supports yet another famous plugin: WPML. With the help of this support you can create a website available in multiple languages."
-msgstr "Тема поддерживает еще один известный плагин: WPML. С помощью этой поддержки вы можете создать веб-сайт на нескольких языках."
+msgid ""
+"The theme supports yet another famous plugin: WPML. With the help of this "
+"support you can create a website available in multiple languages."
+msgstr ""
+"Тема поддерживает еще один известный плагин: WPML. С помощью этой поддержки "
+"вы можете создать веб-сайт на нескольких языках."
 
 #: functions/appointment-info/sections/github.php:116
 msgid "Translation Ready"
 msgstr "Готова к переводу"
 
 #: functions/appointment-info/sections/github.php:107
-msgid "Building a website with our custom widgets is very simple. Just place them inside the available sidebar or even in the content."
-msgstr "Создавать веб-сайты с нашими пользовательскими виджетами очень просто. Просто поместите их внутри имеющихся боковых колонок или даже в содержимом страниц."
+msgid ""
+"Building a website with our custom widgets is very simple. Just place them "
+"inside the available sidebar or even in the content."
+msgstr ""
+"Создавать веб-сайты с нашими пользовательскими виджетами очень просто. "
+"Просто поместите их внутри имеющихся боковых колонок или даже в содержимом "
+"страниц."
 
 #: functions/appointment-info/sections/github.php:106
 msgid "Custom widget"
@@ -403,12 +523,20 @@ msgid "Well Documented"
 msgstr "Хорошая документация"
 
 #: functions/appointment-info/sections/github.php:89
-msgid "You will get 13 preset color schemes and you can even create your own favorite color schemes using the Custom Color Setting in the Customizer."
-msgstr "Вы получите 13 предустановленных цветовых гамм, и вы также сможете создать свою собственную любимую, используя настройки цвета в кастомизаторе."
+msgid ""
+"You will get 13 preset color schemes and you can even create your own "
+"favorite color schemes using the Custom Color Setting in the Customizer."
+msgstr ""
+"Вы получите 13 предустановленных цветовых гамм, и вы также сможете создать "
+"свою собственную любимую, используя настройки цвета в кастомизаторе."
 
 #: functions/appointment-info/sections/github.php:79
-msgid "Testimonials are a powerful way to gain credibility. You can display testimonials with a carousel effect."
-msgstr "Отзывы - очень мощный способ получить доверие. Вы можете отображать отзывы с эффектом карусели."
+msgid ""
+"Testimonials are a powerful way to gain credibility. You can display "
+"testimonials with a carousel effect."
+msgstr ""
+"Отзывы - очень мощный способ получить доверие. Вы можете отображать отзывы с "
+"эффектом карусели."
 
 #: functions/appointment-info/sections/github.php:78
 msgid "Testimonial Feature"
@@ -419,8 +547,21 @@ msgid "Latest News Section"
 msgstr "Секция последние новости"
 
 #: functions/appointment-info/sections/github.php:62
-msgid "Showcase any number of projects. This theme provides you with an option to create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column layout templates, respectively. If you have a number of projects to present then these templates are the answer. You can also create categorized portfolios, which display all the portfolio categories in a single place. In fact, we have coded this theme so that you can create any number of different portfolios."
-msgstr "Покажите любое количество проектов. Тема дает вам возможность использовать макеты с 2, 3, 4 колонками. Если у вас есть несколько проектов для демонстрации - тогда смело используйте этот шаблон. Вы также можете создавать категоризированное портфолио, которое отображает все категории в портфолио на одной странице. Мы создали эту тему с таким расчетом, чтобы вы могли создать любое количество портфолио."
+msgid ""
+"Showcase any number of projects. This theme provides you with an option to "
+"create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column "
+"layout templates, respectively. If you have a number of projects to present "
+"then these templates are the answer. You can also create categorized "
+"portfolios, which display all the portfolio categories in a single place. In "
+"fact, we have coded this theme so that you can create any number of "
+"different portfolios."
+msgstr ""
+"Покажите любое количество проектов. Тема дает вам возможность использовать "
+"макеты с 2, 3, 4 колонками. Если у вас есть несколько проектов для "
+"демонстрации - тогда смело используйте этот шаблон. Вы также можете "
+"создавать категоризированное портфолио, которое отображает все категории в "
+"портфолио на одной странице. Мы создали эту тему с таким расчетом, чтобы вы "
+"могли создать любое количество портфолио."
 
 #: functions/appointment-info/sections/github.php:61
 msgid "Portfolio Features"
@@ -431,8 +572,14 @@ msgid "Service Features"
 msgstr "Возможности услуг"
 
 #: functions/appointment-info/sections/github.php:43
-msgid "You can create unlimited slides which you can control via the settings in Appearance >> Customize. The slider supports various post formats like Standard, Aside, Quote, Chat and Video."
-msgstr "Вы можете создавать неограниченное количество слайдов, которыми вы можете управлять используя настройки в кастомизаторе. Слайдер поддерживает записи разных типов: стандартный, текст, цитата, чат и видео."
+msgid ""
+"You can create unlimited slides which you can control via the settings in "
+"Appearance >> Customize. The slider supports various post formats like "
+"Standard, Aside, Quote, Chat and Video."
+msgstr ""
+"Вы можете создавать неограниченное количество слайдов, которыми вы можете "
+"управлять используя настройки в кастомизаторе. Слайдер поддерживает записи "
+"разных типов: стандартный, текст, цитата, чат и видео."
 
 #: functions/appointment-info/sections/github.php:42
 msgid "Caption Slider"
@@ -443,16 +590,30 @@ msgid "Multi Level Navigation"
 msgstr "Многоуровневое меню"
 
 #: functions/appointment-info/sections/github.php:25
-msgid "In the premium version you will get a top header sidebar area where you can use any widget - all the widgets are styled. We have created a number of widgets in the theme which you can use here. Specifically, use the Appointment Info Widget for showing your email ID, contact number or any other info of your choice."
-msgstr "В премиум версии темы вы получите новую область для виджетов в шапке для добавления своих виджетов (все они будут соответствующим образом стилизованы). Вы создали несколько специальных виджетов в теме, которые вы можете там использовать. Например, используйте Информационный виджет для отображения email, контактного номера или любой другой информации на ваш выбор."
+msgid ""
+"In the premium version you will get a top header sidebar area where you can "
+"use any widget - all the widgets are styled. We have created a number of "
+"widgets in the theme which you can use here. Specifically, use the "
+"Appointment Info Widget for showing your email ID, contact number or any "
+"other info of your choice."
+msgstr ""
+"В премиум версии темы вы получите новую область для виджетов в шапке для "
+"добавления своих виджетов (все они будут соответствующим образом стилизованы)"
+". Вы создали несколько специальных виджетов в теме, которые вы можете там "
+"использовать. Например, используйте Информационный виджет для отображения "
+"email, контактного номера или любой другой информации на ваш выбор."
 
 #: functions/appointment-info/sections/github.php:24
 msgid "Top Header Section"
 msgstr "Верхняя секция шапки"
 
 #: functions/appointment-info/sections/github.php:17
-msgid "This feature helps you to rename the slug name from the URL, allowing you to make it SEO friendly."
-msgstr "Эта секция поможет вам переименовать слаги в ссылках, чтобы сделать их более дружелюбными для поисковых систем."
+msgid ""
+"This feature helps you to rename the slug name from the URL, allowing you to "
+"make it SEO friendly."
+msgstr ""
+"Эта секция поможет вам переименовать слаги в ссылках, чтобы сделать их более "
+"дружелюбными для поисковых систем."
 
 #: functions/appointment-info/sections/getting-started.php:64
 msgid "Your feedback is valuable to us"
@@ -479,12 +640,32 @@ msgid "Useful Links"
 msgstr "Полезные ссылки"
 
 #: functions/appointment-info/sections/getting-started.php:22
-msgid "You can use this theme for any type of business. It is compatible with popular plugins like Contact Form 7, WPML, Polylang, etc. The theme has a predefined version of a Contact page, Services page, Portfolio, column layout pages, About Us and Blog layout pages, helping you to create an effective web presence."
-msgstr "Вы можете использовать эту тему для любого типа бизнеса. Совместимость с популярными плагинами как Contact Form 7, WPML, Polylang и т.д. Тема имеет свою предустановленную версию страницы контактов, услуг, портфолио, о нас и блога, что поможет вам в создании эффективного вебсайта."
+msgid ""
+"You can use this theme for any type of business. It is compatible with "
+"popular plugins like Contact Form 7, WPML, Polylang, etc. The theme has a "
+"predefined version of a Contact page, Services page, Portfolio, column "
+"layout pages, About Us and Blog layout pages, helping you to create an "
+"effective web presence."
+msgstr ""
+"Вы можете использовать эту тему для любого типа бизнеса. Совместимость с "
+"популярными плагинами как Contact Form 7, WPML, Polylang и т.д. Тема имеет "
+"свою предустановленную версию страницы контактов, услуг, портфолио, о нас и "
+"блога, что поможет вам в создании эффективного вебсайта."
 
 #: functions/appointment-info/sections/getting-started.php:20
-msgid "This is a Business theme which is ideal for creating corporate, business, fashion and sports websites. The premium version has tons of features. The Homepage has a number of sections for showing sliders, your portfolio, user reviews, latest news, services, call to action and much more. Each section in the HomePage Template is well designed according to business requirements."
-msgstr "Бизнес тема, которая идеально подходит для создания корпоративного, бизнес, модного и спортивного сайта. Премиум версия имеет очень много дополнительных возможностей. Главная страница имеет ряд секций для отображения слайдера, портфолио, отзывов, последних новостей, услуг, призывов к действию и многое другое. Каждая секция в шаблоне главной страницы разработана в соответствии с бизнес-требованиями."
+msgid ""
+"This is a Business theme which is ideal for creating corporate, business, "
+"fashion and sports websites. The premium version has tons of features. The "
+"Homepage has a number of sections for showing sliders, your portfolio, user "
+"reviews, latest news, services, call to action and much more. Each section "
+"in the HomePage Template is well designed according to business requirements."
+msgstr ""
+"Бизнес тема, которая идеально подходит для создания корпоративного, бизнес, "
+"модного и спортивного сайта. Премиум версия имеет очень много дополнительных "
+"возможностей. Главная страница имеет ряд секций для отображения слайдера, "
+"портфолио, отзывов, последних новостей, услуг, призывов к действию и многое "
+"другое. Каждая секция в шаблоне главной страницы разработана в соответствии "
+"с бизнес-требованиями."
 
 #: functions/appointment-info/sections/getting-started.php:14
 msgid "About Appointment Theme"
@@ -516,7 +697,8 @@ msgstr "Поддержка WPML / Polylang"
 
 #: functions/appointment-info/sections/free_pro.php:69
 msgid "Show user feedback on the Homepage and Services page."
-msgstr "Покажите отзывы пользователей на главной странице или на странице услуг."
+msgstr ""
+"Покажите отзывы пользователей на главной странице или на странице услуг."
 
 #: functions/appointment-info/sections/free_pro.php:68
 msgid "Testimonial / Review Section"
@@ -531,32 +713,47 @@ msgid "Services Page"
 msgstr "Страница услуг"
 
 #: functions/appointment-info/sections/free_pro.php:59
-msgid "Show team members, your clients and custom content added in the WordPress editor."
-msgstr "Покажите ваше команду, ваших клиентов и свой контент, добавленный в редакторе WordPress."
+msgid ""
+"Show team members, your clients and custom content added in the WordPress "
+"editor."
+msgstr ""
+"Покажите ваше команду, ваших клиентов и свой контент, добавленный в "
+"редакторе WordPress."
 
 #: functions/appointment-info/sections/free_pro.php:58
 msgid "About Us Page"
 msgstr "Страница О нас"
 
 #: functions/appointment-info/sections/free_pro.php:54
-msgid "Present your project/portfolio collection with 2 column, 3 column and 4 column layouts. You can also display your project/portfolio by category."
-msgstr "Отобразите ваши проекты из портфолио в 2, 3 или 4 колонки. Вы также можете показывать их по категориям."
+msgid ""
+"Present your project/portfolio collection with 2 column, 3 column and 4 "
+"column layouts. You can also display your project/portfolio by category."
+msgstr ""
+"Отобразите ваши проекты из портфолио в 2, 3 или 4 колонки. Вы также можете "
+"показывать их по категориям."
 
 #: functions/appointment-info/sections/free_pro.php:53
 msgid "Portfolio"
 msgstr "Портфолио"
 
 #: functions/appointment-info/sections/free_pro.php:48
-msgid "Display your Shop and Business location on your website using Google Maps."
-msgstr "Для отображения расположения вашего магазина или бизнеса на карте используйте Google Maps."
+msgid ""
+"Display your Shop and Business location on your website using Google Maps."
+msgstr ""
+"Для отображения расположения вашего магазина или бизнеса на карте "
+"используйте Google Maps."
 
 #: functions/appointment-info/sections/free_pro.php:47
 msgid "Google Map"
 msgstr "Google Maps"
 
 #: functions/appointment-info/sections/free_pro.php:43
-msgid "Enjoy using the 13 preset color schemes. You can also create custom skins without adding any code."
-msgstr "13 предустановленных цветовых гамм. Вы также можете создать свою собственную без программирования."
+msgid ""
+"Enjoy using the 13 preset color schemes. You can also create custom skins "
+"without adding any code."
+msgstr ""
+"13 предустановленных цветовых гамм. Вы также можете создать свою собственную "
+"без программирования."
 
 #: functions/appointment-info/sections/free_pro.php:42
 #: functions/appointment-info/sections/github.php:88
@@ -564,8 +761,11 @@ msgid "Multiple Color Schemes"
 msgstr "Несколько цветовых гамм"
 
 #: functions/appointment-info/sections/free_pro.php:38
-msgid "This feature allows you to rename the custom post type slug names in the URL."
-msgstr "Эта функция позволяет переименовывать слаги пользовательских типов записей в ссылках."
+msgid ""
+"This feature allows you to rename the custom post type slug names in the URL."
+msgstr ""
+"Эта функция позволяет переименовывать слаги пользовательских типов записей в "
+"ссылках."
 
 #: functions/appointment-info/sections/free_pro.php:37
 #: functions/appointment-info/sections/github.php:16
@@ -667,8 +867,12 @@ msgid "Appointment Blue"
 msgstr "Appointment Blue"
 
 #: functions/appointment-info/sections/child-themes.php:18
-msgid "Below you will find a selection of Appointment child themes that will totally transform the look of your site."
-msgstr "Ниже вы увидите набор дочерних тем Appointment, которые полностью изменят внешний вид вашего сайта."
+msgid ""
+"Below you will find a selection of Appointment child themes that will "
+"totally transform the look of your site."
+msgstr ""
+"Ниже вы увидите набор дочерних тем Appointment, которые полностью изменят "
+"внешний вид вашего сайта."
 
 #: functions/appointment-info/sections/child-themes.php:16
 msgid "Install & Use Appointment Child Themes"
@@ -682,24 +886,43 @@ msgid "Appointment Blue Child Theme"
 msgstr "Дочерняя тема Appointment Blue"
 
 #: functions/appointment-info/sections/actions-required.php:22
-msgid "Do you want to show the Homepage as a Front Page? You need to set the Homepage as a static page, as shown in the snapshot below. Now go to the Customizer and start configuring the sections in the Business Template. We hope you will find this theme useful."
-msgstr "Если вы хотите показать шаблон Главная страница на морде вашего сайта, установите Главную страницу статической страницей, как показано на скриншоте ниже. Теперь перейдите в кастомизатор и начните настраивать секции в Бизнес шаблоне. Надеемся, что вам понравится!"
+msgid ""
+"Do you want to show the Homepage as a Front Page? You need to set the "
+"Homepage as a static page, as shown in the snapshot below. Now go to the "
+"Customizer and start configuring the sections in the Business Template. We "
+"hope you will find this theme useful."
+msgstr ""
+"Если вы хотите показать шаблон Главная страница на морде вашего сайта, "
+"установите Главную страницу статической страницей, как показано на скриншоте "
+"ниже. Теперь перейдите в кастомизатор и начните настраивать секции в Бизнес "
+"шаблоне. Надеемся, что вам понравится!"
 
 #: functions/appointment-info/sections/actions-required.php:21
 msgid "2. Assign Homepage as Front Page Display"
 msgstr "2. Свяжите главную страницу с мордой сайта"
 
 #: functions/appointment-info/sections/actions-required.php:14
-msgid "To set up an exact replica of the Homepage as shown in our demo, you have to create a WordPress page using the Home Page Template. The Business Template has all the sections like banners, services, portfolio, etc., which are ideal for any business site. Kindly refer to the snapshot."
-msgstr "Чтобы настроить точную копию главной страницы, как сделано на нашем демо, создайте WordPress страницу с шаблоном \"Home Page Template\". Бизнес шаблон отображает все секции, такие как баннер, услуги, портфолио и т.д., что идеально подходит для любого бизнес-сайта. Обратите внимание на скриншот."
+msgid ""
+"To set up an exact replica of the Homepage as shown in our demo, you have to "
+"create a WordPress page using the Home Page Template. The Business Template "
+"has all the sections like banners, services, portfolio, etc., which are "
+"ideal for any business site. Kindly refer to the snapshot."
+msgstr ""
+"Чтобы настроить точную копию главной страницы, как сделано на нашем демо, "
+"создайте WordPress страницу с шаблоном \"Home Page Template\". Бизнес шаблон "
+"отображает все секции, такие как баннер, услуги, портфолио и т.д., что "
+"идеально подходит для любого бизнес-сайта. Обратите внимание на скриншот."
 
 #: functions/appointment-info/sections/actions-required.php:13
 msgid "1. Creating Homepage using Home Page Template."
-msgstr "1. Создание главной страницы с использованием шаблона Home Page Template."
+msgstr ""
+"1. Создание главной страницы с использованием шаблона Home Page Template."
 
 #: functions/customizer/customizer-template.php:127
-msgid "Hide post meta from blog pages, archive pages, categories, authors, etc."
-msgstr "Скрыть мета информацию записи со страниц блога, архивных страниц и т.д."
+msgid ""
+"Hide post meta from blog pages, archive pages, categories, authors, etc."
+msgstr ""
+"Скрыть мета информацию записи со страниц блога, архивных страниц и т.д."
 
 #: functions/customizer/customizer-template.php:434
 msgid "Our office location"
@@ -879,15 +1102,19 @@ msgstr "Купить сейчас"
 
 #: single.php:17
 msgid "About the author"
-msgstr "Об авторе"
+msgstr " "
 
 #: searchform.php:2
 msgid "Search"
 msgstr "Поиск"
 
 #: search.php:18
-msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
-msgstr "Жаль, но ничего не соответствуют критериям вашего поиска. Пожалуйста, попробуйте снова с другими ключевыми словами."
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Жаль, но ничего не соответствуют критериям вашего поиска. Пожалуйста, "
+"попробуйте снова с другими ключевыми словами."
 
 #: search.php:16
 msgid "Nothing Found"
@@ -1056,8 +1283,19 @@ msgid "Service settings"
 msgstr "Настройки услуг"
 
 #: functions/customizer/customizer-pro.php:77
-msgid "The Pro version gives you more opportunities to enhance your site and business. In order to create an effective online presence, one must showcase their wide range of products, use a Contact Us enquiry form, create an effective About Us page, introduce the Team Members, etc. The Pro version offers all this. Buy the Pro version today and give us the chance to serve you better."
-msgstr "ПРО версия дает вам больше возможностей для улучшения вашего сайта и бизнеса. Для создания эффективного присутствия в интернете необходимо показывать широкий набор продуктов, использовать контактные формы, создать эффективную страницу о компании, рассказать о команде и т.д. ПРО версия дает вам это все. Купите ПРО версию и дайте нам возможность более эффективно помочь вам."
+msgid ""
+"The Pro version gives you more opportunities to enhance your site and "
+"business. In order to create an effective online presence, one must showcase "
+"their wide range of products, use a Contact Us enquiry form, create an "
+"effective About Us page, introduce the Team Members, etc. The Pro version "
+"offers all this. Buy the Pro version today and give us the chance to serve "
+"you better."
+msgstr ""
+"ПРО версия дает вам больше возможностей для улучшения вашего сайта и бизнеса."
+" Для создания эффективного присутствия в интернете необходимо показывать "
+"широкий набор продуктов, использовать контактные формы, создать эффективную "
+"страницу о компании, рассказать о команде и т.д. ПРО версия дает вам это все."
+" Купите ПРО версию и дайте нам возможность более эффективно помочь вам."
 
 #: functions/customizer/customizer-pro.php:73
 msgid "DOCUMENTATION"
@@ -1284,8 +1522,10 @@ msgid "Reply"
 msgstr "Ответить"
 
 #: comments.php:2
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Это запись защищена паролем. Введите пароль для просмотра комментариев."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Это запись защищена паролем. Введите пароль для просмотра комментариев."
 
 #: archive.php:16
 msgid "Blog Archive"
@@ -1293,11 +1533,11 @@ msgstr "Архив блога"
 
 #: archive.php:14
 msgid "Yearly Archive"
-msgstr "Архив за год"
+msgstr "Публикации за"
 
 #: archive.php:12
 msgid "Monthly Archive"
-msgstr "Архив за месяц"
+msgstr "Публикации за"
 
 #: archive.php:10
 msgid "Daily Archive"

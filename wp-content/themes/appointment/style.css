@@ -1937,7 +1937,7 @@ div.footer-autohouse-header p {
 div.autohaus-bottom {
     border-bottom: #00aeff 20px solid;
 }
-div#primary-autohouse a:link img {
+div#primary-autohouse a:link img, div#primary-autohouse a:visited img {
     border: #fff 2px solid;
 }
 div#primary-autohouse a:hover img {
