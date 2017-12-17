@@ -30,7 +30,7 @@
     <div class="container">
         <div class="navbar-header">
 			<?php if($header_setting['text_title'] == 1) { ?>
-                <h1><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Appointment">
+                <h1><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Армада Авто Мир">
 						<?php
 							if($header_setting['enable_header_logo_text'] == 1)
 							{ echo "<div class=appointment_title_head>" . get_bloginfo( ). "</div>"; }

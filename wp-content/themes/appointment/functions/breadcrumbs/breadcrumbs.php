@@ -3,7 +3,7 @@ function qt_custom_breadcrumbs() {
  
   $showOnHome = 0; // 1 - show breadcrumbs on the homepage, 0 - don't show
   $delimiter = ''; // delimiter between crumbs
-  $home = 'Home'; // text for the 'Home' link
+  $home = 'Главная'; // text for the 'Home' link
   $showCurrent = 1; // 1 - show current post/page title in breadcrumbs, 0 - don't show
   $before = '<li class="active">'; // tag before the current crumb
   $after = '</li>'; // tag after the current crumb
@@ -22,7 +22,7 @@ function qt_custom_breadcrumbs() {
     if ( is_category() ) {
       $thisCat = get_category(get_query_var('cat'), false);
       if ($thisCat->parent != 0) echo get_category_parents($thisCat->parent, TRUE, ' ' . ' ');
-      echo $before . 'Archive by category "' . single_cat_title('', false) . '"' . $after;
+      echo $before . 'Публикации "' . single_cat_title('', false) . '"' . $after;
  
     } elseif ( is_search() ) {
       echo $before . 'Search results for "' . get_search_query() . '"' . $after;
@@ -86,15 +86,15 @@ function qt_custom_breadcrumbs() {
       if ($showCurrent == 1) echo ' ' . $delimiter . ' ' . $before . get_the_title() . $after;
  
     } elseif ( is_tag() ) {
-      echo $before . 'Posts tagged "' . single_tag_title('', false) . '"' . $after;
+      echo $before . 'Публикации с тегом "' . single_tag_title('', false) . '"' . $after;
  
     } elseif ( is_author() ) {
        global $author;
       $userdata = get_userdata($author);
-      echo $before . 'Articles posted by ' . $userdata->display_name . $after;
+      echo $before . 'Публикации ' . $userdata->display_name . $after;
  
     } elseif ( is_404() ) {
-      echo $before . 'Error 404' . $after;
+      echo $before . 'Ошибка 404' . $after;
     }
  
     if ( get_query_var('paged') ) {

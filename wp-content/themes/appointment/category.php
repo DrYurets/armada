@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<div class="page-title"><h1><?php echo _e('Category Archive','appointment'); echo ' '; echo single_cat_title("", false); ?></h1></div>
+					<div class="page-title"><h1><?php echo _e('Публикации ','appointment'); echo ' '; echo single_cat_title("", false); ?></h1></div>
 				</div>
 				<div class="col-md-6">
 					<ul class="page-breadcrumb">

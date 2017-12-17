@@ -1938,16 +1938,15 @@ div.autohaus-bottom {
     border-bottom: #00aeff 20px solid;
 }
 div#primary-autohouse a:link img {
+    border: #fff 2px solid;
+}
+div#primary-autohouse a:hover img {
     -webkit-transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
     transition-duration:0.6s;
     opacity:0.8;
-    border: #fff 2px solid;
-}
-div#primary-autohouse a:hover img {
-    opacity: 1;
     border: #00aeff 2px solid;
 }
 div.menu-autohouse-container ul li {
