@@ -5,9 +5,10 @@ get_template_part('index','banner'); ?>
 <div class="page-builder">
 	<div class="container">
 		<div class="row">
-		
+
 			<!-- Blog Area -->
 			<div class="<?php appointment_post_layout_class(); ?>" >
+
 			<?php
 		if(have_posts())
 		{

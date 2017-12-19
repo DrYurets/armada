@@ -1970,5 +1970,20 @@ div.menu-autohouse-container ul li a:hover {
 }
 
 div.excerpt {
-    padding: 10px;
+    padding: 10px 5px;
+}
+div#primary-coffee span.rpwwt-post-title {
+    color:#a91e1e;
+}
+div.blog-post-sm div.mainpage-thumbnail {
+    text-align: center;
+}
+div.blog-post-sm div.mainpage-thumbnail a {
+    padding: 0px;
+}
+div.mainpage_title_header {
+    padding: 10px 5px 0px 5px;
+}
+div.mainpage_title_header h3 {
+    margin: 0px;
 }
