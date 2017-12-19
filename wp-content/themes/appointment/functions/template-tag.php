@@ -6,10 +6,9 @@ if ( ! function_exists( 'appointment_aside_meta_content' ) ) :
 		$appointment_options=theme_setup_data();
 		$news_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
 		if($news_setting['home_meta_section_settings'] == '' ) { ?>
-	    <!--show date of post-->
 		<aside class="blog-post-date-area">
-			<div class="date"><?php echo get_the_date('j'); ?> <div class="month-year"><?php echo get_the_date('M'); ?>,<?php echo get_the_date('Y'); ?></div></div>
-			<div class="comment"><a href="<?php the_permalink(); ?>"><i class="fa fa-comments"></i><?php comments_number( '0', '1', '%' ); ?></a></div>
+			<div class="date"><?php echo get_the_date('j'); ?> <div class="month-year"><?php echo get_the_date('m'); ?>.<?php echo get_the_date('Y'); ?></div></div>
+			<!--<div class="comment"><a href="<?php // the_permalink(); ?>"><i class="fa fa-comments"></i><?php // comments_number( '0', '1', '%' ); ?></a></div> -->
 		</aside>
 		<?php }  } endif;
 if ( ! function_exists( 'appointment_post_meta_content' ) ) :
@@ -29,8 +28,7 @@ function appointment_post_meta_content()
 			<?php }  
 } endif; 
 
-// this functions accepts two parameters first is the preset size of the image and second  is for additional classes, you can also add yours 
-if(!function_exists( 'appointment_post_thumbnail')) : 
+if(!function_exists( 'appointment_post_thumbnail')) :
 function appointment_post_thumbnail($preset,$class){
 if(has_post_thumbnail()){ 
  $defalt_arg =array('class' => $class); ?>
@@ -40,7 +38,6 @@ if(has_post_thumbnail()){
 			</div>
 			<?php } }endif;
 
-// This Function Check whether Sidebar active or Not
 if(!function_exists( 'appointment_post_layout_class' )) :
 function appointment_post_layout_class(){
 	if(is_active_sidebar('sidebar-primary'))
@@ -49,12 +46,14 @@ function appointment_post_layout_class(){
 		{ echo 'col-md-12'; }  
 } endif;
 function thumbnail_by_yurets($post) {
+    if (is_front_page()) $size = 'mainpage_thumbnail';
+    else $size = 'medium';
 	if ( has_post_thumbnail( $post->ID ) ) { // есть изображение записи
-		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '">'.get_the_post_thumbnail( $post->ID, 'mainpage_thumbnail' ).'</a>';
+		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '">'.get_the_post_thumbnail( $post->ID, $size ).'</a>';
 	}
 	else if (get_first_content_image_id($post) > 0) { // первое изображение из текста
 		$img = get_first_content_image_id($post);
-		$url = wp_get_attachment_image_url($img, 'mainpage_thumbnail', false);
+		$url = wp_get_attachment_image_url($img, $size, false);
 		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';
 	}
 	else { // вообще нет ни одной фотки - заглушка

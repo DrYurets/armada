@@ -7,7 +7,7 @@
                             <div class="mainpage-thumbnail">
 		                        <?php echo thumbnail_by_yurets($post); ?>
                             </div>
-                            <div  class="mainpage_title_header">
+                            <div class="mainpage_title_header">
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </div>
                             <div class="excerpt">
