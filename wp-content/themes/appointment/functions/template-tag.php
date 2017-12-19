@@ -47,5 +47,21 @@ function appointment_post_layout_class(){
 		{ echo 'col-md-8'; } 
 	else 
 		{ echo 'col-md-12'; }  
-} endif; 
+} endif;
+function thumbnail_by_yurets($post) {
+	if ( has_post_thumbnail( $post->ID ) ) { // есть изображение записи
+		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '">'.get_the_post_thumbnail( $post->ID, 'mainpage_thumbnail' ).'</a>';
+	}
+	else if (get_first_content_image_id($post) > 0) { // первое изображение из текста
+		$img = get_first_content_image_id($post);
+		$url = wp_get_attachment_image_url($img, 'mainpage_thumbnail', false);
+		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';
+	}
+	else { // вообще нет ни одной фотки - заглушка
+		$upload_dir = wp_upload_dir();
+		$url = $upload_dir['baseurl'].'/2017/07/no_photo.jpg';
+		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';;
+	}
+	return $img;
+}
 ?>

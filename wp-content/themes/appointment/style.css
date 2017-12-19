@@ -1910,7 +1910,7 @@ div.coffee, div.ftr-white {
 div.footer-autohouse {
     text-align: center;
 }
-.footer-section #primary-coffee a {
+#primary-coffee a {
     color: #333;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -1968,25 +1968,7 @@ div.menu-autohouse-container ul li a:hover {
     border-bottom: 3px solid #00aeff;
 
 }
-span.mainpage_title_header {
-    padding: 15px;
-    background-color: #db2723;
-    opacity: 0.85;
-    position: absolute;
-    top: 20px;
-    left: 17px;
-    overflow: auto;
-    width: 350px;
-}
-span.mainpage_title_header a:link, span.mainpage_title_header a:visited {
-    color: #fff;
-}
-span.mainpage_title_header a:hover {
-    color: #f4b2a9 !important;
-}
-div.blog-post-sm {
-    text-align: center;
-}
+
 div.excerpt {
     padding: 10px;
 }
