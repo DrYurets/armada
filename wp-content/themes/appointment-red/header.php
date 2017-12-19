@@ -12,8 +12,7 @@
             <link rel="shortcut icon" href="<?php  echo $header_setting['upload_image_favicon']; ?>" />
 		<?php } ?>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
@@ -53,9 +52,9 @@
             </button>
         </div>
         <ul class="head-contact-social">
-            <li class="facebook"><a href="https://fb.com/armadaauto" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li class="linkedin"><a href="https://vk.com/armadaauto" target="_blank"><i class="fa fa-vk"></i></a></li>
-            <li class="googleplus"><a href="https://instagram.com/armadaauto" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li class="facebook"><a href="https://fb.com/armadaauto" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="linkedin"><a href="https://vk.com/armadaauto" target="_blank"><i class="fab fa-vk"></i></a></li>
+            <li class="googleplus"><a href="https://instagram.com/armadaauto" target="_blank"><i class="fab fa-instagram"></i></a></li>
         </ul>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
