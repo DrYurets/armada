@@ -709,7 +709,7 @@ $_old_files = array(
 // 4.8
 'wp-includes/js/tinymce/plugins/wpembed',
 'wp-includes/js/tinymce/plugins/media/moxieplayer.swf',
-'wp-includes/js/tinymce/skins/lightgray/fonts/readme.md',
+'wp-includes/js/tinymce/skins/lightgray/fonts/readme.txt',
 'wp-includes/js/tinymce/skins/lightgray/fonts/tinymce-small.json',
 'wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.json',
 'wp-includes/js/tinymce/skins/lightgray/skin.ie7.min.css',

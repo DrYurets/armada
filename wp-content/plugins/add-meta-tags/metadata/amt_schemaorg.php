@@ -1543,10 +1543,9 @@ function amt_get_schemaorg_author_metatags( $author_id, $options ) {
         $image_size = apply_filters( 'amt_image_size_index', 'full' );
         $image_meta_tags = amt_get_schemaorg_image_metatags( $options, $image_data, $size=$image_size );
         if ( ! empty($image_meta_tags) ) {
-            $metadata_arr[] = '<!-- Scope BEGIN: ImageObject -->';
             $metadata_arr[] = '<span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">';
             $metadata_arr = array_merge( $metadata_arr, $image_meta_tags );
-            $metadata_arr[] = '</span> <!-- Scope END: ImageObject -->';
+            $metadata_arr[] = '</span>';
         }
     } else {
         $author_email = sanitize_email( get_the_author_meta('user_email', $author_id) );
@@ -1571,10 +1570,9 @@ function amt_get_schemaorg_author_metatags( $author_id, $options ) {
                 $image_size = apply_filters( 'amt_image_size_index', 'full' );
                 $image_meta_tags = amt_get_schemaorg_image_metatags( $options, $image_data, $size=$image_size );
                 if ( ! empty($image_meta_tags) ) {
-                    $metadata_arr[] = '<!-- Scope BEGIN: ImageObject -->';
                     $metadata_arr[] = '<span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">';
                     $metadata_arr = array_merge( $metadata_arr, $image_meta_tags );
-                    $metadata_arr[] = '</span> <!-- Scope END: ImageObject -->';
+                    $metadata_arr[] = '</span>';
                 }
             }
         }
@@ -1625,14 +1623,12 @@ function amt_add_schemaorg_metadata_comment_filter( $comment_text ) {
     $options = amt_get_options();
 
     if ( $options["omit_vendor_html_comments"] == "0" ) {
-        $metadata_arr[] = '<!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->';
+        $metadata_arr[] = '';
     }
 
-    $metadata_arr[] = '<!-- Scope BEGIN: UserComments -->';
     $metadata_arr[] = '<div itemprop="comment" itemscope itemtype="http://schema.org/UserComments">';
 
     // Comment Author
-    $metadata_arr[] = '<!-- Scope BEGIN: Person -->';
     $metadata_arr[] = '<span itemprop="creator" itemscope itemtype="http://schema.org/Person"' . amt_get_schemaorg_itemref('person_commenter') . '>';
     // name
     $metadata_arr[] = '<meta itemprop="name" content="' . esc_attr( $comment->comment_author ) . '" />';
@@ -1660,7 +1656,7 @@ function amt_add_schemaorg_metadata_comment_filter( $comment_text ) {
     $metadata_arr[] = '</div> <!-- Scope END: UserComments -->';
 
     if ( $options["omit_vendor_html_comments"] == "0" ) {
-        $metadata_arr[] = '<!-- END Metadata added by the Add-Meta-Tags WordPress plugin -->';
+        $metadata_arr[] = '';
     }
 
     // Allow filtering of the generated metadata
