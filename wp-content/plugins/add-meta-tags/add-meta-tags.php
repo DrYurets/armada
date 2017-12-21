@@ -355,13 +355,13 @@ function amt_add_metadata_head() {
     }
     // For AMT timings
     if ( ! empty($metadata_arr) && $options['enable_timings'] == '1' ) {
-        array_unshift( $metadata_arr, sprintf( '<!-- Add-Meta-Tags Timings (milliseconds) - Block total time: %.3f msec - Cached: %s -->', (microtime(true) - $t) * 1000, $is_cached ) );
+        array_unshift( $metadata_arr, sprintf( '<!--  Timings (milliseconds) - Block total time: %.3f msec - Cached: %s -->', (microtime(true) - $t) * 1000, $is_cached ) );
     }
     // Add our comment
     if ( $options["omit_vendor_html_comments"] == "0" ) {
         if ( count( $metadata_arr ) > 0 ) {
-            array_unshift( $metadata_arr, "<!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->" );
-            array_push( $metadata_arr, "<!-- END Metadata added by the Add-Meta-Tags WordPress plugin -->" );
+            array_unshift( $metadata_arr, "" );
+            array_push( $metadata_arr, "" );
         }
     }
     // Return complete metadata array
@@ -486,8 +486,8 @@ function amt_add_metadata_footer() {
     // Add our comment
     if ( $options["omit_vendor_html_comments"] == "0" ) {
         if ( count( $metadata_arr ) > 0 ) {
-            array_unshift( $metadata_arr, "<!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->" );
-            array_push( $metadata_arr, "<!-- END Metadata added by the Add-Meta-Tags WordPress plugin -->" );
+            array_unshift( $metadata_arr, "" );
+            array_push( $metadata_arr, "" );
         }
     }
     // Return complete metadata array

@@ -28,6 +28,4 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 
 
 
-
-
 ?>

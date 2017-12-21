@@ -26,7 +26,8 @@
 			<?php
 				$cat_id = array();
 				$cat_id = $news_setting['blog_selected_category_id'];
-				$no_of_post = $news_setting['post_display_count'];
+				//$no_of_post = $news_setting['post_display_count'];
+				$no_of_post = 9; // yurets
 				$args = array( 'post_type' => 'post','ignore_sticky_posts' => 1 , 'category__in' => $cat_id, 'posts_per_page' => $no_of_post);
 				$news_query = new WP_Query($args);
 				$i=1;

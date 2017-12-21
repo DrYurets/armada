@@ -5,7 +5,7 @@
 					if($news_setting['home_meta_section_settings'] == '' ) { ?>
                         <div class="blog-post-sm">
                             <div class="mainpage-thumbnail">
-		                        <?php echo thumbnail_by_yurets($post); ?>
+		                        <?php echo thumbnail_by_yurets($post, 'mainpage_thumbnail'); ?>
                             </div>
                             <div class="mainpage_title_header">
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>

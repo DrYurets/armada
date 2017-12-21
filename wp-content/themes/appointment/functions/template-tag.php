@@ -45,20 +45,18 @@ function appointment_post_layout_class(){
 	else 
 		{ echo 'col-md-12'; }  
 } endif;
-function thumbnail_by_yurets($post) {
-    if (is_front_page()) $size = 'mainpage_thumbnail';
-    else $size = 'medium';
-	if ( has_post_thumbnail( $post->ID ) ) { // есть изображение записи
+
+function thumbnail_by_yurets($post, $size='mainpage_thumbnail') {
+    if ( has_post_thumbnail( $post->ID ) ) {
 		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '">'.get_the_post_thumbnail( $post->ID, $size ).'</a>';
 	}
-	else if (get_first_content_image_id($post) > 0) { // первое изображение из текста
+	else if (get_first_content_image_id($post) > 0) {
 		$img = get_first_content_image_id($post);
 		$url = wp_get_attachment_image_url($img, $size, false);
 		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';
 	}
-	else { // вообще нет ни одной фотки - заглушка
-		$upload_dir = wp_upload_dir();
-		$url = $upload_dir['baseurl'].'/2017/07/no_photo.jpg';
+	else {
+		$url = wp_get_attachment_image_url(256, $size, false);
 		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';;
 	}
 	return $img;
