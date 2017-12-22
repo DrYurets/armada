@@ -12,8 +12,8 @@ get_template_part('index','banner'); ?>
                                 while(have_posts()) {
                                 the_post();
                                 get_template_part('content_single',''); ?>
-                                            <div class="comment-title"></div>
-                                            <?php } comments_template('',true);  } ?>
+                                <div class="comment-title"></div>
+                                <?php } comments_template('',true);  } ?>
 				</div>
             </div>
             <div class="col-md-3">
@@ -69,5 +69,4 @@ get_template_part('index','banner'); ?>
             </div>
         </div>
     </div>
-
 <?php get_footer(); ?>

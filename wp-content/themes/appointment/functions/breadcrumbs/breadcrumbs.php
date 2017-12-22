@@ -21,8 +21,8 @@ function qt_custom_breadcrumbs() {
  
     if ( is_category() ) {
       $thisCat = get_category(get_query_var('cat'), false);
-      if ($thisCat->parent != 0) echo get_category_parents($thisCat->parent, TRUE, ' ' . ' ');
-      echo $before . 'Публикации "' . single_cat_title('', false) . '"' . $after;
+      if ($thisCat->parent != 0) echo get_category_parents($thisCat->parent, TRUE, ' / ' . ' ');
+      echo $before . '&nbsp; ' . single_cat_title('', false) . $after;
  
     } elseif ( is_search() ) {
       echo $before . 'Search results for "' . get_search_query() . '"' . $after;
