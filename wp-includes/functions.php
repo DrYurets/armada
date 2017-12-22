@@ -5848,9 +5848,23 @@ All at ###SITENAME###
 		);
 		register_sidebar( $args );
 	}
+	function start_footer_sidebar() {
+		$args = array(
+			'id'            => 'sidebar-footer',
+			'name'          => __( 'Footer', 'striped' ),
+			'description'   => __( 'Сайдбар в футере', 'striped' ),
+			'class'         => 'striped-widget footer',
+			'before_title'  => '<header><h2 class="widgettitle">',
+			'after_title'   => '</h2></header>',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+		);
+		register_sidebar( $args );
+	}
 // Хук для функции 'widgets_init'
 	add_action( 'widgets_init', 'start_armtek_sidebar' );
 	add_action( 'widgets_init', 'start_coffee_sidebar' );
+	add_action( 'widgets_init', 'start_footer_sidebar' );
 	add_action( 'widgets_init', 'start_auto_sidebar' );
 
 
@@ -5858,7 +5872,8 @@ All at ###SITENAME###
 		register_nav_menus(
 			array(
 				'top' => __( 'Топ' ),
-				'autohaus' => __( 'Автохаус' )
+				'autohaus' => __( 'Автохаус' ),
+                'footer_menu' => __( 'Футер' )
 			)
 		);
 	}

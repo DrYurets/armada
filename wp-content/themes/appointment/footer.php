@@ -1,7 +1,13 @@
 <?php
 $appointment_options=theme_setup_data();
+$ftr_img = get_header_image();
+
+
 $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
- if (is_front_page() && is_active_sidebar( 'sidebar-armtek' ) ) { ?>
+    /*echo '<pre>';
+    print_r($footer_setting);
+    echo '</pre>';*/
+	if (is_front_page() && is_active_sidebar( 'sidebar-armtek' ) ) { ?>
 <div class="footer-section ftr-white">
             <div class="col-md-6 armtek">
                 <div id="primary-armtek" class="primary-sidebar widget-area armtek" role="complementary">
@@ -46,28 +52,42 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
 <div class="clearfix"></div>
 <div class="footer-copyright-section">
 	<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer_logo">
+                    <a href="/"><img src="<?php echo $footer_setting['upload_image_logo']; ?>" height="<?php echo $footer_setting['height']; ?>" width="<?php echo $footer_setting['width']; ?>" alt="<?php echo $footer_setting['footer_copyright_text']; ?>" /></a>
+                </div>
+            </div>
+        </div>
+
 		<div class="row">
-			<div class="col-md-8">
-				<div class="footer-copyright">
-					<?php if( $footer_setting['footer_menu_bar_enabled'] == 0) { ?>
-					<?php echo $footer_setting[ 'footer_copyright_text']; ?>
-					</a>
-					<?php } // end if ?>
-				</div>
-			</div>
-				<?php if($footer_setting['footer_social_media_enabled'] == 0 ) {
-			    $footer_facebook = $footer_setting['footer_social_media_facebook_link'];
-				$footer_googleplus = $footer_setting['footer_social_media_googleplus_link'];
-				?>
-			<div class="col-md-4">
-			<ul class="footer-contact-social">
-					<?php if($footer_setting['footer_social_media_facebook_link']!='') { ?>
-					<li class="facebook"><a href="<?php echo esc_url($footer_facebook); ?>" <?php if($footer_setting['footer_facebook_media_enabled']==1){ echo "target='_blank'"; } ?> ><i class="fab fa-facebook"></i></a></li>
-					<?php } if($footer_setting['footer_social_media_googleplus_link']!='') { ?>
-					<li class="googleplus"><a href="<?php echo esc_url($footer_googleplus); ?>" <?php if($footer_setting['footer_googleplus_media_enabled']==1){ echo "target='_blank'"; } }?><i class="fab fa-google"></i></a></li>
-				</ul>
-			</div>
-			<?php } ?>
+            <div class="col-md-4 col-md-offset-1">
+                <p>Навигация</p>
+				<?php   if (is_active_sidebar('sidebar-footer')) { ?>
+                    <div id="primary-footer" class="primary-sidebar widget-area" role="complementary">
+						<?php dynamic_sidebar( 'sidebar-footer' ); ?>
+                    </div>
+				<?php }	?>
+            </div>
+            <div class="col-md-4">
+                <p>Полезные ссылки</p>
+                    <ul class="useful_links">
+                        <li><a href="#">Регистрация транспорта</a></li>
+                        <li><a href="#">График работы МРЭО ГАИ</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Рекламодателям</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+            </div>
+            <div class="col-md-3">
+                <p>Дружите с нами</p>
+                <ul class="footer-contact-social">
+                    <li class="facebook"><a href="https://fb.com/armadaauto" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="linkedin"><a href="https://vk.com/armadaauto" target="_blank"><i class="fab fa-vk"></i></a></li>
+                    <li class="googleplus"><a href="https://instagram.com/armadaauto" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
 		</div>
 	</div>
 </div>

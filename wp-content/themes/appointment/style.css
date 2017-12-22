@@ -1897,7 +1897,7 @@ div#primary-armtek li {
     padding: 15px;
 }
 .armtek .rpwwt-post-title {
-    color: #6f1c00;
+    color: #a91e1e;
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 18px;
@@ -1984,6 +1984,34 @@ div.blog-post-sm div.mainpage-thumbnail a {
 div.mainpage_title_header {
     padding: 10px 5px 0px 5px;
 }
-div.mainpage_title_header h3 {
+div.mainpage_title_header h3 a {
     margin: 0px;
+    color: #a91e1e;
+}
+div.footer_logo {
+    text-align: center;
+    padding: 6rem 0 4rem;
+}
+div#primary-footer ul, ul.useful_links {
+    list-style: outside none none;
+}
+div.footer-copyright-section {
+    font-size: 1.4rem;
+    padding: 0;
+    border-top: 4px #db2723 solid;
+}
+div.footer-copyright-section ul#menu-topmenu-1, ul.useful_links {
+    padding: 15px 0 0;
+}
+div.footer-copyright-section p, .footer-copyright h4 {
+    margin: 0px;
+    font-weight: bolder;
+    color: #db2723;
+}
+div.footer-copyright-section ul.footer-contact-social, ul.useful_links {
+    margin: 0px;
+    float: none;
+}
+div.footer-copyright-section .clearfix {
+    padding-bottom: 6rem;
 }
