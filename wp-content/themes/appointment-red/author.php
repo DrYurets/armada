@@ -17,7 +17,14 @@
 		</div>	
 	</div>
 </div>
-<div class="page-builder">
+    <div class="container page-author">
+        <div class="row">
+            <div class="blog-author">
+                <?php include('author-info.php'); ?>
+            </div>
+        </div>
+    </div>
+
 	<div class="container">
 		<div class="row">
 			<div class="<?php appointment_post_layout_class(); ?>" >
