@@ -22,15 +22,30 @@ get_template_part('index','banner'); ?>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+    <div class="page-title-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="page-title"><h1>Другие публикации <?php the_author(); ?></h1></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-builder">
+        <div class="container">
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 coffee">
+            <div class="col-md-12 coffee">
                     <div id="primary-coffee" class="primary-sidebar widget-area coffee" role="complementary">
 	                    <?php
-		                    $query_news = new WP_Query('post__not_in[]='.$post->ID.'&author='.get_the_author_meta( 'ID' ).'&post_type=post&showposts=5');
+		                    $query_news = new WP_Query('post__not_in[]='.$post->ID.'&author='.get_the_author_meta( 'ID' ).'&post_type=post&showposts=4');
                             $i = 0;
 		                    while($query_news->have_posts()) { $query_news->the_post();
 			                    ?>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="blog-post-sm">
                                         <div class="thumbnail">
 			                                <?php echo thumbnail_by_yurets($post, 'thumbnail'); ?>
@@ -45,7 +60,7 @@ get_template_part('index','banner'); ?>
                                 </div>
 		                    <?php
 			                    $i++;
-                                if ($i==3) {
+                                if ($i==4) {
 	                                echo '<div class="clearfix"></div>';
                                     $i=0;
                                 }
