@@ -1996,7 +1996,7 @@ div.footer_logo {
     text-align: center;
     padding: 6rem 0 4rem;
 }
-div#primary-footer ul, ul.useful_links {
+ul#menu-footer_menu, ul.useful_links {
     list-style: outside none none;
 }
 div.footer-copyright-section {
@@ -2004,7 +2004,7 @@ div.footer-copyright-section {
     padding: 0;
     border-top: 4px #db2723 solid;
 }
-div.footer-copyright-section ul#menu-topmenu-1,
+ul#menu-footer_menu,
 ul.useful_links {
     padding: 15px 0 0;
 }
