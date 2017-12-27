@@ -21,7 +21,7 @@
                             <div class="container slide-caption">
                                 <div class="slide-text-bg1"><h2>Крупнейший в Могилеве</h2></div>
                                 <div class="slide-text-bg2"><span>Два огромных этажа: более 130 магазинов различной автомобильной направленности под одной крышей! Автозапчасти, аксессуары, автохимия и многое другое.</span></div>
-                                <div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm">План Торгового Центра</a></div>
+                                <div class="slide-btn-area-sm"><a href="/1st" class="slide-btn-sm">План Торгового Центра</a></div>
                             </div>
                         </div>
                         <div class="item">
