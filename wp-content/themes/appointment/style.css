@@ -1966,7 +1966,6 @@ div.menu-autohouse-container ul li a:hover {
     letter-spacing: 0px;
     line-height: 27px;
     border-bottom: 3px solid #00aeff;
-
 }
 
 div.excerpt {
@@ -1980,6 +1979,11 @@ div.blog-post-sm div.mainpage-thumbnail {
 }
 div.blog-post-sm div.mainpage-thumbnail a {
     padding: 0px;
+}
+div.mainpage-thumbnail a:hover img,
+div.rpwwt-widget li a:hover img,
+div#primary-coffee div.thumbnail a:hover img {
+    opacity: 0.9;
 }
 div.mainpage_title_header {
     padding: 10px 5px 0px 5px;
@@ -2000,15 +2004,18 @@ div.footer-copyright-section {
     padding: 0;
     border-top: 4px #db2723 solid;
 }
-div.footer-copyright-section ul#menu-topmenu-1, ul.useful_links {
+div.footer-copyright-section ul#menu-topmenu-1,
+ul.useful_links {
     padding: 15px 0 0;
 }
-div.footer-copyright-section p, .footer-copyright h4 {
+div.footer-copyright-section p,
+.footer-copyright h4 {
     margin: 0px;
     font-weight: bolder;
     color: #db2723;
 }
-div.footer-copyright-section ul.footer-contact-social, ul.useful_links {
+div.footer-copyright-section ul.footer-contact-social,
+ul.useful_links {
     margin: 0px;
     float: none;
 }
