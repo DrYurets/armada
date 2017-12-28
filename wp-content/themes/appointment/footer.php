@@ -1,12 +1,7 @@
 <?php
 $appointment_options=theme_setup_data();
 $ftr_img = get_header_image();
-
-
 $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
-    /*echo '<pre>';
-    print_r($footer_setting);
-    echo '</pre>';*/
 	if (is_front_page() && is_active_sidebar( 'sidebar-armtek' ) ) { ?>
 <div class="footer-section ftr-white">
             <div class="col-md-6 armtek">

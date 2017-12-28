@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> >
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="ru-RU" >
 <head>
-	<meta charset="<?php bloginfo('charset'); ?>">
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php 
 	$appointment_options=theme_setup_data(); 
 	$header_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options);
-	if($header_setting['upload_image_favicon']!=''){ ?>
+	?>
 	<link rel="shortcut icon" href="<?php  echo $header_setting['upload_image_favicon']; ?>" /> 
-	<?php } ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
 	</head>
