@@ -1,7 +1,8 @@
 
- ### v2.2.1 - 2017-11-16 
+ ### v2.2.2 - 2018-01-05 
  **Changes:** 
- * Adds compatibility with WordPress 4.9.
+ * Improves compatibility with latest WordPress version.
+* Sync ThemeIsle SDK.
  
  ### v2.2.1 - 2017-11-13 
  **Changes:** 

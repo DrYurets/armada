@@ -1,8 +1,8 @@
 === Slider by Nivo - Responsive WordPress Image Slider ===
 Contributors: themeisle, codeinwp, nivoslider
-Tags: image, slider, nivo,slider plugin, slideshow, slideshow plugin, template tag, wordpress gallery, wordpress image slider, wordpress photo gallery, wordpress picture gallery, wordpress picture slider, wordpress responsive slider, wordpress slider, wordpress slider plugin, wordpress slideshow, wp slider
+Tags: slider, nivo,slider plugin, slideshow, slideshow plugin, template tag, wordpress gallery, wordpress image slider, wordpress photo gallery
 Requires at least: 3.0
-Tested up to: 4.8
+Tested up to: 4.9
 Stable tag: trunk
 License: GPLv3
 
@@ -68,6 +68,12 @@ Purchasing a license gets you access to the full version of the Nivo Slider Word
 4. The final result
 
 == Changelog ==
+= 2.1.1 - 2018-01-05  = 
+
+* Adds compatibility with latest WordPress standards.
+* Sync ThemeIsle SDK.
+
+
 = 2.1.0 - 2017-06-26  = 
 
 * Added carousel compatibility

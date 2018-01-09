@@ -3,7 +3,7 @@ Contributors: vasyltech
 Tags: access, role, user, capability, page access, post access, comments, security, login redirect, brute force attack, double authentication, membership, backend lockdown, wp-admin, 404, activity tracking
 Requires at least: 3.8
 Tested up to: 4.9.1
-Stable tag: 5.0.3
+Stable tag: 5.0.4
 
 The most powerful access management plugin for WordPress websites.
 
@@ -59,6 +59,14 @@ https://www.youtube.com/watch?v=yiOhjaacNJc
 11. Improve your website security
 
 == Changelog ==
+
+= 5.0.4 =
+* Fixed bug with caching. Significantly improved speed.
+* Fixed incompatibility issue with websites that have corrupted role list.
+* Fixed bug with role expiration timer when "Manage Backend Access" option is off.
+* Fixed incompatibility issue with plugins that use "the_title" filter.
+* Fixed bug with extension status
+* Removed registration step during plugin activation.
 
 = 5.0.3 =
 * Fixed bug with LIST option
