@@ -1,5 +1,6 @@
 <?php
 /*
+ * Yurets MOD
 Plugin Name: Recent Posts Widget With Thumbnails
 Plugin URI:  http://wordpress.org/plugins/recent-posts-widget-with-thumbnails/
 Description: Small and fast plugin to display in the sidebar a list of linked titles and thumbnails of the most recent postings
@@ -947,7 +948,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		// return sizes
 		return array( $width, $height );
 	}
-	
+
 }
 
 /**

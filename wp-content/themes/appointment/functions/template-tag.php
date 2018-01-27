@@ -46,7 +46,7 @@ function appointment_post_layout_class(){
 		{ echo 'col-md-12'; }  
 } endif;
 
-function thumbnail_by_yurets($post, $size='mainpage_thumbnail') {
+function thumbnail_by_yurets($post, $size='mainpage_thumbnail') { // Yurets mod
     if ( has_post_thumbnail( $post->ID ) ) {
 		$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '">'.get_the_post_thumbnail( $post->ID, $size ).'</a>';
 	}
