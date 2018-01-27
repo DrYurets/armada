@@ -2539,9 +2539,6 @@ function get_avatar( $id_or_email, $size = 96, $default = '', $alt = '', $args =
 		(int) $args['width'],
 		$args['extra_attr']
 	);
-	//echo '<pre>';
-	return $avatar;
-	//echo '</pre>';
 
 	/**
 	 * Filters the avatar to retrieve.

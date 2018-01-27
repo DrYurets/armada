@@ -2449,6 +2449,7 @@ function wp_get_mime_types() {
 	'ra|ram' => 'audio/x-realaudio',
 	'wav' => 'audio/wav',
 	'ogg|oga' => 'audio/ogg',
+	'flac' => 'audio/flac',
 	'mid|midi' => 'audio/midi',
 	'wma' => 'audio/x-ms-wma',
 	'wax' => 'audio/x-ms-wax',
@@ -2534,7 +2535,7 @@ function wp_get_ext_types() {
 	 */
 	return apply_filters( 'ext2type', array(
 		'image'       => array( 'jpg', 'jpeg', 'jpe',  'gif',  'png',  'bmp',   'tif',  'tiff', 'ico' ),
-		'audio'       => array( 'aac', 'ac3',  'aif',  'aiff', 'm3a',  'm4a',   'm4b',  'mka',  'mp1',  'mp2',  'mp3', 'ogg', 'oga', 'ram', 'wav', 'wma' ),
+		'audio'       => array( 'aac', 'ac3',  'aif',  'aiff', 'flac', 'm3a',  'm4a',   'm4b',  'mka',  'mp1',  'mp2',  'mp3', 'ogg', 'oga', 'ram', 'wav', 'wma' ),
 		'video'       => array( '3g2',  '3gp', '3gpp', 'asf', 'avi',  'divx', 'dv',   'flv',  'm4v',   'mkv',  'mov',  'mp4',  'mpeg', 'mpg', 'mpv', 'ogm', 'ogv', 'qt',  'rm', 'vob', 'wmv' ),
 		'document'    => array( 'doc', 'docx', 'docm', 'dotm', 'odt',  'pages', 'pdf',  'xps',  'oxps', 'rtf',  'wp', 'wpd', 'psd', 'xcf' ),
 		'spreadsheet' => array( 'numbers',     'ods',  'xls',  'xlsx', 'xlsm',  'xlsb' ),
@@ -5808,73 +5809,3 @@ All at ###SITENAME###
 		$site_name
 	), $email_change_email['message'], $email_change_email['headers'] );
 }
-
-	function start_armtek_sidebar() {
-		$args = array(
-			'id'            => 'sidebar-armtek',
-			'name'          => __( 'Armtek Sidebar', 'striped' ),
-			'description'   => __( 'Новости компании Армтек', 'striped' ),
-			'class'         => 'striped-widget armtek',
-			'before_title'  => '<header><h2 class="widgettitle">',
-			'after_title'   => '</h2></header>',
-			'before_widget' => '<div id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</div>',
-		);
-		register_sidebar( $args );
-	}
-	function start_coffee_sidebar() {
-		$args = array(
-			'id'            => 'sidebar-coffee',
-			'name'          => __( 'COFFEE', 'striped' ),
-			'description'   => __( 'sidebar-coffee', 'striped' ),
-			'class'         => 'striped-widget coffee',
-			'before_title'  => '<header><h2 class="widgettitle">',
-			'after_title'   => '</h2></header>',
-			'before_widget' => '<div id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</div>',
-		);
-		register_sidebar( $args );
-	}
-	function start_auto_sidebar() {
-		$args = array(
-			'id'            => 'sidebar-auto',
-			'name'          => __( 'Автосалон', 'striped' ),
-			'description'   => __( 'Автосалон Армада', 'striped' ),
-			'class'         => 'striped-widget autohouse',
-			'before_title'  => '<header><h2 class="widgettitle">',
-			'after_title'   => '</h2></header>',
-			'before_widget' => '<div id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</div>',
-		);
-		register_sidebar( $args );
-	}
-	function start_footer_sidebar() {
-		$args = array(
-			'id'            => 'sidebar-footer',
-			'name'          => __( 'Footer', 'striped' ),
-			'description'   => __( 'Сайдбар в футере', 'striped' ),
-			'class'         => 'striped-widget footer',
-			'before_title'  => '<header><h2 class="widgettitle">',
-			'after_title'   => '</h2></header>',
-			'before_widget' => '<div id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</div>',
-		);
-		register_sidebar( $args );
-	}
-// Хук для функции 'widgets_init'
-	add_action( 'widgets_init', 'start_armtek_sidebar' );
-	add_action( 'widgets_init', 'start_coffee_sidebar' );
-	add_action( 'widgets_init', 'start_footer_sidebar' );
-	add_action( 'widgets_init', 'start_auto_sidebar' );
-
-
-	function register_my_menus() {
-		register_nav_menus(
-			array(
-				'top' => __( 'Топ' ),
-				'autohaus' => __( 'Автохаус' ),
-                'footer_menu' => __( 'Футер' )
-			)
-		);
-	}
-	add_action( 'init', 'register_my_menus' );
