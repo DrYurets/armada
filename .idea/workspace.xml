@@ -1,95 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="коррекция после обновления">
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2017/07/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2017/10/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/.gitignore" afterDir="false" />
+    <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/appointment-red/theme_setup_data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/readme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/common-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/common-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/common-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/common-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/common.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/common.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/update-core.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/update-core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/editor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/editor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/plugin-install.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/plugin-install.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/plugin-install.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/plugin-install.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/widgets/custom-html-widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/widgets/custom-html-widgets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/widgets/custom-html-widgets.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/widgets/custom-html-widgets.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/theme-install.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/theme-install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config-sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config-sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/inc/pis-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/inc/pis-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/inc/pis-main.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/inc/pis-main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/inc/pis-shortcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/inc/pis-shortcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/inc/pis-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/inc/pis-widget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/languages/posts-in-sidebar.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/languages/posts-in-sidebar.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/posts-in-sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/posts-in-sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/posts-in-sidebar/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/dist/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/dist/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/includes/class-regeneratethumbnails-regenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/includes/class-regeneratethumbnails-regenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/includes/class-regeneratethumbnails-rest-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/includes/class-regeneratethumbnails-rest-controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/regenerate-thumbnails.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/regenerate-thumbnails.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/category-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/category-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-themes-section.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-themes-section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/default-filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/default-filters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/formatting.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/images/crystal/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/images/crystal/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/codemirror/csslint.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/codemirror/csslint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mce-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/mce-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mce-view.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/mce-view.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/mediaelement-flash-audio-ogg.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/mediaelement-flash-audio.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/mediaelement-flash-video-hls.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/mediaelement-flash-video-mdash.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/mediaelement-flash-video.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/renderers/dailymotion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/renderers/dailymotion.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/renderers/facebook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/renderers/facebook.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/renderers/soundcloud.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/renderers/soundcloud.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/renderers/twitch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/renderers/twitch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/pluggable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/pluggable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/post-thumbnail-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/post-thumbnail-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_com_dotnet.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_com_dotnet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_dev_urandom.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_dev_urandom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_libsodium.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_libsodium.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_libsodium_legacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_libsodium_legacy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_mcrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_mcrypt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_openssl.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/random_compat/random_bytes_openssl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/random_compat/random_int.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/random_compat/random_int.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/class-wp-rest-server.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/class-wp-rest-server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/version.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/widgets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/wp-db.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/wp-db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/mainpagenews.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment/mainpagenews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/theme_setup_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment/theme_setup_data.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,13 +32,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="543" column="44" lean-forward="true" selection-start-line="543" selection-start-column="44" selection-end-line="543" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-tag.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>yurets</find>
       <find>get_first_content_image_id</find>
       <find>armtek</find>
+      <find>.entry-pic</find>
+      <find>.blog-btn-a</find>
+      <find>.blog-btn-area-sm</find>
+      <find>appointment_setup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,9 +67,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php" />
         <option value="$PROJECT_DIR$/wp-includes/post-thumbnail-template.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/_tc/wp-includes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/appointment/mainpagenews.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/appointment/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/appointment/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/appointment-red/theme_setup_data.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/appointment/theme_setup_data.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php" />
       </list>
     </option>
@@ -130,10 +87,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
-    <option name="y" value="-8" />
+    <option name="x" value="138" />
     <option name="width" value="1241" />
-    <option name="height" value="784" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -142,49 +98,17 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="arm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arm" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="appointment" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="arm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="appointment-red" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="yurets&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon_new\www\arm\wp-content\themes\appointment-red" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +123,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Yurets\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -208,39 +132,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517049455466</updated>
-      <workItem from="1517049500403" duration="4379000" />
+      <workItem from="1517049500403" duration="7278000" />
+      <workItem from="1517133879772" duration="7054000" />
+      <workItem from="1517207527567" duration="1890000" />
+      <workItem from="1517291730599" duration="605000" />
+      <workItem from="1517398891530" duration="1046000" />
     </task>
+    <task id="LOCAL-00001" summary="коррекция после обновления">
+      <created>1517054746230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517054746230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5298000" />
+    <option name="totallyTimeSpent" value="18792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="-8" width="1241" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.254022" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2624894" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3296" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012701" side_tool="true" weight="0.5136" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49872988" weight="0.5136" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49872988" weight="0.5216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3296" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -272,10 +219,75 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="коррекция после обновления" />
     <option name="LAST_COMMIT_MESSAGE" value="коррекция после обновления" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38029">
+          <caret line="2236" column="48" selection-start-line="2236" selection-start-column="48" selection-end-line="2236" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/mainpagenews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38029">
+          <caret line="2236" column="48" selection-start-line="2236" selection-start-column="48" selection-end-line="2236" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/mainpagenews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38029">
+          <caret line="2236" column="48" selection-start-line="2236" selection-start-column="48" selection-end-line="2236" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/mainpagenews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/license.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -293,21 +305,10 @@
         <state relative-caret-position="-2431" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2652" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/default_thumb.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/media.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="3454" column="22" selection-start-line="3454" selection-start-column="22" selection-end-line="3454" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#br#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -315,16 +316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="703" column="36" selection-start-line="703" selection-start-column="36" selection-end-line="703" selection-end-column="36" />
-          <folding>
-            <element signature="e#6#511#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -335,31 +326,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_tc/wp-includes/post-thumbnail-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="301" column="5" lean-forward="true" selection-start-line="256" selection-start-column="4" selection-end-line="301" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/_tc/wp-includes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="5879" column="46" lean-forward="true" selection-start-line="5809" selection-start-column="1" selection-end-line="5879" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_tc/wp-includes/post-thumbnail-template.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_tc/wp-includes/functions.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="61" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="82" column="97" lean-forward="true" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/theme_setup_data.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/theme_setup_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1051">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="355" column="37" lean-forward="true" selection-start-line="355" selection-start-column="37" selection-end-line="355" selection-end-column="37" />
+          <folding>
+            <element signature="e#6#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/mainpagenews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="543" column="44" lean-forward="true" selection-start-line="543" selection-start-column="44" selection-end-line="543" selection-end-column="44" />
         </state>
       </provider>
     </entry>
