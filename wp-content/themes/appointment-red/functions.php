@@ -370,15 +370,15 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 		} endif;
 
 	function thumbnail_by_yurets($post, $size='mainpage_thumbnail') { // Yurets mod
-		if ( has_post_thumbnail( $post->ID ) ) {
+		if ( has_post_thumbnail( $post->ID ) ) { // указано изображение записи
 			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '">'.get_the_post_thumbnail( $post->ID, $size ).'</a>';
 		}
-		else if (get_first_content_image_id($post) > 0) {
+		else if (get_first_content_image_id($post) > 0) { // есть первая картинка вместо изображения записи
 			$img = get_first_content_image_id($post);
 			$url = wp_get_attachment_image_url($img, $size, false);
 			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';
 		}
-		else {
+		else { // вообще нет изображений TODO: картинка по умолчанию
 			$url = wp_get_attachment_image_url(256, $size, false);
 			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';;
 		}
