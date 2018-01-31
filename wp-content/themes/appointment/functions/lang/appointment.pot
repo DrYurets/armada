@@ -1,16 +1,16 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
 "Project-Id-Version: Appointment\n"
-"POT-Creation-Date: 2017-07-06 11:54+0530\n"
-"PO-Revision-Date: 2017-07-06 11:54+0530\n"
+"POT-Creation-Date: 2018-01-31 12:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Loco - https://localise.biz/\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -20,6 +20,7 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
+"Language: "
 
 #: 404.php:9
 msgid "Error 404"
@@ -149,6 +150,7 @@ msgstr ""
 
 #: content.php:12 functions.php:115 functions.php:132 index-slider.php:25
 #: index-slider.php:33 index-slider.php:41
+msgctxt "Читать далее"
 msgid "Read More"
 msgstr ""
 
@@ -181,13 +183,12 @@ msgstr ""
 
 #: functions.php:146
 msgid ""
-"Click the large blue button to start the dummy data import process.</br></"
-"br>Please be patient while WordPress imports all the content.</br></br>\n"
+"Click the large blue button to start the dummy data import process.</br></br>"
+"Please be patient while WordPress imports all the content.</br></br>\n"
 "\t\t\t<h3>Recommended Plugins</h3> Appointment theme supports the following "
-"plugins:</br> </br><li> <a href=\"https://wordpress.org/plugins/contact-"
-"form-7/\"> Contact form 7</a> </l1> </br></br> <li> <a href=\"https://"
-"wordpress.org/plugins/bootstrap-3-shortcodes/\"> Bootstrap Shortcodes</a> </"
-"l1>"
+"plugins:</br> </br><li> <a href=\"https://wordpress.org/plugins/contact-form-"
+"7/\"> Contact form 7</a> </l1> </br></br> <li> <a href=\"https://wordpress."
+"org/plugins/bootstrap-3-shortcodes/\"> Bootstrap Shortcodes</a> </l1>"
 msgstr ""
 
 #: functions/appointment-info/sections/actions-required.php:13
@@ -614,9 +615,9 @@ msgstr ""
 #: functions/appointment-info/sections/github.php:98
 msgid ""
 "We provide good knowledgebase articles which will help you to create "
-"effective websites. You can visit these articles via our <a href='http://"
-"webriti.com/help/category/themes/appointment/' target='_blank'>Help Section</"
-"a>."
+"effective websites. You can visit these articles via our <a href='http:"
+"//webriti.com/help/category/themes/appointment/' target='_blank'>Help "
+"Section</a>."
 msgstr ""
 
 #: functions/appointment-info/sections/github.php:106
@@ -643,8 +644,8 @@ msgstr ""
 #, php-format
 msgid ""
 "Welcome! Thank you for choosing Appointment Lite! To take full advantage of "
-"the best our theme can offer, please make sure you visit our %swelcome page"
-"%s."
+"the best our theme can offer, please make sure you visit our %swelcome "
+"page%s."
 msgstr ""
 
 #: functions/appointment-info/welcome-screen.php:57
@@ -875,8 +876,8 @@ msgstr ""
 
 #: functions/customizer/customizer-footer-callout.php:5
 msgid ""
-"Want to add footer callout content?<a href='http://www.webriti.com/"
-"appointment' target='_blank'> Upgrade to Pro</a>."
+"Want to add footer callout content?<a href='http://www.webriti."
+"com/appointment' target='_blank'> Upgrade to Pro</a>."
 msgstr ""
 
 #: functions/customizer/customizer-footer-callout.php:14
@@ -1179,8 +1180,8 @@ msgstr ""
 #: functions/customizer/customizer-template.php:7
 msgid ""
 "Want to add a company About Us, Team, Client, footer, callout with the About "
-"template? <a href='http://www.webriti.com/appointment' "
-"target='_blank'>Upgrade to Pro</a>"
+"template? <a href='http://www.webriti.com/appointment' target='_blank'>"
+"Upgrade to Pro</a>"
 msgstr ""
 
 #: functions/customizer/customizer-template.php:15
@@ -1192,15 +1193,15 @@ msgstr ""
 
 #: functions/customizer/customizer-template.php:24
 msgid ""
-"Want to use the blog meta settings? <a href='http://www.webriti.com/"
-"appointment' target='_blank'>Upgrade to Pro</a>"
+"Want to use the blog meta settings? <a href='http://www.webriti."
+"com/appointment' target='_blank'>Upgrade to Pro</a>"
 msgstr ""
 
 #: functions/customizer/customizer-template.php:31
 msgid ""
 "Want to add contact form information and a contact map in the Contact "
-"template? <a href='http://www.webriti.com/appointment' "
-"target='_blank'>Upgrade to Pro</a>"
+"template? <a href='http://www.webriti.com/appointment' target='_blank'>"
+"Upgrade to Pro</a>"
 msgstr ""
 
 #: functions/customizer/customizer-template.php:39

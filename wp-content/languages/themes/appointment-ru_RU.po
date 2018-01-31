@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-12-17 08:35+0000\n"
+"PO-Revision-Date: 2018-01-31 12:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1459,7 +1459,7 @@ msgstr "Автор:"
 #: content.php:12 functions.php:115 functions.php:132 index-slider.php:25
 #: index-slider.php:33 index-slider.php:41
 msgid "Read More"
-msgstr "Прочитать больше"
+msgstr "Читать далее"
 
 #: comments.php:80
 msgid "Leave a Reply"

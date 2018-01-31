@@ -130,7 +130,7 @@ function appointment_add_to_author_profile( $contactmethods ) {
 
 		if($original_len>275) {
 		//$excerpt = $excerpt;
-		return $excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="">'.__("Read More","appointment").'</a></div>';
+		return $excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="readmore_link">'.__("Read More","appointment").'</a></div>';
 		}
 		else
 		{ return $excerpt; }

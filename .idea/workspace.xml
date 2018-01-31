@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/appointment-ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/themes/appointment-ru_RU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/appointment-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/themes/appointment-ru_RU.po" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment-red/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment-red/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/functions/lang/appointment.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment/functions/lang/appointment.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/functions/lang/es_ES.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/functions/lang/es_ES.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="2042" column="33" selection-start-line="2042" selection-start-column="33" selection-end-line="2042" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="380" column="68" selection-start-line="380" selection-start-column="68" selection-end-line="380" selection-end-column="68" />
+            <state relative-caret-position="224">
+              <caret line="126" column="41" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
               <folding>
                 <element signature="e#6#70#0#PHP" expanded="true" />
               </folding>
@@ -49,12 +66,13 @@
         <option value="$PROJECT_DIR$/wp-includes/post-thumbnail-template.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/_tc/wp-includes/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/mainpagenews.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/appointment/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment-red/theme_setup_data.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/theme_setup_data.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/appointment-red/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/appointment/style.css" />
       </list>
     </option>
   </component>
@@ -115,7 +133,7 @@
       <workItem from="1517133879772" duration="7054000" />
       <workItem from="1517207527567" duration="1890000" />
       <workItem from="1517291730599" duration="605000" />
-      <workItem from="1517398891530" duration="1224000" />
+      <workItem from="1517398891530" duration="3554000" />
     </task>
     <task id="LOCAL-00001" summary="коррекция после обновления">
       <created>1517054746230</created>
@@ -135,7 +153,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18970000" />
+    <option name="totallyTimeSpent" value="21300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -148,9 +166,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="-8" width="1241" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2624894" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3296" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012701" side_tool="true" weight="0.5136" />
       <window_info anchor="right" id="Database" order="3" />
@@ -217,7 +236,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="коррекция после обновления" />
     <MESSAGE value="310118 почти готово" />
-    <option name="LAST_COMMIT_MESSAGE" value="310118 почти готово" />
+    <MESSAGE value="310118 #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="310118 #2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
@@ -330,20 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="82" column="97" lean-forward="true" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -367,20 +373,41 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="543" column="44" lean-forward="true" selection-start-line="543" selection-start-column="44" selection-end-line="543" selection-end-column="44" />
+        <state relative-caret-position="476">
+          <caret line="82" column="97" lean-forward="true" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment-red/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="380" column="68" selection-start-line="380" selection-start-column="68" selection-end-line="380" selection-end-column="68" />
+        <state relative-caret-position="224">
+          <caret line="126" column="41" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
           <folding>
             <element signature="e#6#70#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="2042" column="33" selection-start-line="2042" selection-start-column="33" selection-end-line="2042" selection-end-column="33" />
         </state>
       </provider>
     </entry>

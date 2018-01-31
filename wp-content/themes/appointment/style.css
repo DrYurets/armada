@@ -2037,3 +2037,8 @@ img.emoji {
     background: none !important;
     padding: 0 !important;
 }
+
+.blog-btn-area-sm a.readmore_link:link, .blog-btn-area-sm a.readmore_link:visited {
+    color: #db2723 !important;
+    font-size: 1.4rem !important;
+}
