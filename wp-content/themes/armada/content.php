@@ -9,7 +9,7 @@
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             </div>
             <div class="excerpt">
-                <p class="text-justify"><?php echo get_home_blog_excerpt(); ?></p>
+                <p class="text-justify"><?php echo get_home_blog_excerpt_yurets(); ?></p>
             </div>
 			<?php
 				wp_link_pages( );

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form &amp; SMTP Plugin for WordPress by PirateForms - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-28 04:22:08+0000\n"
+"PO-Revision-Date: 2017-12-28 21:10:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - Contact Form &amp; SMTP Plugin for WordPress by PirateForms - Development (trunk)\n"
+
+#: vendor/codeinwp/themeisle-sdk/class-themeisle-sdk-endpoints.php:299
+msgid "Invalid %"
+msgstr "недопустимый %"
+
+#: vendor/codeinwp/themeisle-sdk/class-themeisle-sdk-endpoints.php:238
+msgid "%s not found"
+msgstr "%s не найден"
 
 #: admin/class-pirateforms-admin.php:623
 msgid "You can use the next magic tags:"
@@ -19,11 +27,11 @@ msgstr "Вы можете использовать следующие теги:"
 msgid "Email content"
 msgstr "Содержимое получаемого письма"
 
-#: public/class-pirateforms-public.php:815
+#: public/class-pirateforms-public.php:819
 msgid "Incorrect CAPTCHA"
 msgstr "Не верный код Капчи"
 
-#: public/class-pirateforms-public.php:803
+#: public/class-pirateforms-public.php:807
 msgid "Invalid CAPTCHA"
 msgstr "Не допустимый код Капчи"
 
@@ -31,17 +39,17 @@ msgstr "Не допустимый код Капчи"
 msgid "Please specify the Site Key and Secret Key."
 msgstr "Введите свои Ключ сайта и Секретный ключ."
 
-#: public/class-pirateforms-public.php:953
+#: public/class-pirateforms-public.php:957
 msgid "Uploaded file type is not allowed for %s"
 msgstr "Запрещенный для загрузки тип файла %s"
 
-#: public/class-pirateforms-public.php:824
+#: public/class-pirateforms-public.php:828
 msgid "Submission blocked!"
 msgstr "Представление заблокировано!"
 
 #: includes/class-pirateforms-util.php:258
 #: includes/class-pirateforms-util.php:299
-#: public/class-pirateforms-public.php:580
+#: public/class-pirateforms-public.php:584
 msgid "Came from"
 msgstr "Пришло из"
 
@@ -49,7 +57,7 @@ msgstr "Пришло из"
 msgid "I'm human!"
 msgstr "Я не робот!"
 
-#: includes/class-pirateforms-html.php:183
+#: includes/class-pirateforms-html.php:190
 msgid "Upload file"
 msgstr "Загрузка файла"
 
@@ -184,7 +192,7 @@ msgid "The notification email will be sent from this address both to the recipie
 msgstr "Email  для отправителя электронной почты контактной формы как получателям, указанным ниже, так и отправителю контактной формы (если это активировано ниже). Домен для этого адреса электронной почты должен соответствовать домену вашего сайта."
 
 #: admin/class-pirateforms-admin.php:483
-#: public/class-pirateforms-public.php:991
+#: public/class-pirateforms-public.php:995
 msgid "Attachment"
 msgstr "Прикрепленный файл"
 
@@ -222,11 +230,11 @@ msgstr "Нет"
 msgid "Security?"
 msgstr "Безопасность?"
 
-#: public/class-pirateforms-public.php:975
+#: public/class-pirateforms-public.php:979
 msgid "There was an unknown error uploading the file %s"
 msgstr "Произошла неизвестная ошибка при загрузке файла %s"
 
-#: public/class-pirateforms-public.php:961
+#: public/class-pirateforms-public.php:965
 msgid "Uploaded file is too large %s"
 msgstr "Загруженный файл слишком большой %s"
 
@@ -285,18 +293,18 @@ msgstr "Бесплатный и простой плагин - Pirateforms"
 
 #: includes/class-pirateforms-util.php:259
 #: includes/class-pirateforms-util.php:300
-#: public/class-pirateforms-public.php:586
+#: public/class-pirateforms-public.php:590
 msgid "Sent from page"
 msgstr "Отправлено со страницы"
 
 #: includes/class-pirateforms-util.php:257
-#: public/class-pirateforms-public.php:573
+#: public/class-pirateforms-public.php:577
 msgid "IP search"
 msgstr "Поиск IP"
 
 #: includes/class-pirateforms-util.php:256
 #: includes/class-pirateforms-util.php:298
-#: public/class-pirateforms-public.php:572
+#: public/class-pirateforms-public.php:576
 msgid "IP address"
 msgstr "IP-адрес"
 
@@ -363,21 +371,21 @@ msgstr "Записи"
 msgid "Form submission blocked!"
 msgstr "Отправка формы заблокирована!"
 
-#: public/class-pirateforms-public.php:557
+#: public/class-pirateforms-public.php:561
 msgid "Please enter one or more Contact submission recipients"
 msgstr "Пожалуйста добавьте одного или нескольких получателей"
 
 #: includes/class-pirateforms-util.php:240
-#: public/class-pirateforms-public.php:545
+#: public/class-pirateforms-public.php:549
 msgid "Contact form submission from %s"
 msgstr "Форма обратной связи с %s"
 
-#: public/class-pirateforms-public.php:532
-#: public/class-pirateforms-public.php:597
+#: public/class-pirateforms-public.php:536
+#: public/class-pirateforms-public.php:601
 msgid "Form submission failed!"
 msgstr "Не удалось отправить форму!"
 
-#: public/class-pirateforms-public.php:524
+#: public/class-pirateforms-public.php:528
 msgid "Nonce failed!"
 msgstr "Ошибка проверочного кода!"
 
@@ -623,6 +631,6 @@ msgstr "Настройки обработки формы"
 msgid "Send Message"
 msgstr "Отправить сообщение"
 
-#: public/class-pirateforms-public.php:462
+#: public/class-pirateforms-public.php:466
 msgid "Sorry, an error occured."
 msgstr "Извините, произошла ошибка."

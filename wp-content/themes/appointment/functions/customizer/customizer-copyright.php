@@ -21,7 +21,7 @@
     'appointment_options[footer_copyright_text]',
     array(
         'default' => __('No copyright information has been saved yet.','appointment'),
-		'sanitize_callback' => 'sanitize_text_field',
+		'sanitize_callback' => 'appointment_footer_copyright_sanitize_html',
 		'type' =>'option'
     )
 	
@@ -257,6 +257,12 @@ $wp_customize->add_control(
         'section' => 'copyright_social_icon',
     )
 );
+
+function appointment_footer_copyright_sanitize_html( $input ) {
+    return force_balance_tags( $input );
+	}
+
+
 }
 add_action( 'customize_register', 'appointment_copyright_customizer' );
 ?>

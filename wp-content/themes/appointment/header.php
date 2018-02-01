@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="ru-RU" >
+<html <?php language_attributes(); ?> >
 <head>
-	<meta charset="UTF-8">
+	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php 
 	$appointment_options=theme_setup_data(); 
 	$header_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options);
-	?>
+	if($header_setting['upload_image_favicon']!=''){ ?>
 	<link rel="shortcut icon" href="<?php  echo $header_setting['upload_image_favicon']; ?>" /> 
+	<?php } ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
 	</head>
@@ -53,7 +54,7 @@
 				<span class="icon-bar"></span>
 			</button>
 		</div>
-
+		
 		<?php 
 				$facebook = $header_setting['social_media_facebook_link'];
 				$twitter = $header_setting['social_media_twitter_link'];
@@ -98,7 +99,6 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
 				<?php wp_nav_menu( array(  
 				'theme_location' => 'primary',
 				'container'  => '',
@@ -108,7 +108,6 @@
 				'walker' => new webriti_nav_walker()
 				 ) );
 				?>
-
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
 </nav>	

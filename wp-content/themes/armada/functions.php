@@ -1,183 +1,6 @@
 <?php
-/**Theme Name	: Appointment
- * Theme Core Functions and Codes
-*/
-	/**Includes reqired resources here**/
-	define('WEBRITI_TEMPLATE_DIR_URI', get_template_directory_uri());
-    define('WEBRITI_TEMPLATE_DIR' , get_template_directory());
-    define('WEBRITI_THEME_FUNCTIONS_PATH' , WEBRITI_TEMPLATE_DIR.'/functions');
-	require( WEBRITI_THEME_FUNCTIONS_PATH .'/scripts/script.php');
-    require( WEBRITI_THEME_FUNCTIONS_PATH .'/menu/default_menu_walker.php');
-    require( WEBRITI_THEME_FUNCTIONS_PATH .'/menu/appoinment_nav_walker.php');
-    require( WEBRITI_THEME_FUNCTIONS_PATH .'/widgets/sidebars.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH .'/widgets/appointment_info_widget.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/template-tag.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/breadcrumbs/breadcrumbs.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/font/font.php');
-	//Customizer
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer_theme_style.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-callout.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-slider.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-copyright.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-header.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-news.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-service.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-pro.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-project.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-testimonial.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-client.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-footer-callout.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-template.php');
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-emailcourse.php');
 
-	// Appointment Info Page
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/appointment-info/welcome-screen.php');
-
-	// Custom Category control
-	require( WEBRITI_THEME_FUNCTIONS_PATH . '/custom-controls/select/category-dropdown-custom-control.php');
-	/* Theme Setup Function */
-	add_action( 'after_setup_theme', 'appointment_setup' );
-
-	function appointment_setup()
-	{
-	// Load text domain for translation-ready
-    load_theme_textdomain( 'appointment', WEBRITI_THEME_FUNCTIONS_PATH . '/lang' );
-
-	$header_args = array(
-				 'flex-height' => true,
-				 'height' => 200,
-				 'flex-width' => true,
-				 'width' => 1600,
-				 'admin-head-callback' => 'mytheme_admin_header_style',
-				 );
-
-				 add_theme_support( 'custom-header', $header_args );
-    add_theme_support( 'post-thumbnails' ); //supports featured image
-	// Register primary menu
-    register_nav_menu( 'primary', __('Primary Menu', 'appointment' ) );
-
-	//Add Theme Support Title Tag
-	add_theme_support( "title-tag" );
-
-	// Add default posts and comments RSS feed links to head.
-    add_theme_support( 'automatic-feed-links' );
-	// Set the content_width with 900
-    if ( ! isset( $content_width ) ) $content_width = 900;
-	require_once('theme_setup_data.php');
-	}
-// set appointment page title
-function appointment_title( $title, $sep )
-{
-    global $paged, $page;
-
-	if ( is_feed() )
-        return $title;
-		// Add the site name.
-		$title .= get_bloginfo( 'name' );
-		// Add the site description for the home/front page.
-		$site_description = get_bloginfo( 'description' );
-		if ( $site_description && ( is_home() || is_front_page() ) )
-			$title = "$title $sep $site_description";
-		// Add a page number if necessary.
-		if ( $paged >= 2 || $page >= 2 )
-			$title = "$title $sep " . sprintf( __( 'Page', 'appointment' ), max( $paged, $page ) );
-		return $title;
-}
-add_filter( 'wp_title', 'appointment_title', 10,2 );
-
-add_filter('get_avatar','appointment_add_gravatar_class');
-
-function appointment_add_gravatar_class($class) {
-    $class = str_replace("class='avatar", "class='img-responsive img-circle", $class);
-    return $class;
-}
-function appointment_add_to_author_profile( $contactmethods ) {
-		$contactmethods['facebook_profile'] = __('Facebook URL','appointment');
-		$contactmethods['twitter_profile'] = __('Twitter URL','appointment');
-		$contactmethods['linkedin_profile'] = __('LinkedIn URL','appointment');
-		$contactmethods['google_profile'] = __('GooglePlus URL','appointment');
-		return $contactmethods;
-		}
-		add_filter( 'user_contactmethods', 'appointment_add_to_author_profile', 10, 1);
-
-
-	    add_filter('get_the_excerpt','appointment_post_slider_excerpt');
-	    function appointment_post_slider_excerpt($output){
-		$output = strip_tags(preg_replace(" (\[.*?\])",'',$output));
-		$output = strip_shortcodes($output);
-		$original_len = strlen($output);
-		$output = substr($output, 0, 155);
-		$len=strlen($output);
-		if($original_len>155) {
-		$output = $output;
-		return  '<div class="slide-text-bg2">' .'<span>'.$output.'</span>'.'</div>'.
-	                       '<div class="slide-btn-area-sm"><a href="' . get_permalink() . '" class="slide-btn-sm">'
-						   .__("Read More","appointment").'</a></div>';
-		}
-		else
-		{ return '<div class="slide-text-bg2">' .'<span>'.$output.'</span>'.'</div>'; }
-        }
-
-	function get_home_blog_excerpt()
-	{
-		global $post;
-		$excerpt = get_the_content();
-		$excerpt = strip_tags(preg_replace(" (\[.*?\])",'',$excerpt));
-		$excerpt = strip_shortcodes($excerpt);
-		$original_len = strlen($excerpt);
-		//$excerpt = substr($excerpt, 0, 145);
-		//$len=strlen($excerpt);
-
-		if($original_len>275) {
-		//$excerpt = $excerpt;
-		return $excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="readmore_link">'.__("Read More","appointment").'</a></div>';
-		}
-		else
-		{ return $excerpt; }
-
-		//return $excerpt;
-	}
-
-	function appointment_import_files() {
-  return array(
-    array(
-      'import_file_name'           => 'Demo Import 1',
-      'categories'                 => array( 'Category 1', 'Category 2' ),
-      'import_file_url'            => 'https://webriti.com/themes/dummydata/appointment/lite/appointment-content.xml',
-      'import_widget_file_url'     => 'https://webriti.com/themes/dummydata/appointment/lite/appointment-widget.json',
-      'import_customizer_file_url' => 'https://webriti.com/themes/dummydata/appointment/lite/appointment-customize.dat',
-      'import_notice'              => sprintf(__( 'Click the large blue button to start the dummy data import process.</br></br>Please be patient while WordPress imports all the content.</br></br>
-			<h3>Recommended Plugins</h3> Appointment theme supports the following plugins:</br> </br><li> <a href="https://wordpress.org/plugins/contact-form-7/"> Contact form 7</a> </l1> </br></br> <li> <a href="https://wordpress.org/plugins/bootstrap-3-shortcodes/"> Bootstrap Shortcodes</a> </l1>','appointment' )),
-			),
-
-
-
-	);
-}
-add_filter( 'pt-ocdi/import_files', 'appointment_import_files' );
-
-
-function appointment_after_import_setup() {
-
-	// Menus to assign after import.
-	$main_menu   = get_term_by( 'name', 'Menu 1', 'nav_menu' );
-
-	set_theme_mod( 'nav_menu_locations', array(
-		'primary'   => $main_menu->term_id,
-	));
-
-	// Assign front page and posts page (blog page).
-    $front_page_id = get_page_by_title( 'Home' );
-    $blog_page_id  = get_page_by_title( 'Blog' );
-
-    update_option( 'show_on_front', 'page' );
-    update_option( 'page_on_front', $front_page_id->ID );
-    update_option( 'page_for_posts', $blog_page_id->ID );
-
-
-}
-add_action( 'pt-ocdi/after_import', 'appointment_after_import_setup' );
-// RED
+// ARMADA
 	add_action( 'wp_enqueue_scripts', 'appointment_red_theme_css',999);
 function appointment_red_theme_css() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
@@ -384,4 +207,129 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 		}
 		return $img;
 	}
-?>
+	function get_home_blog_excerpt_yurets()
+	{
+		global $post;
+		$excerpt = get_the_content();
+		$excerpt = strip_tags(preg_replace(" (\[.*?\])",'',$excerpt));
+		$excerpt = strip_shortcodes($excerpt);
+		$original_len = strlen($excerpt);
+
+		if($original_len>275) {
+			return $excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="readmore_link">'.__("Read More","appointment").'</a></div>';
+		}
+		else
+		{ return $excerpt; }
+
+		//return $excerpt;
+	}
+
+	function qt_custom_breadcrumbs_yurets() {
+
+		$showOnHome = 0; // 1 - show breadcrumbs on the homepage, 0 - don't show
+		$delimiter = ''; // delimiter between crumbs
+		$home = 'Главная'; // text for the 'Home' link
+		$showCurrent = 1; // 1 - show current post/page title in breadcrumbs, 0 - don't show
+		$before = '<li class="active">'; // tag before the current crumb
+		$after = '</li>'; // tag after the current crumb
+
+		global $post;
+		$homeLink = home_url();
+
+		if (is_home() || is_front_page()) {
+
+			if ($showOnHome == 1) echo '<li><a href="' . $homeLink . '">' . $home . '</a></li>';
+
+		} else {
+
+			echo '<li><a href="' . $homeLink . '">' . $home . '</a> ' . '&nbsp &#47; &nbsp';
+
+			if ( is_category() ) {
+				$thisCat = get_category(get_query_var('cat'), false);
+				if ($thisCat->parent != 0) echo get_category_parents($thisCat->parent, TRUE, ' / ' . ' ');
+				echo $before . '&nbsp; ' . single_cat_title('', false) . $after;
+
+			} elseif ( is_search() ) {
+				echo $before . 'Search results for "' . get_search_query() . '"' . $after;
+
+			} elseif ( is_day() ) {
+				echo '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . '&nbsp &#47; &nbsp';
+				echo '<a href="' . get_month_link(get_the_time('Y'),get_the_time('m')) . '">' . get_the_time('F') . '</a> ' . '&nbsp &#47; &nbsp';
+				echo $before . get_the_time('d') . $after;
+
+			} elseif ( is_month() ) {
+				echo '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . $delimiter . '&nbsp &#47; &nbsp';
+				echo $before . get_the_time('F') . $after;
+
+			} elseif ( is_year() ) {
+				echo $before . get_the_time('Y') . $after;
+
+			} elseif ( is_single() && !is_attachment() ) {
+				if ( get_post_type() != 'post' ) {
+					$post_type = get_post_type_object(get_post_type());
+					$slug = $post_type->rewrite;
+					echo '<a href="' . $homeLink . '/' . $slug['slug'] . '/">' . $post_type->labels->singular_name . '</a>';
+					if ($showCurrent == 1) echo ' ' . $delimiter . '&nbsp &#47; &nbsp' . $before . get_the_title() . $after;
+				} else {
+					$cat = get_the_category(); $cat = $cat[0];
+					$cats = get_category_parents($cat, TRUE, ' ' . $delimiter . '&nbsp &#47; &nbsp');
+					if ($showCurrent == 0) $cats = preg_replace("#^(.+)\s$delimiter\s$#", "$1", $cats);
+					echo $cats;
+					if ($showCurrent == 1) echo $before . get_the_title() . $after;
+				}
+
+			} elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() ) {
+				$post_type = get_post_type_object(get_post_type());
+				echo $before . $post_type->labels->singular_name . $after;
+
+			} elseif ( is_attachment() ) {
+				$parent = get_post($post->post_parent);
+				$cat = get_the_category($parent->ID);
+				if(!empty($cat)){
+					$cat = $cat[0];
+					echo get_category_parents($cat, TRUE, ' ' . $delimiter . '&nbsp &#47; &nbsp');
+				}
+				echo '<a href="' . get_permalink($parent) . '">' . $parent->post_title . '</a>';
+				if ($showCurrent == 1) echo ' ' . $delimiter . ' ' . $before . get_the_title() . $after;
+
+			} elseif ( is_page() && !$post->post_parent ) {
+				if ($showCurrent == 1) echo $before . get_the_title() . $after;
+
+			} elseif ( is_page() && $post->post_parent ) {
+				$parent_id  = $post->post_parent;
+				$breadcrumbs = array();
+				while ($parent_id) {
+					$page = get_page($parent_id);
+					$breadcrumbs[] = '<a href="' . get_permalink($page->ID) . '">' . get_the_title($page->ID) . '</a>' . '&nbsp &#47; &nbsp';
+					$parent_id  = $page->post_parent;
+				}
+				$breadcrumbs = array_reverse($breadcrumbs);
+				for ($i = 0; $i < count($breadcrumbs); $i++) {
+					echo $breadcrumbs[$i];
+					if ($i != count($breadcrumbs)-1) echo ' ' . $delimiter;
+				}
+				if ($showCurrent == 1) echo ' ' . $delimiter . ' ' . $before . get_the_title() . $after;
+
+			} elseif ( is_tag() ) {
+				echo $before . 'Публикации с тегом "' . single_tag_title('', false) . '"' . $after;
+
+			} elseif ( is_author() ) {
+				global $author;
+				$userdata = get_userdata($author);
+				echo $before . 'Публикации ' . $userdata->display_name . $after;
+
+			} elseif ( is_404() ) {
+				echo $before . 'Ошибка 404' . $after;
+			}
+
+			if ( get_query_var('paged') ) {
+				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo '';
+				echo ' ( ' . __('Page','appointment') . '' . get_query_var('paged'). ' )';
+				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo '';
+			}
+
+			echo '</li>';
+
+		}
+	} // end qt_custom_breadcrumbs_yurets()
+	?>

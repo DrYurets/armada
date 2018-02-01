@@ -94,6 +94,8 @@ Source: http://fontawesome.io
 
 # --- EOF --- #
 ============================Change Log================================
+@Version 2.6.8
+1. Update Footer copyright HTML ready.
 @Version 2.6.7
 1. Update screen reader css.
 @Version 2.6.6

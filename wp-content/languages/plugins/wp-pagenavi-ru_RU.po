@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP-PageNavi - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-12-12 19:56:36+0000\n"
+"PO-Revision-Date: 2018-01-25 18:31:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -93,7 +93,7 @@ msgstr "Диапазон страниц дополняют обычную нум
 
 #: admin.php:137
 msgid "Number Of Larger Page Numbers To Show"
-msgstr "Диапозон страниц для показа"
+msgstr "Диапазон страниц для показа"
 
 #: admin.php:130
 msgid "Number Of Pages To Show"

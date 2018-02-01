@@ -10,7 +10,7 @@
 				</div>
 				<div class="col-md-6">
 					<ul class="page-breadcrumb">
-						<?php if (function_exists('qt_custom_breadcrumbs')) qt_custom_breadcrumbs();?>
+						<?php if (function_exists('qt_custom_breadcrumbs_yurets')) qt_custom_breadcrumbs_yurets();?>
 					</ul>
 				</div>
 			</div>
