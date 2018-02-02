@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -185,7 +182,7 @@
       <workItem from="1517291730599" duration="605000" />
       <workItem from="1517398891530" duration="5526000" />
       <workItem from="1517471570816" duration="11022000" />
-      <workItem from="1517555147916" duration="7049000" />
+      <workItem from="1517555147916" duration="7053000" />
     </task>
     <task id="LOCAL-00001" summary="коррекция после обновления">
       <created>1517054746230</created>
@@ -243,11 +240,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517561512877</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="020218 всё поправлено для безопасного обвления ядра, родительского шаблона и плагина постов">
+      <created>1517570861071</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517570861071</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41343000" />
+    <option name="totallyTimeSpent" value="41347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
