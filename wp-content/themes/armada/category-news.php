@@ -20,7 +20,7 @@
 <div class="page-builder">
 	<div class="container">
 		<div class="row">
-			<div class="<?php appointment_post_layout_class(); ?>" >
+			<div class="col-md-8" >
 			   <?php 
 				if ( have_posts() ) :
                     $i==0;
