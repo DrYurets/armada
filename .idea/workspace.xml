@@ -3,29 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ar.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ar.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ar.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ar.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-de_DE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-de_DE.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-de_DE.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-de_DE.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-el.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-el.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-el.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-el.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-fa_IR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-fa_IR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-fa_IR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-fa_IR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ja.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ja.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ja.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ja.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-pl_PL.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-pl_PL.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-pl_PL.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-pl_PL.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ru_RU.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ru_RU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-tr_TR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-tr_TR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-tr_TR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-tr_TR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails.pot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/category-news.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/category-news.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,20 +15,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="recent-posts-widget-with-thumbnails.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="252" column="36" selection-start-line="252" selection-start-column="30" selection-end-line="252" selection-end-column="36" />
-              <folding>
-                <element signature="e#6#498#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.7488">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="autohouse.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="850">
+                  <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="widget.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="37">
+                  <caret line="63" column="34" selection-start-line="24" selection-start-column="23" selection-end-line="63" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="recent-posts-widget-with-thumbnails.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-12">
+                  <caret line="684" column="41" selection-start-line="684" selection-start-column="21" selection-end-line="684" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#6#498#0#PHP" expanded="true" />
+                    <element signature="n#get_cat_parent_index#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#enqueue_public_style#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#enqueue_admin_style#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#load_plugin_textdomain#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#get_first_content_image_id#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#get_the_categories#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#make_css_file#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#get_the_trimmed_excerpt#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#get_the_trimmed_post_title#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                    <element signature="n#get_image_sizes#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -67,9 +83,13 @@
       <find>qt_custom_breadcrumbs</find>
       <find>widget</find>
       <find>widget.php</find>
+      <find>$this-&gt;default_author_ids</find>
+      <find>get_the_trimmed_post_title</find>
+      <find>the_first_post_image</find>
     </findStrings>
     <dirStrings>
       <dir>C:\laragon_new\www\arm\wp-content\themes\armada</dir>
+      <dir>C:\laragon_new\www\arm</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -97,7 +117,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/armada/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/category.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/category-news.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" />
       </list>
     </option>
   </component>
@@ -108,7 +130,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="138" />
     <option name="width" value="1241" />
     <option name="height" value="780" />
@@ -163,7 +185,7 @@
       <workItem from="1517291730599" duration="605000" />
       <workItem from="1517398891530" duration="5526000" />
       <workItem from="1517471570816" duration="11022000" />
-      <workItem from="1517555147916" duration="3415000" />
+      <workItem from="1517555147916" duration="7049000" />
     </task>
     <task id="LOCAL-00001" summary="коррекция после обновления">
       <created>1517054746230</created>
@@ -214,11 +236,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517558823369</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="020218 плагин обновлен">
+      <created>1517561512877</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1517561512877</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37709000" />
+    <option name="totallyTimeSpent" value="41343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,7 +259,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="-8" width="1241" height="784" extended-state="6" />
+    <frame x="133" y="-8" width="1241" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2624894" />
@@ -238,6 +267,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012701" side_tool="true" weight="0.5136" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49872988" weight="0.5216" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -251,7 +281,6 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3296" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +333,9 @@
     <MESSAGE value="310118 #2" />
     <MESSAGE value="010218 дочерний шаблон, причесывание" />
     <MESSAGE value="020218 перед обновлением плагина постов с превью" />
-    <option name="LAST_COMMIT_MESSAGE" value="020218 перед обновлением плагина постов с превью" />
+    <MESSAGE value="020218 плагин обновлен" />
+    <MESSAGE value="020218 всё поправлено для безопасного обвления ядра, родительского шаблона и плагина постов" />
+    <option name="LAST_COMMIT_MESSAGE" value="020218 всё поправлено для безопасного обвления ядра, родительского шаблона и плагина постов" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category.php">
@@ -357,11 +388,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2431" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/media.php">
@@ -541,13 +567,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/author-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#6#229#0#PHP" expanded="true" />
+            <element signature="n#get_the_modified_author#0;n#!!top" />
+            <element signature="n#the_modified_author#0;n#!!top" />
+            <element signature="n#get_the_author_meta#0;n#!!top" />
+            <element signature="n#the_author_meta#0;n#!!top" />
+            <element signature="n#get_the_author_link#0;n#!!top" />
+            <element signature="n#the_author_link#0;n#!!top" />
+            <element signature="n#get_the_author_posts#0;n#!!top" />
+            <element signature="n#the_author_posts#0;n#!!top" />
+            <element signature="n#get_the_author_posts_link#0;n#!!top" />
+            <element signature="n#the_author_posts_link#0;n#!!top" />
+            <element signature="n#get_author_posts_url#0;n#!!top" />
+            <element signature="n#wp_list_authors#0;n#!!top" />
+            <element signature="n#is_multi_author#0;n#!!top" />
+            <element signature="n#__clear_multi_author_cache#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="252" column="36" selection-start-line="252" selection-start-column="30" selection-end-line="252" selection-end-column="36" />
+        <state relative-caret-position="-12">
+          <caret line="684" column="41" selection-start-line="684" selection-start-column="21" selection-end-line="684" selection-end-column="41" />
           <folding>
             <element signature="e#6#498#0#PHP" expanded="true" />
+            <element signature="n#get_cat_parent_index#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#enqueue_public_style#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#enqueue_admin_style#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#load_plugin_textdomain#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#get_first_content_image_id#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#get_the_categories#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#make_css_file#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#get_the_trimmed_excerpt#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#get_the_trimmed_post_title#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
+            <element signature="n#get_image_sizes#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="63" column="34" selection-start-line="24" selection-start-column="23" selection-end-line="63" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
         </state>
       </provider>
     </entry>

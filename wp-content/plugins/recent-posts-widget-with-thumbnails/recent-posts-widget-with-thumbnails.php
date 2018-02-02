@@ -250,7 +250,11 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 			$this->defaults[ 'author_label' ] = _x( $text, 'theme author' );
 
 			// print list
-			include 'includes/widget.php';
+
+			// Yurets mod
+			if ($args['id']== 'sidebar-auto') include 'includes/autohouse.php';
+			else include 'includes/widget.php';
+			// Yurets mod off
 
 			// Reset the global $the_post as this query will have stomped on it
 			wp_reset_postdata();
