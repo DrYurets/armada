@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,56 +13,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.7488">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="autohouse.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
-                  <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="widget.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="37">
-                  <caret line="63" column="34" selection-start-line="24" selection-start-column="23" selection-end-line="63" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="recent-posts-widget-with-thumbnails.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-12">
-                  <caret line="684" column="41" selection-start-line="684" selection-start-column="21" selection-end-line="684" selection-end-column="41" />
-                  <folding>
-                    <element signature="e#6#498#0#PHP" expanded="true" />
-                    <element signature="n#get_cat_parent_index#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#enqueue_public_style#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#enqueue_admin_style#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#load_plugin_textdomain#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#get_first_content_image_id#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#get_the_categories#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#make_css_file#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#get_the_trimmed_excerpt#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#get_the_trimmed_post_title#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                    <element signature="n#get_image_sizes#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general-template.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2817">
+              <caret line="2613" column="11" lean-forward="true" selection-start-line="2613" selection-start-column="11" selection-end-line="2613" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -83,6 +57,8 @@
       <find>$this-&gt;default_author_ids</find>
       <find>get_the_trimmed_post_title</find>
       <find>the_first_post_image</find>
+      <find>&lt;!DOCTYPE</find>
+      <find>rel=&quot;pingback&quot;</find>
     </findStrings>
     <dirStrings>
       <dir>C:\laragon_new\www\arm\wp-content\themes\armada</dir>
@@ -117,6 +93,7 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/header.php" />
       </list>
     </option>
   </component>
@@ -127,7 +104,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="138" />
     <option name="width" value="1241" />
     <option name="height" value="780" />
@@ -182,7 +159,8 @@
       <workItem from="1517291730599" duration="605000" />
       <workItem from="1517398891530" duration="5526000" />
       <workItem from="1517471570816" duration="11022000" />
-      <workItem from="1517555147916" duration="7053000" />
+      <workItem from="1517555147916" duration="8221000" />
+      <workItem from="1517647314893" duration="4409000" />
     </task>
     <task id="LOCAL-00001" summary="коррекция после обновления">
       <created>1517054746230</created>
@@ -251,7 +229,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41347000" />
+    <option name="totallyTimeSpent" value="46924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,7 +241,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="-8" width="1241" height="784" extended-state="7" />
+    <frame x="133" y="-8" width="1241" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2624894" />
@@ -342,23 +320,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="020218 всё поправлено для безопасного обвления ядра, родительского шаблона и плагина постов" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3842">
-          <caret line="226" column="41" selection-start-line="226" selection-start-column="13" selection-end-line="226" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38029">
-          <caret line="2236" column="48" selection-start-line="2236" selection-start-column="48" selection-end-line="2236" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/template-tag.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -459,16 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -486,13 +437,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/index-service.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/index-news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
@@ -513,13 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="56" column="101" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
         </state>
       </provider>
     </entry>
@@ -546,9 +483,6 @@
           <caret line="226" column="41" selection-start-line="226" selection-start-column="13" selection-end-line="226" selection-end-column="41" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,26 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="684" column="41" selection-start-line="684" selection-start-column="21" selection-end-line="684" selection-end-column="41" />
-          <folding>
-            <element signature="e#6#498#0#PHP" expanded="true" />
-            <element signature="n#get_cat_parent_index#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#enqueue_public_style#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#enqueue_admin_style#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#load_plugin_textdomain#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#get_first_content_image_id#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#get_the_categories#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#make_css_file#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#get_the_trimmed_excerpt#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#get_the_trimmed_post_title#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-            <element signature="n#get_image_sizes#0;n#Recent_Posts_Widget_With_Thumbnails#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -621,10 +535,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="684" column="41" selection-start-line="684" selection-start-column="21" selection-end-line="684" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        <state relative-caret-position="476">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/index-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/theme_setup_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="2756" selection-start-line="2756" selection-end-line="2756" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="420" column="9" selection-start-line="420" selection-start-column="9" selection-end-line="420" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2817">
+          <caret line="2613" column="11" lean-forward="true" selection-start-line="2613" selection-start-column="11" selection-end-line="2613" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
