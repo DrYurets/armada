@@ -22,7 +22,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <?php // yurets_social_share(); ?>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
@@ -55,7 +56,7 @@
                     </a></h1>
 			<?php } ?>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only"><?php echo 'Toggle navigation'; ?></span>
+                <span class="sr-only"><?php echo 'Меню'; ?></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>

@@ -17,7 +17,7 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/1sl.jpg">
+                            <img src="<?php echo get_theme_root_uri('armada', 'themes/armada'); ?>/slide/1sl.jpg">
                             <div class="container slide-caption">
                                 <div class="slide-text-bg1"><h2>Крупнейший в Могилеве</h2></div>
                                 <div class="slide-text-bg2"><span>Два огромных этажа: более 130 магазинов различной автомобильной направленности под одной крышей! Автозапчасти, аксессуары, автохимия и многое другое.</span></div>
@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/2sl.jpg">
+                            <img src="<?php echo get_theme_root_uri('armada', 'themes/armada'); ?>/slide/2sl.jpg">
                             <div class="container slide-caption">
                                 <div class="slide-text-bg1"><h2>Удобный сервис</h2></div>
                                 <div class="slide-text-bg2"><span>Отделение МРЭО ГАИ, страховка автомобилей, аптека, рыболовный магазин и вкусный кофе!</span></div>
@@ -33,14 +33,14 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/3sl.jpg">
+                            <img src="<?php echo get_theme_root_uri('armada', 'themes/armada'); ?>/slide/3sl.jpg">
                             <div class="container slide-caption">
                                 <div class="slide-text-bg1"><h2>Удобная парковка</h2></div>
                                 <div class="slide-text-bg2"><span>Она просто огромная! Найти удобное место для своего автомобиля теперь не проблема!</span></div>
                                 <div class="slide-btn-area-sm"><a href="/map" class="slide-btn-sm">Посмотреть со спутника</a></div>
                             </div>
                         </div><div class="item">
-                            <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/sl5.jpg">
+                            <img src="<?php echo get_theme_root_uri('armada', 'themes/armada'); ?>/slide/sl5.jpg">
                             <div class="container slide-caption">
                                 <div class="slide-text-bg1"><h2>Удачное соседство</h2></div>
                                 <div class="slide-text-bg2"><span>В шаговой доступности еще несколько десятков популярных магазинов: ЕВРООПТ, 5-й элемент, ПАЛАС, Электросила и др.</span></div>
