@@ -23,7 +23,6 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <?php // yurets_social_share(); ?>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >

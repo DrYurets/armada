@@ -2599,7 +2599,7 @@ function amt_get_default_image_data() {
     //      URL[,WIDTHxHEIGHT]
 
     $data = array(
-        'id'    => null,   // post ID of attachment
+        'id'    => 256,   // post ID of attachment
         // The ID should be enough information to retrieve all attachment information
         // Alternatively, if the ID is not set, at least the 'url' should be set.
         'url'   => null,

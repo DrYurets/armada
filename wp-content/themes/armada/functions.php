@@ -332,23 +332,5 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 
 		}
 	}
-	function yurets_social_share() {
-		global $wp;
-/*echo '<pre>';
-print_r($wp);
-echo '</pre>';*/
-
-		if (is_home() || is_front_page()) {		?>
-<meta property="og:type" content="website">
-    <meta property="og:url" content="<?php echo home_url( $wp->request ); ?>">
-    <meta property="og:title" content="<?php echo 'armada'; ?>">
-    <meta property="og:image" content="https://example.com/image.jpg">
-    <meta property="og:description" content="Description Here">
-    <meta property="og:site_name" content="Site Name">
-    <meta property="og:locale" content="en_US">
-<?php
-    	}
-	}
-
 
 ?>
