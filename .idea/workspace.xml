@@ -3,65 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/widgets-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/widgets-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/widgets-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/widgets-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/widgets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/widgets.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/widgets.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/customize.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/customize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/plugin-install.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/plugin-install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/editor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/editor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/updates.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/updates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/updates.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/updates.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/widgets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/widgets.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/widgets.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/network/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/network/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/network/site-new.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/network/site-new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/options-general.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/options-general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/capabilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/capabilities.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-nav-menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-nav-menus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-query.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/class-wp-query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/css/editor-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/css/editor-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/css/editor-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/css/editor-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/css/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/css/editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/css/editor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/css/editor.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-nav-menu-control.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-nav-menu-control.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/default-filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/default-filters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/formatting.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/general-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/general-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/codemirror/jshint.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/codemirror/jshint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/media-views.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/media-views.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/media-views.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/media-views.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-mediaelement.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-mediaelement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-mediaelement.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-mediaelement.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-playlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-playlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-playlist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-playlist.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/twemoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/twemoji.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/twemoji.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/twemoji.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-release.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-release.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/media-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/media-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/ms-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/ms-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/script-loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/script-loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/version.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-media-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-media-image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/wp-db.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/wp-db.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -200,7 +141,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="138" />
     <option name="width" value="1241" />
     <option name="height" value="780" />
@@ -258,7 +199,7 @@
       <workItem from="1517555147916" duration="8221000" />
       <workItem from="1517647314893" duration="5696000" />
       <workItem from="1517736137238" duration="4919000" />
-      <workItem from="1517901994908" duration="1755000" />
+      <workItem from="1517901994908" duration="1794000" />
     </task>
     <task id="LOCAL-00001" summary="коррекция после обновления">
       <created>1517054746230</created>
@@ -351,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517903225920</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="060218 WP after update">
+      <created>1517904002966</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1517904002966</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54885000" />
+    <option name="totallyTimeSpent" value="54924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +315,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="-8" width="1241" height="784" extended-state="6" />
+    <frame x="133" y="-8" width="1241" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2624894" />
@@ -446,7 +394,8 @@
     <MESSAGE value="030218 фавиконы, подправлена шапка, поддомен для CSS" />
     <MESSAGE value="040218 header w/OG tags" />
     <MESSAGE value="060218 before WP update" />
-    <option name="LAST_COMMIT_MESSAGE" value="060218 before WP update" />
+    <MESSAGE value="060218 WP after update" />
+    <option name="LAST_COMMIT_MESSAGE" value="060218 WP after update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-includes/theme.php">
