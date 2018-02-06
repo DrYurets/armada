@@ -23,10 +23,11 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <?php wp_head(); ?>
+    <?php
+	    $header_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options);
+        wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
-<?php if ( get_header_image() != '') {?>
     <div class="header-img">
         <div class="header-content">
 			<?php if($header_setting['header_one_name'] != '') { ?>
@@ -35,27 +36,18 @@
                 <h3><?php echo $header_setting['header_one_text'];?></h3>
 			<?php } ?>
         </div>
-        <img class="img-responsive" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+        <img class="img-responsive" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Армада Авто Мир" />
     </div>
-<?php } ?>
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
-			<?php if($header_setting['text_title'] == 1) { ?>
-                <h1><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Армада Авто Мир">
-						<?php
-							if($header_setting['enable_header_logo_text'] == 1)
-							{ echo "<div class=appointment_title_head>" . get_bloginfo( ). "</div>"; }
-                            elseif($header_setting['upload_image_logo']!='')
-							{ ?>
-                                <img class="img-responsive" src="<?php echo $header_setting['upload_image_logo']; ?>" style="height:<?php echo $header_setting['height']; ?>px; width:<?php echo $header_setting['width']; ?>px;"/>
-							<?php } else { ?>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/red.png">
-							<?php } ?>
-                    </a></h1>
-			<?php } ?>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only"><?php echo 'Меню'; ?></span>
+			    <h1>
+                    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Армада Авто Мир">
+                        <img class="img-responsive" src="<?php echo $header_setting['upload_image_logo']; ?>" style="height:<?php echo $header_setting['height']; ?>px; width:<?php echo $header_setting['width']; ?>px;"/>
+                    </a>
+                </h1>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Меню</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -66,7 +58,6 @@
             <li class="linkedin"><a href="https://vk.com/armadaauto" target="_blank"><i class="fab fa-vk"></i></a></li>
             <li class="googleplus"><a href="https://instagram.com/armadaauto" target="_blank"><i class="fab fa-instagram"></i></a></li>
         </ul>
-
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <?php
             wp_nav_menu(array('theme_location' => 'top','menu_class' => 'nav navbar-nav navbar-right'));

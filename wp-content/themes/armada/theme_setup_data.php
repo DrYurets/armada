@@ -10,7 +10,7 @@ function theme_setup_data()
 	'height' => '50',
 	'width' => '50',
 	'enable_header_logo_text' => '',
-	'upload_image_logo' => '',
+	'upload_image_logo' => '/images/armada-logo.gif',
 	'social_media_facebook_link' => '#',
 	'social_media_twitter_link' => '#',
 	'social_media_linkedin_link' => '#',

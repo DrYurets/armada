@@ -202,3 +202,7 @@ img.emoji {
     color: #db2723 !important;
     font-size: 1.4rem !important;
 }
+.mainpage_img { border: none !important;}
+.footer-section {
+    padding: 0px !important;
+}
