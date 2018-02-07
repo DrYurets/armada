@@ -4,7 +4,7 @@
 	if($slider_setting['home_banner_enabled'] == 0 ) {
 		?>
         <div class="homepage-mycarousel">
-        <div id="carousel-example-generic" class="carousel slide <?php echo $slider_setting['slider_options']; ?>"data-ride="carousel"
+        <div id="carousel-example-generic" class="carousel slide <?php echo $slider_setting['slider_options']; ?>" data-ride="carousel"
 			<?php if($slider_setting['slider_transition_delay'] != '') { ?> data-interval="<?php echo $slider_setting['slider_transition_delay']; } ?>" >
 			<?php
 				$query_args = array();

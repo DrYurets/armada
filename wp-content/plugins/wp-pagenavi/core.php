@@ -325,7 +325,7 @@ class PageNavi_Core {
 		else
 			$css_file = plugins_url( 'pagenavi-css.css', __FILE__ );
 
-		wp_enqueue_style( 'wp-pagenavi', $css_file, false, '2.70' );
+		if (!is_home()) wp_enqueue_style( 'wp-pagenavi', $css_file, false, '2.70' ); // yurets mode
 	}
 }
 

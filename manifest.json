@@ -1,5 +1,9 @@
 {
- "name": "App",
+ "name": "Armada Auto",
+ "short_name": "ARMADA",
+ "start_url": "./",
+ "background_color": "#FFFFFF",
+ "theme_color": "#FFFFFF",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",

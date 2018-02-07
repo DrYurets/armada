@@ -3,8 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <a href="https://msdn.microsoft.com/en-us/library/jj676915%28v=vs.85%29.aspx"></a>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#FFFFFF" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <a href="https://msdn.microsoft.com/en-us/library/jj676915%28v=vs.85%29.aspx"></a>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -19,25 +22,14 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<!-- wp head -->
     <?php
 	    $header_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options);
         wp_head(); ?>
+<!-- / wp head -->
 </head>
 <body <?php body_class(); ?> >
-    <div class="header-img">
-        <div class="header-content">
-			<?php if($header_setting['header_one_name'] != '') { ?>
-                <h1><?php echo $header_setting['header_one_name'];?></h1>
-			<?php }  if($header_setting['header_one_text'] != '') { ?>
-                <h3><?php echo $header_setting['header_one_text'];?></h3>
-			<?php } ?>
-        </div>
-        <img class="img-responsive" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Армада Авто Мир" />
-    </div>
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
@@ -53,11 +45,6 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <ul class="head-contact-social">
-            <li class="facebook"><a href="https://fb.com/armadaauto" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-            <li class="linkedin"><a href="https://vk.com/armadaauto" target="_blank"><i class="fab fa-vk"></i></a></li>
-            <li class="googleplus"><a href="https://instagram.com/armadaauto" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        </ul>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <?php
             wp_nav_menu(array('theme_location' => 'top','menu_class' => 'nav navbar-nav navbar-right'));

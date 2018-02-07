@@ -21,7 +21,7 @@ function theme_setup_data()
 	'webrit_custom_css' => '',
 	
 	//Slider Default settings
-	'home_banner_enabled' => '',
+	'home_banner_enabled' => 1,
 	'slider_radio' => 'demo',
 	'slider_select_category' =>'Uncategorized',
 	'slider_options' => 'slide',
