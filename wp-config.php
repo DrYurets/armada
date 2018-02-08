@@ -31,6 +31,8 @@ define('DB_PASSWORD', '');
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
 
+
+
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
 

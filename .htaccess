@@ -66,3 +66,4 @@ ExpiresDefault "access plus 1 year"
 </filesmatch>
 </ifmodule>
 
+SetEnvIf X-Forwarded-Proto https HTTPS

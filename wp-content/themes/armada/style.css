@@ -74,7 +74,6 @@ h6, .h6 {
 }
 .head-contact-social li {
     background-color: #d0d0d0;
-    border-radius: 0;
     cursor: pointer;
     display: inline-block;
     -webkit-border-radius: 100%;
@@ -243,7 +242,6 @@ h6, .h6 {
 }
 .carou-direction-nav .carou-next {
     right: 15px;
-    text-align: right;
     color: #ffffff;
     text-align: center;
     opacity: 0.5;
@@ -603,7 +601,6 @@ a:hover, a:focus { text-decoration: none !important;}
 .footer-widget-address address {
     color: #727272;
     font-family: 'Open Sans';
-    font-weight:400;
     font-size: 16px;
     line-height: 27px;
     margin-right: 0;
@@ -622,7 +619,7 @@ a:hover, a:focus { text-decoration: none !important;}
     font-size: 27px;
     line-height: 35px;
 }
-.footer-logo { display: bolck; margin: 25px 0 15px; }
+.footer-logo { display: block; margin: 25px 0 15px; }
 .footer-blog-post {
     margin-bottom: 0px;
     margin-top: 0 !important;
@@ -663,7 +660,7 @@ a:hover, a:focus { text-decoration: none !important;}
     transition: all 0.3s ease-in-out 0s;
     border-radius: 2px;
 }
-.footer-blog-post:hover .post-area img { opacity: 7px; }
+.footer-blog-post:hover .post-area img { opacity: 0.7; }
 .footer-widget-tags { margin: 0 0 10px; overflow: hidden; padding: 0px 0; }
 .footer-widget-tags a {
     background-color: #fcfcfc;
@@ -672,7 +669,6 @@ a:hover, a:focus { text-decoration: none !important;}
     cursor: pointer;
     display: inline-block;
     font-family: 'Open Sans';
-    font-weight:400;
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
@@ -736,7 +732,6 @@ a:hover, a:focus { text-decoration: none !important;}
 .footer-contact-social { float: right; margin: 0; padding: 25px 0; }
 .footer-contact-social li {
     background-color: #d0d0d0;
-    border-radius: 0;
     cursor: pointer;
     display: inline-block;
     -webkit-border-radius: 100%;
@@ -1020,7 +1015,6 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .blog-author-social { display: block; margin: 0; padding: 15px 0; }
 .blog-author-social li {
     background-color: #d0d0d0;
-    border-radius: 0;
     cursor: pointer;
     display: inline-block;
     -webkit-border-radius: 100%;
@@ -1084,7 +1078,6 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
     line-height: 20px;
     margin: 0 0 8px;
     padding-left: 0px;
-    vertical-align: middle;
 }
 .comment-date a { color: #8f969c; }
 .comment-detail p {
@@ -1253,7 +1246,6 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     font-family: 'Open Sans';
-    font-weight:600;
     letter-spacing: 0.2px;
     color: #ffffff;
     font-size: 15px;
@@ -1305,21 +1297,19 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
     transition: all 0.3s ease-in-out 0s;
     border-radius: 2px;
 }
-.sidebar-blog-post:hover .sidebar-post-area img { opacity: 7px; }
+.sidebar-blog-post:hover .sidebar-post-area img { opacity: 0.7; }
 /*Sidebar Links*/
 ul.post-content{ margin-bottom: 0px; list-style: none outside none; padding: 0; }
 ul.post-content li {
     border-bottom: 1px dotted #c5d1dc;
     display: block;
     font-family: 'Open Sans';
-    font-weight:400;
     font-size: 14px;
     line-height: 20px;
     font-weight: normal;
     letter-spacing: 0px;
     margin-right: 0px;
     padding-top: 10px;
-    vertical-align: top;
     padding-bottom: 10px;
 }
 ul.post-content li:first-child { padding-top: 0px; }
@@ -1511,7 +1501,6 @@ a.error-btn:before {
     font-size: 14px;
     font-family: 'Open Sans';
     font-weight:400;
-    font-size: 14px;
 }
 
 .blog-post-lg p > embed { width:100% !important; }
@@ -2028,19 +2017,6 @@ div.footer-copyright-section .clearfix {
 div.page-author {
     padding-top: 3rem;
 }
-img.wp-smiley,
-img.emoji {
-    display: inline !important;
-    border: none !important;
-    box-shadow: none !important;
-    height: 1em !important;
-    width: 1em !important;
-    margin: 0 .07em !important;
-    vertical-align: -0.1em !important;
-    background: none !important;
-    padding: 0 !important;
-}
-
 .blog-btn-area-sm a.readmore_link:link, .blog-btn-area-sm a.readmore_link:visited {
     color: #db2723 !important;
     font-size: 1.4rem !important;
