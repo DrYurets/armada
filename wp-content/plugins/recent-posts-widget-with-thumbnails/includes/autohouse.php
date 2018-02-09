@@ -11,14 +11,14 @@
                 <div class="media">
                     <div class="media-body">
                         <h3>
-                            <a href="<?php echo the_permalink(); ?>">
+                            <a href="<?php echo the_permalink(); ?>" name="<?php echo $post_title; ?>">
 								<?php if ( $post_title = $this->get_the_trimmed_post_title( $post_title_length ) ) {
 									echo $post_title;
 								}
 								?>
                             </a>
                         </h3>
-                        <p><a href="<?php the_permalink(); ?>"<?php echo $this->customs['link_target']; ?>><?php
+                        <p><a href="<?php the_permalink(); ?>"<?php echo $this->customs['link_target']; ?>  name="<?php echo $post_title; ?>"><?php
 			                        if ( $bools['show_thumb'] ) :
 				                        $is_thumb = false;
 				                        // if only first image

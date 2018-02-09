@@ -3,6 +3,9 @@
 	<?php appointment_aside_meta_content(); ?>
 		<div class="media-body">
             <div class="mainpage-thumbnail">
+                    <div class="date-sm">
+                        <?php echo get_the_date('j'); ?>.<?php echo get_the_date('m'); ?>.<?php echo get_the_date('Y'); ?>
+                    </div>
 			    <?php  echo thumbnail_by_yurets($post, 'medium'); ?>
             </div>
             <div  class="mainpage_title_header">

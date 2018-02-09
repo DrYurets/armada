@@ -23,10 +23,10 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
                 <div class="row">
                     <div class="col-md-4 col-md-offset-1">
                         <div class="page-title">
-                            <h1><a href="/armada-autohaus"><img src="/wp-content/uploads/2017/12/autohaus_logo-1.png" alt="Автохауз АРМАДА"></a></h1>
+                            <h1><a href="/armada-autohaus" name="Автохауз АРМАДА"><img src="/wp-content/uploads/2017/12/autohaus_logo-1.png" alt="Автохауз АРМАДА"></a></h1>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 news-disclaimer">
                         <p>Автосалон "АРМАDА" - официальный автосалон автомобилей с пробегом в Могилеве!
 <br />
                             Наши менеджеры помогут быстро и выгодно продать Ваш автомобиль (комиссионная продажа), приобрести авто в рассрочку на самых лучших условиях, оформить авто в лизинг, что часто выгоднее кредита.</p>
@@ -48,15 +48,15 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
 <div class="footer-copyright-section">
 	<div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-lg-12 col-sm-12">
                 <div class="footer_logo">
-                    <a href="/"><img src="<?php echo $footer_setting['upload_image_logo']; ?>" height="<?php echo $footer_setting['height']; ?>" width="<?php echo $footer_setting['width']; ?>" alt="<?php echo $footer_setting['footer_copyright_text']; ?>" /></a>
+                    <a href="/" name="Главная"><img src="<?php echo $footer_setting['upload_image_logo']; ?>" height="<?php echo $footer_setting['height']; ?>" width="<?php echo $footer_setting['width']; ?>" alt="<?php echo $footer_setting['footer_copyright_text']; ?>" /></a>
                 </div>
             </div>
         </div>
 
-		<div class="row">
-            <div class="col-md-4 col-md-offset-1">
+		<div class="row footer-useful">
+            <div class="col-md-4 col-lg-4 col-lg-offset-1 col-sm-6 col-xs-6">
                 <p>Навигация</p>
 				<?php   if (is_active_sidebar('sidebar-footer')) { ?>
                     <div id="primary-footer" class="primary-sidebar widget-area" role="complementary">
@@ -64,29 +64,29 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
                     </div>
 				<?php }	?>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
                 <p>Полезные ссылки</p>
                     <ul class="useful_links">
-                        <li><a href="#">Регистрация транспорта</a></li>
-                        <li><a href="#">График работы МРЭО ГАИ</a></li>
+                        <li><a href="#" name="Регистрация транспорта">Регистрация транспорта</a></li>
+                        <li><a href="#" name="МРЭО ГАИ">График работы МРЭО ГАИ</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Рекламодателям</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#" name="Рекламодателям">Рекламодателям</a></li>
+                        <li><a href="#" name="Контакты">Контакты</a></li>
                     </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4 col-lg-3 col-sm-12 col-xs-12 footer-contact-social">
                 <p>Дружите с нами</p>
                 <ul class="footer-contact-social">
-                    <li class="facebook"><a href="https://fb.com/armadaauto" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                    <li class="linkedin"><a href="https://vk.com/armadaauto" target="_blank"><i class="fab fa-vk"></i></a></li>
-                    <li class="googleplus"><a href="https://instagram.com/armadaauto" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li class="facebook"><a href="https://fb.com/armadaauto" target="_blank" rel="noopener" name="Facebook link"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="linkedin"><a href="https://vk.com/armadaauto" target="_blank" rel="noopener" name="VK link"><i class="fab fa-vk"></i></a></li>
+                    <li class="googleplus"><a href="https://instagram.com/armadaauto" target="_blank" rel="noopener" name="Instagram link"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>
 		</div>
 	</div>
 </div>
-<a href="#" class="hc_scrollup"><i class="fa fa-chevron-up"></i></a>
+<a href="#" class="hc_scrollup" name="scrollup"><i class="fa fa-chevron-up"></i></a>
 <?php wp_footer(); ?>
 </body>
 </html>

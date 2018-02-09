@@ -3,15 +3,17 @@
 // ARMADA
 
 function appointment_red_theme_css() {
-    wp_enqueue_style( 'armada-main-style', get_stylesheet_directory_uri() . '/style.min.css' );
     wp_enqueue_style( 'bootstrap-style', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
-	wp_enqueue_style( 'theme-menu', get_stylesheet_directory_uri() . '/css/theme-menu.min.css' );
-	wp_enqueue_style( 'default-css', get_stylesheet_directory_uri()."/css/default.css" );
-	wp_enqueue_style( 'element-style', get_stylesheet_directory_uri() . '/css/element.min.css' );
-	wp_enqueue_style( 'media-responsive' ,get_stylesheet_directory_uri() . '/css/media-responsive.min.css');
-	wp_dequeue_style('appointment-default',get_stylesheet_directory_uri() .'/css/default.css');
+	wp_enqueue_style( 'armada-main-style', get_stylesheet_directory_uri() . '/style.css' );
+	wp_enqueue_script('appointment-bootstrap-js' , get_stylesheet_directory_uri() .'/js/bootstrap.min.js');
+	//wp_enqueue_style( 'theme-menu', get_stylesheet_directory_uri() . '/css/theme-menu.css' );
+	//wp_enqueue_style( 'default-css', get_stylesheet_directory_uri()."/css/default.css" );
+	//wp_enqueue_style( 'element-style', get_stylesheet_directory_uri() . '/css/element.min.css' );
+	//wp_enqueue_style( 'media-responsive' ,get_stylesheet_directory_uri() . '/css/media-responsive.min.css');
+	//wp_dequeue_style('appointment-default',get_stylesheet_directory_uri() .'/css/default.css');
+
 }
-	add_action( 'wp_enqueue_scripts', 'appointment_red_theme_css',999);
+	add_action( 'wp_enqueue_scripts', 'appointment_red_theme_css',1);
 /*
 	 * Let WordPress manage the document title.
 	 */
@@ -154,7 +156,6 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 			if($news_setting['home_meta_section_settings'] == '' ) { ?>
 				<aside class="blog-post-date-area">
 					<div class="date"><?php echo get_the_date('j'); ?> <div class="month-year"><?php echo get_the_date('m'); ?>.<?php echo get_the_date('Y'); ?></div></div>
-					<!--<div class="comment"><a href="<?php // the_permalink(); ?>"><i class="fa fa-comments"></i><?php // comments_number( '0', '1', '%' ); ?></a></div> -->
 				</aside>
 			<?php }  } endif;
 	if ( ! function_exists( 'appointment_post_meta_content' ) ) :
@@ -179,7 +180,7 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 			if(has_post_thumbnail()){
 				$defalt_arg =array('class' => $class); ?>
 				<div class="blog-lg-box">
-					<a class ="img-responsive" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
+					<a class ="img-responsive" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" name="<?php the_title_attribute(); ?>">
 						<?php the_post_thumbnail($preset, $defalt_arg); ?>
 				</div>
 			<?php } }endif;
@@ -194,16 +195,16 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 
 	function thumbnail_by_yurets($post, $size='mainpage_thumbnail') { // Yurets mod
 		if ( has_post_thumbnail( $post->ID ) ) { // указано изображение записи
-			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '">'.get_the_post_thumbnail( $post->ID, $size ).'</a>';
+			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '" name="' . esc_attr( $post->post_title ) . '">'.get_the_post_thumbnail( $post->ID, $size ).'</a>';
 		}
 		else if (get_first_content_image_id($post) > 0) { // есть первая картинка вместо изображения записи
 			$img = get_first_content_image_id($post);
 			$url = wp_get_attachment_image_url($img, $size, false);
-			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';
+			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '" name="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" alt="' . esc_attr( $post->post_title ) . '" /></a>';
 		}
 		else { // вообще нет изображений - показываем заглушку с логотипом Армады
 			$url = wp_get_attachment_image_url(256, $size, false);
-			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" /></a>';;
+			$img = '<a href="' . get_permalink( $post->ID ) . '" title="' . esc_attr( $post->post_title ) . '" name="' . esc_attr( $post->post_title ) . '"><img src="'.$url.'" alt="' . esc_attr( $post->post_title ) . '" /></a>';;
 		}
 		return $img;
 	}

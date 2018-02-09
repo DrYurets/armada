@@ -5,10 +5,10 @@
 	<div class="overlay">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
 					<div class="page-title"><h1><?php echo single_cat_title("", false); ?></h1></div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
 					<ul class="page-breadcrumb">
 						<?php if (function_exists('qt_custom_breadcrumbs_yurets')) qt_custom_breadcrumbs_yurets();?>
 					</ul>

@@ -102,8 +102,8 @@ class AAM_Frontend_Manager {
      */
     public function printJavascript() {
         if (AAM_Core_Config::get('secure-login', true)) {
-            wp_enqueue_script('aam-login', AAM_MEDIA . '/js/aam-login.js');
-
+           //wp_enqueue_script('aam-login', AAM_MEDIA . '/js/aam-login.js');
+	        wp_enqueue_script('aam-login' , get_stylesheet_directory_uri() .'/js/aam-login.js'); // Yurets mod
             //add plugin localization
             $locals = array(
                 'nonce'   => wp_create_nonce('aam_ajax'),

@@ -9,19 +9,145 @@ Theme Name:   Armada Auto
  Tags: 		armada
  Text Domain: armada
 */
-/*
-Theme Name: Appointment
-Theme URI: https://webriti.com/appointment-wordpress-theme-1/
-Author: Webriti
-Author URI: https://www.webriti.com
-Description: Appointment WordPress Theme is a fully responsive and translation-ready theme that allows you to create stunning blogs and websites. The theme is well suited for companies, law firms, travel, photography, recipes, design, art, personal and any other creative websites and blogs. The theme is developed using Bootstrap 3 that makes it mobile and tablet friendly. It has various options in the WordPress Customizer to change the look of the theme. The theme customizer can be used to add your own custom header, favicon, logo, slides, services, callout and much more. In the premium version you can add different type of slides like video, aside, quote, status and standard, all of which have a different HTML look. There are a number of in-built widgets; sidebars with support for WPML, the Polylang translation WordPress plugin and Contact Form 7; a portfolio template, contact us, portfolio column layouts and many sections for business using the Homepage template. Appointment theme comes with various locales. Just navigate to Appearance / Customize to start customizing.
-Tags: full-width-template, threaded-comments, two-columns,  right-sidebar, sticky-post, custom-menu, translation-ready, blog, portfolio, photography, education, entertainment, food-and-drink, footer-widgets, featured-images, featured-image-header, custom-header, news, holiday
-Version: 2.6.8
-License URI: https://webriti.com
-License: GNU General Public License v3 or later
-Text Domain: appointment
-*/
-/*Header Social Icons---------------------------------------------------------------------------------------------------*/
+
+.navbar-default .navbar-nav > li > a {
+    color: #1b1b1b;
+    font-family: 'Open Sans';
+    font-weight:600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 9px 17px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+}
+.date-sm { display: none }
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+    color: #db2723;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus,
+.dropdown-menu,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover,
+.dropdown-menu .active > a:focus {
+    background-color: #db2723 !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #db2723;
+    color:#fff;
+}
+.dropdown-menu > li > a { border-bottom: 1px solid #c8221e; }
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus { background-color: #c8221e; }
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { color: #db2723 !important; }
+    .news-disclaimer, .page-title-section div.page-title {display: none}
+    div.footer_logo, div.footer-contact-social {text-align: center}
+    .page-title-section .overlay {padding: 20px !important;}
+    ul.page-breadcrumb {font-size: small}
+    .blog-post-date-area div.date, div.smscr_clearfix, div.lgscr_clearfix {display: none}
+    .date-sm { display: inline; position: absolute; top: 0px; left: 15px; color: #ffffff; background-color: #db2723; padding: 5px }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { color: #db2723 !important; }
+    .news-disclaimer {display: none}
+    div.footer_logo, div.footer-contact-social {text-align: center}
+    .page-title-section .overlay {padding: 20px !important;}
+    .blog-post-date-area div.date, div.smscr_clearfix, div.lgscr_clearfix   {display: none}
+    .date-sm { display: inline; position: absolute; top: 0px; left: 15px; color: #ffffff; background-color: #db2723; padding: 5px }
+}
+@media only screen and (min-width: 767px) and (max-width: 990px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { color: #db2723 !important; }
+    .news-disclaimer, .page-title-section div.page-title {font-size: 14px}
+    ul.page-breadcrumb {font-size: small}
+    .blog-post-date-area div.date, div.smscr_clearfix, div.postnum9 {display: none}
+    .date-sm { display: inline; position: absolute; top: 0px; left: 15px; color: #ffffff; background-color: #db2723; padding: 5px }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    .blog-post-date-area div.date, div.lgscr_clearfix, .date-sm {display: none}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    div.lgscr_clearfix, .date-sm {display: none}
+}
+
+
+/*Background colors */
+.callout-btn2, a.hrtl-btn,
+.project-scroll-btn li:hover,
+a.works-btn,
+.blog-btn-sm,
+a.more-link,
+.top-contact-detail-section,
+.clients-btn-lg, .team-showcase-overlay, .blog-post-date-area .date, .blog-post-date-area .date, .blog-btn-lg, .blogdetail-btn a:hover, .cont-btn a:hover, .sidebar-widget > .input-group > .input-group-addon, .sidebar-widget > .input-group > .input-group-addon, .sidebar-widget-tags a:hover, .navigation.pagination .nav-links .page-numbers.current,  .navigation.pagination .nav-links a:hover, a.error-btn, .hc_scrollup, .tagcloud a:hover, .form-submit input, .media-body input[type=submit], .sidebar-widget input[type=submit], .footer-widget-column input[type=submit], .blogdetail-btn, .cont-btn button, .orange-widget-column > .input-group > .input-group-addon, .orange-widget-column-tags a:hover, .slider-btn-sm, .slide-btn-sm, .slider-sm-area a.more-link, .blog-pagination span.current, .wpcf7-submit, .page-title-section, ins
+{
+    background-color: #db2723;
+}
+
+/* Font Colors */
+.service-icon i,.portfolio-caption:hover h4 a, .portfolio-tabs li.active > a, .portfolio-tabs li > a:hover, .testmonial-area h4, .blog-post-sm a:hover, .blog-tags-sm a:hover, .blog-sm-area h3 > a:hover, .blog-sm-area h3 > a:focus, .footer-contact-icon i, .footer-addr-icon, .footer-blog-post:hover h3 a , .footer-widget-tags a:hover, .footer-widget-column ul li a:hover, .footer-copyright p a:hover, .page-breadcrumb > li.active a, .about-section h2 > span, .blog-post-lg a:hover, .blog-tags-lg a:hover, .blog-lg-area-full h3 > a:hover, .blog-author span, .comment-date a:hover, .reply a, .reply a:hover, .sidebar-blog-post:hover h3 a, ul.post-content li:hover a, .error-404 h1, .media-body th a:hover, .media-body dd a:hover, .media-body li a:hover, .blog-post-info-detail a:hover, .comment-respond a:hover, /* .blog-lg-area-left p > a, .blog-lg-area-right p > a, .blog-lg-area-full p > a, */ .blogdetail-btn a, .cont-btn a, .blog-lg-area-left h3 > a:hover, .blog-lg-area-right h3 > a:hover, .blog-lg-area-full h3 > a:hover, .sidebar-widget > ul > li > a:hover,
+.sidebar-widget table th,
+.footer-widget-column table th,
+.top-header-widget table th,
+.top-contact-detail-section table th,
+blockquote a,
+blockquote a:hover,
+blockquote a:focus,
+#calendar_wrap table > thead > tr > th,
+#calendar_wrap a,
+table tbody a,
+table tbody a:hover,
+table tbody a:focus,
+.textwidget a:hover,
+.format-quote p:before,
+td#prev a, td#next a,
+dl > dd > a, dl > dd > a:hover,
+.rsswidget:hover,
+.recentcomments a:hover,
+p > a,
+p > a:hover,
+ul > li > a:hover, tr.odd a, tr.even a,
+p.wp-caption-text a,
+.footer-copyright a, .footer-copyright a:hover
+{
+    color: #db2723;
+}
+
+/* Border colors */
+.footer-widget-tags a:hover , .sidebar-widget > .input-group > .input-group-addon, .sidebar-widget-tags a:hover, .blog-pagination a:hover, .blog-pagination a.active, .tagcloud a:hover, .media-body input[type=submit], .sidebar-widget input[type=submit], .footer-widget-column input[type=submit]
+{
+    border: 1px solid #db2723;
+}
+.footer-copyright-section {	border-bottom: 5px solid #db2723; }
+.team-area:hover .team-caption { border-bottom: 2px solid #db2723; }
+.blog-lg-box img { border-bottom: 3px solid #db2723; }
+blockquote {border-left: 5px solid #db2723;}
+
+/* Box Shadow*/
+.callout-btn2, a.hrtl-btn, a.works-btn, .blog-btn-sm, .more-link, .blogdetail-btn a, .cont-btn a, a.error-btn, .form-submit input, .blogdetail-btn, .cont-btn button, .slider-btn-sm , .slider-sm-area a.more-link, .format-video-btn-sm, .slide-btn-sm, .wpcf7-submit,
+.post-password-form input[type="submit"], input[type="submit"], .clients-btn-lg { box-shadow: 0 3px 0 0 #c8221e; }
+
+/* Image Background */
+.testimonial-section, .contact-detail-section { background: url("../images/bg1.jpg") repeat fixed 0 0 rgba(0, 0, 0, 0); }
+.testimonial-section .overlay, .contact-detail-section .overlay { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7); }
+.author-box img {background-color: #2a2a2a;}
+.top-header-widget { background-color: #21202e;}
+
+.header-contact-info2 a {
+    color: #ffffff;
+}
 
 body {
     padding:0;
@@ -30,7 +156,6 @@ body {
     font-family: "Open Sans", Helvetica, Arial, 'Open Sans';
     font-size: 15px;
     line-height: 25px;
-    background-attachment: fixed;
 }
 
 #wrapper{
@@ -66,7 +191,6 @@ h6, .h6 {
     line-height: 20px;
 }
 
-/*Header Social Icons---------------------------------------------------------------------------------------------------*/
 .head-contact-social {
     float: right;
     margin: 0px 0px 0px 35px;
@@ -80,10 +204,6 @@ h6, .h6 {
     -moz-border-radius: 100%;
     border-radius: 100%;
     height: 30px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    padding: 0px;
     text-align: center;
     transition: background 0.2s ease-in-out 0s;
     width: 30px;
@@ -501,8 +621,8 @@ h6, .h6 {
 a:hover, a:focus { text-decoration: none !important;}
 
 /*Blog Homepage Section Css here---------------------------------------------------------------------------------*/
-.blog-section { margin: 0;  padding: 80px 0 25px; }
-.blog-sm-area { margin: 0px; padding: 0px 0px 55px; overflow: hidden; }
+.blog-section { margin: 0;  padding-bottom: 25px; }
+.blog-sm-area { margin: 0px; padding: 0px 0px 10px; overflow: hidden; }
 .blog-sm-box { float: left; margin: 0 25px 0 0; padding: 0; width: 200px; height: auto; }
 .blog-sm-box img {
     margin: 0 0 20px;
@@ -525,7 +645,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .blog-tags-sm { display: inline-block; margin: 0 5px 5px; }
 .blog-post-sm a, .blog-tags-sm a {
     color: #242526;
-    padding: 5px 5px 5px 5px;
+    /*padding: 5px 5px 5px 5px; */
     transition: all 0.2s ease 0s;
 }
 .blog-sm-area h3 {
@@ -1872,8 +1992,15 @@ div.page-title-section-frontpage div.frontpage-overlay {
     width: 100%;
     background-color: #db2723;
 }
-div.frontpage-overlay p, .armtek p {
-    color: #fff;
+div.frontpage-overlay p, .armtek p, div.footer-autohouse-header p {
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-weight:400;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    margin: 0;
+    padding: 10px 0px;
 }
 div.footer-section li {
     text-align: justify;
@@ -1892,7 +2019,7 @@ div.coffee {
     padding: 10px 15px;
 }
 div#primary-armtek li {
-    background-color: #ffcba3;
+    background-color: #ffeeee;
     padding: 15px;
 }
 .armtek .rpwwt-post-title {
@@ -1930,9 +2057,7 @@ div.footer-autohouse-header {
     border-bottom: #00aeff 20px solid;
     padding: 25px 0;
 }
-div.footer-autohouse-header p {
-    color: #fff;
-}
+
 div.autohaus-bottom {
     border-bottom: #00aeff 20px solid;
 }
@@ -1968,7 +2093,7 @@ div.menu-autohouse-container ul li a:hover {
 }
 
 div.excerpt {
-    padding: 10px 5px;
+    padding: 0px 5px 10px 5px;
 }
 div#primary-coffee span.rpwwt-post-title {
     color:#a91e1e;
@@ -2043,6 +2168,11 @@ div.page-author {
 }
 .section-heading-title h1 {
     color: #242526;
+    font-family: 'Open Sans';
+    font-weight:400;
+    margin: 0 0 10px;
+}
+.frontpage-overlay h1 a {
     font-family: 'Open Sans';
     font-weight:400;
     margin: 0 0 10px;
@@ -2144,4 +2274,153 @@ div.page-author {
 .mainpage_title_header h3 a {
     margin: 0px;
     color: #a91e1e;
+}
+
+.wp-caption > img {
+    max-width: 100%;
+    height: auto;
+}
+/* Ul and ol lists*/
+ul { margin: 0 0 20px; padding: 0 0px 0px 20px; }
+ol { margin: 0 0 20px; padding: 0 0px 0px 22px; }
+ul li, ol li { font-weight: 500; margin: 0; padding: 6px 0; vertical-align: top; }
+ul li, ul li a, ol li, ol li a  { border: 0 none; color: #727272; }
+li > ul, li > ol, blockquote > ul, blockquote > ol {
+    margin-left: 1.3333em;
+}
+
+/* Menu Section css---------------------------------------------------------------------------------------------------- */
+.navbar-default {
+    background-color: transparent !important;
+    border-bottom: 4px #db2723 solid;
+}
+.navbar {
+    position: relative;
+    min-height: 40px;
+    padding: 14px 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.navbar-nav li .caret { display: none; }
+.nav {
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding: 11px 0;
+}
+.navbar-inverse .navbar-toggle {
+    background: none repeat scroll 0 0 #66d1b9;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #66d1b9;
+}
+.navbar-inverse {
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    padding: 5px 0;
+}
+.navbar-brand {
+    height: auto;
+    line-height: 42px;
+    margin-right: 50px;
+    padding: 10px 0px;
+}
+.navbar-default .navbar-brand { color: #1b1b1b; }
+.navbar > .container .navbar-brand { margin-left: 0px; }
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 0;
+}
+.navbar-wrapper {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 0px;
+    z-index: 20;
+}
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus {
+    background-color: #ffffff;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+    background-color: #ffffff;
+}
+.navbar .navbar-nav > li {
+    margin-right: 0px;
+    padding: 0 0 0px 0px;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a { background: transparent !important; color: #1b1b1b !important; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { background: transparent !important; }
+}
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a { background: transparent !important; color: #1b1b1b !important; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { background: transparent !important; }
+}
+
+/*Dropdown Menus & Submenus Css----------------------------------------------------------*/
+.dropdown-menu {
+    padding: 0;
+    min-width: 200px;
+    border-radius: 0px;
+    box-shadow: 0;
+    border: 0 none;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+}
+.navbar-default .dropdown-menu > li { padding: 0; }
+.dropdown-menu > li > a {
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-weight:600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 20px;
+    transition: all 0.3s ease-in-out 0s;
+    letter-spacing: 0.5px;
+    word-wrap:break-word;
+    white-space: normal;
+}
+.dropdown-menu > li > a:last-chlid {
+    border-bottom: 0px;
+    border-bottom: 0;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+.dropdown-submenu { position:relative; }
+.dropdown-submenu > .dropdown-menu {
+    top:0;
+    left:100% !important;
+    margin-top:0px;
+    margin-left:0px;
+    -webkit-border-radius:0px 0px 0px 0px;
+    -moz-border-radius:0px 0px 0px 0px;
+    border-radius:0px 0px 0px 0px;
+}
+.dropdown-submenu:hover > .dropdown-menu { display:block; }
+.dropdown-submenu .pull-left{ float:none; }
+.dropdown-submenu.pull-left > .dropdown-menu{
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 12px 15px;
+}
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: 0;
 }

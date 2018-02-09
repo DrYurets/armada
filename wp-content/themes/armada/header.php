@@ -7,7 +7,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#FFFFFF" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <a href="https://msdn.microsoft.com/en-us/library/jj676915%28v=vs.85%29.aspx"></a>
+    <a href="https://msdn.microsoft.com/en-us/library/jj676915%28v=vs.85%29.aspx" name="ie_engine_link"></a>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -24,24 +24,19 @@
     <link rel="manifest" href="/manifest.json">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <script src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/armada/jquery-3.3.1.slim.min.js"></script>
-<!-- wp head -->
     <?php
 	    $header_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options);
         wp_head(); ?>
-<!-- / wp head -->
 </head>
 <body <?php body_class(); ?> >
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
-			    <h1>
-                    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Армада Авто Мир">
-                        <img class="img-responsive" src="<?php echo $header_setting['upload_image_logo']; ?>" style="height:<?php echo $header_setting['height']; ?>px; width:<?php echo $header_setting['width']; ?>px;"/>
+                    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Армада Авто Мир" name="Armada Auto">
+                        <img class="img-responsive" alt="Армада Авто Мир" width="201px" height="59px" src="<?php echo esc_url( home_url( '/' ) ); ?>images/armada-logo.gif" />
                     </a>
-                </h1>
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Меню</span>
-                <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
