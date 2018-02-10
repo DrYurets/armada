@@ -3,136 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/armada-logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/armada-logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-access-manager/Application/Frontend/Manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-access-manager/Application/Frontend/Manager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/ajax-actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/ajax-actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/css/gadwp.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/css/gadwp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/images/gadash-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/item-reports.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/item-reports.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/js/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/js/ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/js/wp-color-picker-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/js/wp-color-picker-script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/views/access-code.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/views/access-code.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/admin/widgets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/common/ajax-actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/common/ajax-actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/common/js/reports5.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/common/js/reports5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/ajax-actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/ajax-actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/item-reports.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/item-reports.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-analytics-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-analytics-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/tracking-analytics.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/tracking-analytics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/tracking.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/front/widgets.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/gadwp.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/gadwp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/install/install.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/install/install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/install/uninstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/install/uninstall.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/realtime/jquery/jquery.ui.tooltip.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/realtime/jquery/jquery.ui.tooltip.html.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/tools/gapi.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/tools/gapi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/tools/src/Deconf/IO/Abstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/tools/src/Deconf/IO/Abstract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/tools/src/Deconf/IO/cacerts.pem" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/tools/src/Deconf/IO/cacerts.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/tools/tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/google-analytics-dashboard-for-wp/tools/tools.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/languages/loco-translate.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/languages/loco-translate.pot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/lib/compiled/gettext.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/lib/compiled/gettext.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/lib/compiled/languages.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/lib/compiled/plurals.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/lib/compiled/regions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/loco.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/loco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/poinit.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/poinit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/poview.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/poview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/coffee.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/coffee.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/ectoplasm.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/ectoplasm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/midnight.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/midnight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/ocean.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/ocean.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/sunrise.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/css/skins/sunrise.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/js/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/js/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/js/min/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/js/min/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/js/poinit.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/js/poinit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/js/potinit.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/pub/js/potinit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/Locale.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/Locale.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/ErrorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/ErrorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/RootController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/RootController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/bundle/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/bundle/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/bundle/ViewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/bundle/ViewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/config/DebugController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/config/DebugController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/DeleteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/DeleteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/EditController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/InfoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/InfoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/ViewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/file/ViewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/init/InitPoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/init/InitPoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/init/InitPotController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/admin/init/InitPotController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/ajax/FsConnectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/ajax/FsConnectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/ajax/SaveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/ajax/SaveController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/ajax/SyncController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/ajax/SyncController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/ajax/XgettextController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/ajax/XgettextController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/api/WordPressFileSystem.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/api/WordPressFileSystem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/api/WordPressTranslations.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/api/WordPressTranslations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/data/CompiledData.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/data/CompiledData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/data/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/data/Settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/error/AdminNotices.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/error/AdminNotices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/error/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/error/Exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/error/WriteException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/error/WriteException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/File.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/FileList.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/FileList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/FileWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/FileWriter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/Locations.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/Locations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/Revisions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/fs/Revisions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/gettext/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/gettext/Data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/hooks/AdminHooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/hooks/AdminHooks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/js/Strings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/js/Strings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/AdminRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/AdminRouter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/FileParams.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/FileParams.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/mvc/View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/package/Bundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/package/Bundle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/package/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/package/Core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/package/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/package/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/test/WordPressTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/src/test/WordPressTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/bundle/inc-po-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/bundle/inc-po-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/common/inc-fsconn.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/common/inc-fsconn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/config/debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/config/debug.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/config/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/config/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/config/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/config/version.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/errors/generic.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/errors/generic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/edit-po.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/edit-po.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/edit-pot.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/edit-pot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/info-mo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/info-mo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/info-po.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/info-po.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/info-pot.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/info-pot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/sync-po.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/sync-pot.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/view-po.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/view-po.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/view-pot.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/file/view-pot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/init/init-po.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/init/init-po.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/init/init-pot.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/init/init-pot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/list/inc-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/list/inc-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/root.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/loco-translate/tpl/admin/root.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/appointment/functions/scripts/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/appointment/functions/scripts/script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/author-info.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/author-info.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/category-news.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/category-news.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/css/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/index-news.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/index-news.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/index-service.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/index-service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/mainpagenews.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/mainpagenews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/jquery-3.3.1.slim.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,38 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/header.php">
+      <file leaf-file-name="autohouse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            <state relative-caret-position="306">
+              <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-service.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/index-service.php">
+      <file leaf-file-name="widget.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/scripts/script.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -183,26 +48,53 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+            <state relative-caret-position="209">
+              <caret line="521" column="18" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainpagenews.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/mainpagenews.php">
+      <file leaf-file-name="index-service.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/index-service.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="1598">
+              <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="63" />
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recent-posts-widget-with-thumbnails.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8817">
+              <caret line="229" column="29" selection-start-line="229" selection-start-column="29" selection-end-line="229" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3604">
+              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/scripts/script.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -210,26 +102,8 @@
       <file leaf-file-name="category-news.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category-news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index-news.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/index-news.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="10" column="75" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -238,10 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>carousel.js</find>
-      <find>npm</find>
-      <find>'</find>
-      <find>WEBRITI_TEMPLATE_DIR_URI</find>
       <find>wp-pagenavi</find>
       <find>slb_c</find>
       <find>wp_enqueue_style</find>
@@ -249,7 +119,6 @@
       <find>page-title-section-frontpage</find>
       <find>appointment_red_theme_css</find>
       <find>_uri</find>
-      <find>Service-section</find>
       <find>section-heading-title</find>
       <find>service-area</find>
       <find>page-title</find>
@@ -268,6 +137,11 @@
       <find>appointment_aside_meta_content</find>
       <find>blog-tags-lg</find>
       <find>boots</find>
+      <find>rpwwt-post-excerpt</find>
+      <find>rpwwt-post-title</find>
+      <find>category</find>
+      <find>Service-section</find>
+      <find>&lt;li</find>
     </findStrings>
     <dirStrings>
       <dir>C:\laragon_new\www\arm\wp-content\themes\armada</dir>
@@ -292,7 +166,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/appointment-red/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/armada/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/breadcrumbs.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" />
@@ -305,20 +178,22 @@
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/functions/font/font.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/css/media-responsive.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/advanced-access-manager/Application/Frontend/Manager.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/css/default.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/css/theme-menu.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/armada/category.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/armada/category-news.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/armada/index-service.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/mainpagenews.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/index-news.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/armada/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/category.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/category-news.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/author-info.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/armada/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/appointment/functions/scripts/script.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/armada/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/armada/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/index-service.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/armada/footer.php" />
       </list>
     </option>
   </component>
@@ -392,7 +267,9 @@
       <workItem from="1517901994908" duration="2393000" />
       <workItem from="1517906439285" duration="29748000" />
       <workItem from="1518009646464" duration="1397000" />
-      <workItem from="1518073258926" duration="24378000" />
+      <workItem from="1518073258926" duration="32251000" />
+      <workItem from="1518245022339" duration="51000" />
+      <workItem from="1518253380289" duration="3073000" />
     </task>
     <task id="LOCAL-00001" summary="коррекция после обновления">
       <created>1517054746230</created>
@@ -513,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518077849253</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="090218 большая работа над адаптивным дизайном">
+      <created>1518167695657</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1518167695657</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111046000" />
+    <option name="totallyTimeSpent" value="122043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,7 +421,6 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012701" side_tool="true" weight="0.5136" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49872988" weight="0.5216" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -552,6 +435,7 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3296" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,37 +497,10 @@
     <MESSAGE value="060218 мелкие прикрутки" />
     <MESSAGE value="070218 before update WP" />
     <MESSAGE value="080218 HTTPS" />
-    <option name="LAST_COMMIT_MESSAGE" value="080218 HTTPS" />
+    <MESSAGE value="090218 большая работа над адаптивным дизайном" />
+    <option name="LAST_COMMIT_MESSAGE" value="090218 большая работа над адаптивным дизайном" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="684" column="41" selection-start-line="684" selection-start-column="21" selection-end-line="684" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="2756" selection-start-line="2756" selection-end-line="2756" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="420" column="9" selection-start-line="420" selection-start-column="9" selection-end-line="420" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/author.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/add-meta-tags/amt-utils.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42653">
@@ -658,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/content_single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -676,9 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="72" column="86" selection-start-line="72" selection-start-column="86" selection-end-line="72" selection-end-column="86" />
-          <folding>
-            <element signature="e#31#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,16 +560,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/customizer/customizer-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2805" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="2607" column="9" selection-start-line="2607" selection-start-column="9" selection-end-line="2607" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/header.php">
@@ -852,9 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/css/default.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/css/theme-menu.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -876,45 +710,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="20" column="141" selection-start-line="20" selection-start-column="141" selection-end-line="20" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category-news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="146" column="274" selection-start-line="146" selection-start-column="269" selection-end-line="146" selection-end-column="274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/index-service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -925,45 +724,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category-news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="76" column="51" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+        <state relative-caret-position="170">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/author-info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/mainpagenews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="430" column="9" selection-start-line="430" selection-start-column="9" selection-end-line="430" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/scripts/script.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="209">
+          <caret line="521" column="18" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="3604">
+          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/appointment/functions/scripts/script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/index-service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8817">
+          <caret line="229" column="29" selection-start-line="229" selection-start-column="29" selection-end-line="229" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="616" column="9" selection-start-line="616" selection-start-column="9" selection-end-line="616" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        <state relative-caret-position="306">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/autohouse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>

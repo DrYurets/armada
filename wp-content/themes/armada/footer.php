@@ -86,7 +86,14 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
 		</div>
 	</div>
 </div>
-<a href="#" class="hc_scrollup" name="scrollup"><i class="fa fa-chevron-up"></i></a>
 <?php wp_footer(); ?>
+<?php if(is_home()) { ?>
+    <script>
+        $('.parallaxie').parallaxie({
+            speed: 0.8,
+            size: "cover"
+        });
+    </script>
+<?php } ?>
 </body>
 </html>

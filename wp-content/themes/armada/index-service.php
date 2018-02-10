@@ -1,13 +1,9 @@
-<?php 
-$appointment_options=theme_setup_data(); 
-$service_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
-if($service_setting['service_section_enabled'] == 0 ) { ?>
-    <div class="Service-section">
+    <div class="Service-section parallaxie">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="section-heading-title">
-                        <h1> Наши услуги</h1>
+                        <h1>Наши услуги</h1>
                         <p> </p>
                     </div>
                 </div>
@@ -94,4 +90,3 @@ if($service_setting['service_section_enabled'] == 0 ) { ?>
             </div>
         </div>
     </div>
-<?php } ?>

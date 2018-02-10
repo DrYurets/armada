@@ -5,7 +5,7 @@
 		$k = 0;
 		while ( $r->have_posts() ) : $r->the_post();
 	if (get_the_author() <> 'uri') {
-			echo '<div class="col-md-3">';
+			echo '<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">';
 			?>
             <div class="service-area">
                 <div class="media">
@@ -56,18 +56,17 @@
 			<?php
 			$i ++;
 			if ( $i == 4 ) {
-				echo '<div class="clearfix"></div>';
+				//echo '<div class="clearfix"></div>';
 				$i = 0;
 			}
 			$k ++;
 	}
 		endwhile;
-
 ?>
     </div>
   </div>
 <!-- Меню автохауса -->
-<div class="autohaus-bottom col-md-12">
+<div class="autohaus-bottom col-md-12 col-lg-12 col-sm-12 col-xs-12">
     <div class="autohaus-menu">
         <?php wp_nav_menu( array( 'theme_location' => 'autohaus','menu_class' => 'nav navbar-nav navbar-right') ); ?>
     </div>

@@ -1,33 +1,18 @@
 <?php
 
-// ARMADA
-
 function appointment_red_theme_css() {
     wp_enqueue_style( 'bootstrap-style', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_style( 'armada-main-style', get_stylesheet_directory_uri() . '/style.css' );
 	wp_enqueue_script('appointment-bootstrap-js' , get_stylesheet_directory_uri() .'/js/bootstrap.min.js');
-	//wp_enqueue_style( 'theme-menu', get_stylesheet_directory_uri() . '/css/theme-menu.css' );
-	//wp_enqueue_style( 'default-css', get_stylesheet_directory_uri()."/css/default.css" );
-	//wp_enqueue_style( 'element-style', get_stylesheet_directory_uri() . '/css/element.min.css' );
-	//wp_enqueue_style( 'media-responsive' ,get_stylesheet_directory_uri() . '/css/media-responsive.min.css');
-	//wp_dequeue_style('appointment-default',get_stylesheet_directory_uri() .'/css/default.css');
-
 }
 	add_action( 'wp_enqueue_scripts', 'appointment_red_theme_css',1);
-/*
-	 * Let WordPress manage the document title.
-	 */
-	function appointment_red_setup() {
-   add_theme_support( 'title-tag' );
-}
-add_action( 'after_setup_theme', 'appointment_red_setup' );
 
-// Yurets mod
+	function appointment_red_setup() {   add_theme_support( 'title-tag' ); }
+	add_action( 'after_setup_theme', 'appointment_red_setup' );
 
 	function true_after_theme_setup() {
 		add_image_size( 'mainpage_thumbnail', 350, 262, true );
 	}
-
 	add_action( 'after_setup_theme', 'true_after_theme_setup', 11 );
 
 	function get_first_content_image_id () {
@@ -129,7 +114,7 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 		);
 		register_sidebar( $args );
 	}
-// Хук для функции 'widgets_init'
+
 	add_action( 'widgets_init', 'start_armtek_sidebar' );
 	add_action( 'widgets_init', 'start_coffee_sidebar' );
 	add_action( 'widgets_init', 'start_footer_sidebar' );
@@ -148,7 +133,6 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 	add_action( 'init', 'register_my_menus' );
 
 	if ( ! function_exists( 'appointment_aside_meta_content' ) ) :
-
 		function appointment_aside_meta_content()
 		{
 			$appointment_options=theme_setup_data();
@@ -158,6 +142,7 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 					<div class="date"><?php echo get_the_date('j'); ?> <div class="month-year"><?php echo get_the_date('m'); ?>.<?php echo get_the_date('Y'); ?></div></div>
 				</aside>
 			<?php }  } endif;
+
 	if ( ! function_exists( 'appointment_post_meta_content' ) ) :
 		function appointment_post_meta_content()
 		{
@@ -208,63 +193,46 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 		}
 		return $img;
 	}
-	function get_home_blog_excerpt_yurets()
-	{
-		global $post;
+
+	function get_home_blog_excerpt_yurets()	{
 		$excerpt = get_the_content();
 		$excerpt = strip_tags(preg_replace(" (\[.*?\])",'',$excerpt));
 		$excerpt = strip_shortcodes($excerpt);
 		$original_len = strlen($excerpt);
-
 		if($original_len>275) {
-			return $excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="readmore_link">'.__("Read More","appointment").'</a></div>';
+			$excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="readmore_link">'.__("Read More","appointment").'</a></div>';
 		}
-		else
-		{ return $excerpt; }
-
-		//return $excerpt;
+		return $excerpt;
 	}
 
 	function qt_custom_breadcrumbs_yurets() {
-
 		$showOnHome = 0; // 1 - show breadcrumbs on the homepage, 0 - don't show
 		$delimiter = ''; // delimiter between crumbs
 		$home = 'Главная'; // text for the 'Home' link
 		$showCurrent = 1; // 1 - show current post/page title in breadcrumbs, 0 - don't show
 		$before = '<li class="active">'; // tag before the current crumb
 		$after = '</li>'; // tag after the current crumb
-
 		global $post;
 		$homeLink = home_url();
-
 		if (is_home() || is_front_page()) {
-
 			if ($showOnHome == 1) echo '<li><a href="' . $homeLink . '">' . $home . '</a></li>';
-
 		} else {
-
 			echo '<li><a href="' . $homeLink . '">' . $home . '</a> ' . '&nbsp &#47; &nbsp';
-
 			if ( is_category() ) {
 				$thisCat = get_category(get_query_var('cat'), false);
 				if ($thisCat->parent != 0) echo get_category_parents($thisCat->parent, TRUE, ' / ' . ' ');
 				echo $before . '&nbsp; ' . single_cat_title('', false) . $after;
-
 			} elseif ( is_search() ) {
 				echo $before . 'Search results for "' . get_search_query() . '"' . $after;
-
 			} elseif ( is_day() ) {
 				echo '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . '&nbsp &#47; &nbsp';
 				echo '<a href="' . get_month_link(get_the_time('Y'),get_the_time('m')) . '">' . get_the_time('F') . '</a> ' . '&nbsp &#47; &nbsp';
 				echo $before . get_the_time('d') . $after;
-
 			} elseif ( is_month() ) {
 				echo '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . $delimiter . '&nbsp &#47; &nbsp';
 				echo $before . get_the_time('F') . $after;
-
 			} elseif ( is_year() ) {
 				echo $before . get_the_time('Y') . $after;
-
 			} elseif ( is_single() && !is_attachment() ) {
 				if ( get_post_type() != 'post' ) {
 					$post_type = get_post_type_object(get_post_type());
@@ -278,11 +246,9 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 					echo $cats;
 					if ($showCurrent == 1) echo $before . get_the_title() . $after;
 				}
-
 			} elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() ) {
 				$post_type = get_post_type_object(get_post_type());
 				echo $before . $post_type->labels->singular_name . $after;
-
 			} elseif ( is_attachment() ) {
 				$parent = get_post($post->post_parent);
 				$cat = get_the_category($parent->ID);
@@ -292,10 +258,8 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 				}
 				echo '<a href="' . get_permalink($parent) . '">' . $parent->post_title . '</a>';
 				if ($showCurrent == 1) echo ' ' . $delimiter . ' ' . $before . get_the_title() . $after;
-
 			} elseif ( is_page() && !$post->post_parent ) {
 				if ($showCurrent == 1) echo $before . get_the_title() . $after;
-
 			} elseif ( is_page() && $post->post_parent ) {
 				$parent_id  = $post->post_parent;
 				$breadcrumbs = array();
@@ -310,27 +274,21 @@ add_action( 'after_setup_theme', 'appointment_red_setup' );
 					if ($i != count($breadcrumbs)-1) echo ' ' . $delimiter;
 				}
 				if ($showCurrent == 1) echo ' ' . $delimiter . ' ' . $before . get_the_title() . $after;
-
 			} elseif ( is_tag() ) {
 				echo $before . 'Публикации с тегом "' . single_tag_title('', false) . '"' . $after;
-
 			} elseif ( is_author() ) {
 				global $author;
 				$userdata = get_userdata($author);
 				echo $before . 'Публикации ' . $userdata->display_name . $after;
-
 			} elseif ( is_404() ) {
 				echo $before . 'Ошибка 404' . $after;
 			}
-
 			if ( get_query_var('paged') ) {
 				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo '';
 				echo ' ( ' . __('Page','appointment') . '' . get_query_var('paged'). ' )';
 				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo '';
 			}
-
 			echo '</li>';
-
 		}
 	}
 	?>

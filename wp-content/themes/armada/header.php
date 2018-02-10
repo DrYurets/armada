@@ -1,3 +1,4 @@
+<?php $header_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options); ?>
 <!doctype html>
 <html lang="ru" dir="ltr">
 <head>
@@ -23,10 +24,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <script src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/armada/jquery-3.3.1.slim.min.js"></script>
+    <script src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/armada/js/jquery-3.3.1.slim.min.js"></script>
     <?php
-	    $header_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options);
-        wp_head(); ?>
+        wp_head();
+        if (is_home()) { ?>
+            <script src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/armada/js/parallaxie.js"></script>
+    <?php }  ?>
 </head>
 <body <?php body_class(); ?> >
 <nav class="navbar navbar-default">
