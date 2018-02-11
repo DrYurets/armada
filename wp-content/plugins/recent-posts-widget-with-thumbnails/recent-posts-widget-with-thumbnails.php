@@ -73,10 +73,10 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		$this->defaults[ 'post_title_length' ] 	= 1000; // default length: 1000 characters
 		$this->defaults[ 'site_protocol' ]		= ( is_ssl() ) ? 'https' : 'http'; // HTTP type of WP site
 		$this->defaults[ 'site_url' ]			= home_url(); // URL of the current site
-		$this->defaults[ 'thumb_dimensions' ]	= 'custom'; // dimensions of the thumbnail
-		$this->defaults[ 'thumb_height' ] 		= absint( round( get_option( 'thumbnail_size_h', 110 ) / 2 ) ); // custom height of the thumbnail
+		$this->defaults[ 'thumb_dimensions' ]	= 'mainpage_thumbnail_2nd'; // dimensions of the thumbnail
+		$this->defaults[ 'thumb_height' ] 		= absint( round( get_option( 'thumbnail_size_h', 170 ) / 2 ) ); // custom height of the thumbnail
 		$this->defaults[ 'thumb_url' ]			= plugins_url( 'default_thumb.gif', __FILE__ ); // URL of the default thumbnail
-		$this->defaults[ 'thumb_width' ]		= absint( round( get_option( 'thumbnail_size_w', 110 ) / 2 ) ); // custom width of the thumbnail
+		$this->defaults[ 'thumb_width' ]		= absint( round( get_option( 'thumbnail_size_w', 530 ) / 2 ) ); // custom width of the thumbnail
 		$this->defaults[ 'widget_title' ]		= ''; // title of the widget
 		$this->ints 							= array( 'excerpt_length', 'number_posts', 'post_title_length', 'thumb_height', 'thumb_width' );		$this->valid_excerpt_sources			= array( 'post_content', 'excerpt_field' );		$widget_ops 							= array( 'classname' => $this->defaults[ 'plugin_slug' ], 'description' => $widget_desc );
 		parent::__construct( $this->defaults[ 'plugin_slug' ], $widget_name, $widget_ops );
@@ -249,14 +249,23 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 			$text = 'By %s';
 			$this->defaults[ 'author_label' ] = _x( $text, 'theme author' );
 
-			// print list
-
 			// Yurets mod
-			if ($args['id']== 'sidebar-auto') include 'includes/autohouse.php';
-			else include 'includes/widget.php';
+			switch ($args['id']):
+				case 'sidebar-auto':
+					include 'includes/autohouse.php';
+					break;
+				case 'sidebar-armtek':
+					include 'includes/armtek.php';
+					break;
+				case 'sidebar-coffee':
+					include 'includes/coffee.php';
+					break;
+				default:
+					include 'includes/widget.php';
+					break;
+				endswitch;
 			// Yurets mod off
 
-			// Reset the global $the_post as this query will have stomped on it
 			wp_reset_postdata();
 
 		endif;
@@ -682,12 +691,12 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 	 *
 	 * @return    bool    success on finding an image
 	 */
-	private function the_first_post_image () {
+	private function the_first_post_image ($dimentions = 'thumb_dimensions') {
 		// look for first image
 		$thumb_id = $this->get_first_content_image_id();
 		// if there is first image then show first image
 		if ( $thumb_id ) :
-			echo wp_get_attachment_image( $thumb_id, $this->customs[ 'thumb_dimensions' ] );
+			echo wp_get_attachment_image( $thumb_id, $this->customs[$dimentions] );
 			return true;
 		else :
 			return false;

@@ -3,25 +3,26 @@ $appointment_options=theme_setup_data();
 $ftr_img = get_header_image();
 $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
 	if (is_front_page() && is_active_sidebar( 'sidebar-armtek' ) ) { ?>
-<div class="footer-section ftr-white">
-            <div class="col-md-6 armtek">
-                <div id="primary-armtek" class="primary-sidebar widget-area armtek" role="complementary">
-					<?php dynamic_sidebar( 'sidebar-armtek' ); ?>
-                </div>
-            </div>
-        <div class="col-md-6 coffee">
-	        <?php if ( is_active_sidebar( 'sidebar-coffee' ) ) : ?>
-                <div id="primary-coffee" class="primary-sidebar widget-area coffee" role="complementary">
-			        <?php dynamic_sidebar( 'sidebar-coffee' ); ?>
-                </div>
-	        <?php endif; ?>
+<div class="footer-section ftr-white row">
+    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 armtek">
+        <div id="primary-armtek" class="primary-sidebar widget-area armtek" role="complementary">
+		    <?php dynamic_sidebar( 'sidebar-armtek' ); ?>
         </div>
+    </div>
+    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 coffee">
+	    <?php if ( is_active_sidebar( 'sidebar-coffee' ) ) : ?>
+            <div id="primary-coffee" class="primary-sidebar widget-area coffee" role="complementary">
+			    <?php dynamic_sidebar( 'sidebar-coffee' ); ?>
+            </div>
+        <?php endif; ?>
+    </div>
     <div class="clearfix"></div>
 </div>
+    <?php } ?>
 <div class="footer-autohouse-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-1">
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 col-md-offset-1">
                         <div class="page-title">
                             <h1><a href="/armada-autohaus" name="Автохауз АРМАДА"><img src="/wp-content/uploads/2017/12/autohaus_logo-1.png" alt="Автохауз АРМАДА"></a></h1>
                         </div>
@@ -43,7 +44,7 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
          </div>
     <?php }
      ?>
-<?php } ?>
+
 <div class="clearfix"></div>
 <div class="footer-copyright-section">
 	<div class="container">
