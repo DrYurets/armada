@@ -246,7 +246,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 			$this->defaults[ 'comma' ] = __( $text );
 			$text = '&hellip;';
 			$this->defaults[ 'ellipses' ] = __( $text );
-			$text = 'By %s';
+			$text = '%s';
 			$this->defaults[ 'author_label' ] = _x( $text, 'theme author' );
 
 			// Yurets mod

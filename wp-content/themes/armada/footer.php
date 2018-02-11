@@ -18,7 +18,9 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
     </div>
     <div class="clearfix"></div>
 </div>
-    <?php } ?>
+    <?php }
+    if (is_home()) {
+    ?>
 <div class="footer-autohouse-header">
             <div class="container">
                 <div class="row">
@@ -43,8 +45,7 @@ $footer_setting = wp_parse_args(  get_option( 'appointment_options', array() ), 
          </div>
          </div>
     <?php }
-     ?>
-
+	}  ?>
 <div class="clearfix"></div>
 <div class="footer-copyright-section">
 	<div class="container">

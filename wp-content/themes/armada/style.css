@@ -2035,7 +2035,7 @@ div.coffee, div.ftr-white {
 div.footer-autohouse {
     text-align: center;
 }
-#primary-coffee a {
+#primary-coffee a, #primary-armtek a {
     color: #333;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -2410,9 +2410,20 @@ li > ul, li > ol, blockquote > ul, blockquote > ol {
 }
 div.primary-sidebar {line-height: 1.5em}
 div.armtek_news_div, div.coffee_news_div {
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 5px;
     padding: 10px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    text-align: center;
 }
+div.coffee_news_div {border: #DDDDDD 1px solid;}
 .date-sm-armtk { display: inline; position: absolute; top: 10px; left: 10px; color: #FFFFFF; background-color: #ff8a4c; padding: 5px; opacity: 0.9 }
-.date-sm-coffee { display: inline; position: absolute; top: 10px; left: 10px; color: #FFFFFF; background-color: #a91e1e; padding: 5px; opacity: 0.9 }
+.date-sm-coffee { display: inline; width: 100%; position: absolute; top: 0px; left: 0px; color: #FFFFFF; background-color: #db2723; padding: 5px; opacity: 0.9;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+}
+div.recent-posts-widget-with-thumbnails-3-post-title, div.recent-posts-widget-with-thumbnails-2-post-title, div.recent-posts-widget-with-thumbnails-2-post-excerpt, div.recent-posts-widget-with-thumbnails-3-post-excerpt {text-align: justify}

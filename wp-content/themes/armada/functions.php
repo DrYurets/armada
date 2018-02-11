@@ -13,6 +13,7 @@ function appointment_red_theme_css() {
 	function true_after_theme_setup() {
 		add_image_size( 'mainpage_thumbnail', 350, 262, true );
 		add_image_size( 'mainpage_thumbnail_2nd', 530, 170, true );
+		add_image_size( 'news_thumbnail', 330, 170, true );
 	}
 	add_action( 'after_setup_theme', 'true_after_theme_setup', 11 );
 
