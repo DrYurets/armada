@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74e36e8e-da9b-4b7d-be52-c25f992cd17c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/coffee.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/coffee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/armada/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/armada/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,7 +46,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-187">
               <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="n#get_first_content_image_id#0;n#!!top" />
@@ -234,7 +229,7 @@
       <workItem from="1518073258926" duration="32251000" />
       <workItem from="1518245022339" duration="51000" />
       <workItem from="1518253380289" duration="18369000" />
-      <workItem from="1518341603404" duration="52000" />
+      <workItem from="1518341603404" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="коррекция после обновления">
       <created>1517054746230</created>
@@ -376,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518332129500</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="110218 прическа">
+      <created>1518341704221</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1518341704222</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137391000" />
+    <option name="totallyTimeSpent" value="137599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,7 +481,8 @@
     <MESSAGE value="090218 большая работа над адаптивным дизайном" />
     <MESSAGE value="100218 parallax + перед редактированием плагина вывода новостей" />
     <MESSAGE value="110218 новые новости" />
-    <option name="LAST_COMMIT_MESSAGE" value="110218 новые новости" />
+    <MESSAGE value="110218 прическа" />
+    <option name="LAST_COMMIT_MESSAGE" value="110218 прическа" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-admin/custom-header.php">
@@ -772,6 +775,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-616">
           <caret line="870" column="9" selection-start-line="870" selection-start-column="9" selection-end-line="870" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#br#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,7 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/armada/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-187">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="n#get_first_content_image_id#0;n#!!top" />
